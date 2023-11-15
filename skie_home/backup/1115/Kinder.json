@@ -1,0 +1,233 @@
+﻿[
+  {
+    "n": {
+      "identity": 4017,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0311724,
+          "y": 37.47435143,
+          "z": null
+        },
+        "name": "양재천사유치원",
+        "geometry": "POINT (127.0311724 37.47435143)",
+        "uuid": "kinder_0",
+        "url": NaN
+      },
+      "elementId": "4017"
+    }
+  },
+  {
+    "n": {
+      "identity": 4018,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0183925,
+          "y": 37.49200276,
+          "z": null
+        },
+        "name": "석문유치원",
+        "geometry": "POINT (127.0183925 37.49200276)",
+        "uuid": "kinder_1",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000819"
+      },
+      "elementId": "4018"
+    }
+  },
+  {
+    "n": {
+      "identity": 4019,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0162145,
+          "y": 37.4560926,
+          "z": null
+        },
+        "name": "서초유치원",
+        "geometry": "POINT (127.0162145 37.4560926)",
+        "uuid": "kinder_2",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100005917"
+      },
+      "elementId": "4019"
+    }
+  },
+  {
+    "n": {
+      "identity": 4020,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0102659,
+          "y": 37.51519733,
+          "z": null
+        },
+        "name": "하나유치원",
+        "geometry": "POINT (127.0102659 37.51519733)",
+        "uuid": "kinder_3",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100004814"
+      },
+      "elementId": "4020"
+    }
+  },
+  {
+    "n": {
+      "identity": 4021,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0125033,
+          "y": 37.51044743,
+          "z": null
+        },
+        "name": "신반포중앙유치원",
+        "geometry": "POINT (127.0125033 37.51044743)",
+        "uuid": "kinder_4",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100005341"
+      },
+      "elementId": "4021"
+    }
+  },
+  {
+    "n": {
+      "identity": 4022,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0004801,
+          "y": 37.47919216,
+          "z": null
+        },
+        "name": "육영유치원",
+        "geometry": "POINT (127.0004801 37.47919216)",
+        "uuid": "kinder_5",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000840"
+      },
+      "elementId": "4022"
+    }
+  },
+  {
+    "n": {
+      "identity": 4023,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0007427,
+          "y": 37.4788147,
+          "z": null
+        },
+        "name": "영유유치원",
+        "geometry": "POINT (127.0007427 37.4788147)",
+        "uuid": "kinder_6",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000836"
+      },
+      "elementId": "4023"
+    }
+  },
+  {
+    "n": {
+      "identity": 4024,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9961044,
+          "y": 37.48066984,
+          "z": null
+        },
+        "name": "새성민유치원",
+        "geometry": "POINT (126.9961044 37.48066984)",
+        "uuid": "kinder_7",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000812"
+      },
+      "elementId": "4024"
+    }
+  },
+  {
+    "n": {
+      "identity": 4025,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9956694,
+          "y": 37.50500467,
+          "z": null
+        },
+        "name": "영생유치원",
+        "geometry": "POINT (126.9956694 37.50500467)",
+        "uuid": "kinder_8",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100005347"
+      },
+      "elementId": "4025"
+    }
+  },
+  {
+    "n": {
+      "identity": 4026,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9910093,
+          "y": 37.50314591,
+          "z": null
+        },
+        "name": "반포초등학교병설유치원",
+        "geometry": "POINT (126.9910093 37.50314591)",
+        "uuid": "kinder_9",
+        "url": NaN
+      },
+      "elementId": "4026"
+    }
+  },
+  {
+    "n": {
+      "identity": 4027,
+      "labels": [
+        "Kinder"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9884834,
+          "y": 37.48864117,
+          "z": null
+        },
+        "name": "새순유치원",
+        "geometry": "POINT (126.9884834 37.48864117)",
+        "uuid": "kinder_10",
+        "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000813"
+      },
+      "elementId": "4027"
+    }
+  }
+]

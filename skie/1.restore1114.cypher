@@ -197,6 +197,55 @@ create (n)-[:IN]->(d);
 // Delete Relation_:IN 
 MATCH (n:Relations_IN) detach delete n;
 
+// Relation_:HAS_TYPE
+MATCH (n:Relations_HAS) detach delete n;
+CALL apoc.load.json("http://1.229.96.163/skie/json/Relations_HAS.json") YIELD value AS has_records
+UNWIND has_records AS record
+CREATE (a:Relations_HAS)
+SET a.src = record.`a.uuid`
+SET a.tar = record.`b.uuid`
+RETURN count(a);
+
+// RELATION MAKING
+match (n:Apartment), (r:Relations_HAS), (d:ApartmentType)
+where n.uuid = r.src and d.uuid= r.tar
+create (n)-[:HAS_TYPE]->(d);
+
+// Delete Relation_:IN 
+MATCH (n:Relations_HAS) detach delete n;
+
+// Relation_:TRADE
+MATCH (n:Relations_TRADE) detach delete n;
+CALL apoc.load.json("http://1.229.96.163/skie/json/Relations_TRADE.json") YIELD value AS trade_records
+UNWIND trade_records AS record
+CREATE (a:Relations_TRADE)
+SET a.src = record.`a.uuid`
+SET a.tar = record.`b.uuid`
+RETURN count(a);
+
+// RELATION MAKING
+match (n:ApartmentType), (r:Relations_TRADE), (d:Contract)
+where n.uuid = r.src and d.uuid= r.tar
+create (n)-[:TRADE]->(d);
+
+// Delete Relation_:IN 
+MATCH (n:Relations_TRADE) detach delete n;
+
+// counnt for each labels
+MATCH (n)
+RETURN labels(n) as label, COUNT(n) as count
+ORDER by label;
+
+// count for IN relationship
+MATCH p=()-[r:IN]->() 
+RETURN ":IN :" +count(r);
+// count for IN relationship
+MATCH p=()-[r:HAS_TYPE]->() 
+RETURN ":HAS_TYPE :" +count(r);
+// count for IN relationship
+MATCH p=()-[r:TRADE]->() 
+RETURN ":TRADE :" +count(r);
+
 // counnt for each labels
 MATCH (n)
 RETURN labels(n) as label, COUNT(n) as count

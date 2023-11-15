@@ -1,0 +1,282 @@
+﻿[
+  {
+    "n": {
+      "identity": 4003,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0227848,
+          "y": 37.5070301,
+          "z": null
+        },
+        "name": "고도일병원",
+        "geometry": "POINT (127.0227848 37.5070301)",
+        "uuid": "hospital_0"
+      },
+      "elementId": "4003"
+    }
+  },
+  {
+    "n": {
+      "identity": 4004,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0051154,
+          "y": 37.5009444,
+          "z": null
+        },
+        "name": "서울성모병원",
+        "geometry": "POINT (127.0051154 37.5009444)",
+        "uuid": "hospital_1"
+      },
+      "elementId": "4004"
+    }
+  },
+  {
+    "n": {
+      "identity": 4005,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9899521,
+          "y": 37.4930421,
+          "z": null
+        },
+        "name": "참푸른병원",
+        "geometry": "POINT (126.9899521 37.4930421)",
+        "uuid": "hospital_2"
+      },
+      "elementId": "4005"
+    }
+  },
+  {
+    "n": {
+      "identity": 4006,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.995067,
+          "y": 37.4878422,
+          "z": null
+        },
+        "name": "제일병원",
+        "geometry": "POINT (126.995067 37.4878422)",
+        "uuid": "hospital_3"
+      },
+      "elementId": "4006"
+    }
+  },
+  {
+    "n": {
+      "identity": 4007,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0137857,
+          "y": 37.4949979,
+          "z": null
+        },
+        "name": "염창환병원",
+        "geometry": "POINT (127.0137857 37.4949979)",
+        "uuid": "hospital_4"
+      },
+      "elementId": "4007"
+    }
+  },
+  {
+    "n": {
+      "identity": 4008,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.032598,
+          "y": 37.483569,
+          "z": null
+        },
+        "name": "서초구보건소",
+        "geometry": "POINT (127.032598 37.483569)",
+        "uuid": "hospital_5"
+      },
+      "elementId": "4008"
+    }
+  },
+  {
+    "n": {
+      "identity": 4009,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0141365,
+          "y": 37.4929843,
+          "z": null
+        },
+        "name": "365엠씨병원",
+        "geometry": "POINT (127.0141365 37.4929843)",
+        "uuid": "hospital_6"
+      },
+      "elementId": "4009"
+    }
+  },
+  {
+    "n": {
+      "identity": 4010,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0157273,
+          "y": 37.4852908,
+          "z": null
+        },
+        "name": "21세기병원",
+        "geometry": "POINT (127.0157273 37.4852908)",
+        "uuid": "hospital_7"
+      },
+      "elementId": "4010"
+    }
+  },
+  {
+    "n": {
+      "identity": 4011,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0153417,
+          "y": 37.4859524,
+          "z": null
+        },
+        "name": "세바른병원",
+        "geometry": "POINT (127.0153417 37.4859524)",
+        "uuid": "hospital_8"
+      },
+      "elementId": "4011"
+    }
+  },
+  {
+    "n": {
+      "identity": 4012,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0689282,
+          "y": 37.4557936,
+          "z": null
+        },
+        "name": "서울특별시어린이병원",
+        "geometry": "POINT (127.0689282 37.4557936)",
+        "uuid": "hospital_9"
+      },
+      "elementId": "4012"
+    }
+  },
+  {
+    "n": {
+      "identity": 4013,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0387018,
+          "y": 37.4799379,
+          "z": null
+        },
+        "name": "참포도나무병원",
+        "geometry": "POINT (127.0387018 37.4799379)",
+        "uuid": "hospital_10"
+      },
+      "elementId": "4013"
+    }
+  },
+  {
+    "n": {
+      "identity": 4014,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0043999,
+          "y": 37.4862375,
+          "z": null
+        },
+        "name": "올바로병원",
+        "geometry": "POINT (127.0043999 37.4862375)",
+        "uuid": "hospital_11"
+      },
+      "elementId": "4014"
+    }
+  },
+  {
+    "n": {
+      "identity": 4015,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9878957,
+          "y": 37.475653,
+          "z": null
+        },
+        "name": "대항병원",
+        "geometry": "POINT (126.9878957 37.475653)",
+        "uuid": "hospital_12"
+      },
+      "elementId": "4015"
+    }
+  },
+  {
+    "n": {
+      "identity": 4016,
+      "labels": [
+        "Hospital"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9866983,
+          "y": 37.4767222,
+          "z": null
+        },
+        "name": "연세사랑병원",
+        "geometry": "POINT (126.9866983 37.4767222)",
+        "uuid": "hospital_13"
+      },
+      "elementId": "4016"
+    }
+  }
+]

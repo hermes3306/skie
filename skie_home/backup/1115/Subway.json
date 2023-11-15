@@ -1,0 +1,359 @@
+﻿[
+  {
+    "n": {
+      "identity": 4131,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.027926,
+          "y": 37.497175,
+          "z": null
+        },
+        "name": "강남역",
+        "line_name": "2호선, 신분당선",
+        "geometry": "POINT (127.027926 37.497175)",
+        "uuid": "subway_0"
+      },
+      "elementId": "4131"
+    }
+  },
+  {
+    "n": {
+      "identity": 4132,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.004943,
+          "y": 37.50481,
+          "z": null
+        },
+        "name": "고속터미널역",
+        "line_name": "3호선, 7호선, 9호선",
+        "geometry": "POINT (127.004943 37.50481)",
+        "uuid": "subway_1"
+      },
+      "elementId": "4132"
+    }
+  },
+  {
+    "n": {
+      "identity": 4133,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.01408,
+          "y": 37.493415,
+          "z": null
+        },
+        "name": "교대역",
+        "line_name": "2호선, 3호선",
+        "geometry": "POINT (127.01408 37.493415)",
+        "uuid": "subway_2"
+      },
+      "elementId": "4133"
+    }
+  },
+  {
+    "n": {
+      "identity": 4134,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.987332,
+          "y": 37.501364,
+          "z": null
+        },
+        "name": "구반포역",
+        "line_name": "9호선",
+        "geometry": "POINT (126.987332 37.501364)",
+        "uuid": "subway_3"
+      },
+      "elementId": "4134"
+    }
+  },
+  {
+    "n": {
+      "identity": 4135,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.016189,
+          "y": 37.485013,
+          "z": null
+        },
+        "name": "남부터미널역",
+        "line_name": "3호선",
+        "geometry": "POINT (127.016189 37.485013)",
+        "uuid": "subway_4"
+      },
+      "elementId": "4135"
+    }
+  },
+  {
+    "n": {
+      "identity": 4136,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.989134,
+          "y": 37.463873,
+          "z": null
+        },
+        "name": "남태령역",
+        "line_name": "4호선",
+        "geometry": "POINT (126.989134 37.463873)",
+        "uuid": "subway_5"
+      },
+      "elementId": "4136"
+    }
+  },
+  {
+    "n": {
+      "identity": 4137,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.993513,
+          "y": 37.487618,
+          "z": null
+        },
+        "name": "내방역",
+        "line_name": "7호선",
+        "geometry": "POINT (126.993513 37.487618)",
+        "uuid": "subway_6"
+      },
+      "elementId": "4137"
+    }
+  },
+  {
+    "n": {
+      "identity": 4138,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.011727,
+          "y": 37.508178,
+          "z": null
+        },
+        "name": "반포역",
+        "line_name": "7호선",
+        "geometry": "POINT (127.011727 37.508178)",
+        "uuid": "subway_7"
+      },
+      "elementId": "4138"
+    }
+  },
+  {
+    "n": {
+      "identity": 4139,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.997596,
+          "y": 37.481426,
+          "z": null
+        },
+        "name": "방배역",
+        "line_name": "2호선",
+        "geometry": "POINT (126.997596 37.481426)",
+        "uuid": "subway_8"
+      },
+      "elementId": "4139"
+    }
+  },
+  {
+    "n": {
+      "identity": 4140,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.981685,
+          "y": 37.47653,
+          "z": null
+        },
+        "name": "사당역",
+        "line_name": "2호선, 4호선",
+        "geometry": "POINT (126.981685 37.47653)",
+        "uuid": "subway_9"
+      },
+      "elementId": "4140"
+    }
+  },
+  {
+    "n": {
+      "identity": 4141,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.015259,
+          "y": 37.504206,
+          "z": null
+        },
+        "name": "사평역",
+        "line_name": "9호선",
+        "geometry": "POINT (127.015259 37.504206)",
+        "uuid": "subway_10"
+      },
+      "elementId": "4141"
+    }
+  },
+  {
+    "n": {
+      "identity": 4142,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.007917,
+          "y": 37.491897,
+          "z": null
+        },
+        "name": "서초역",
+        "line_name": "2호선",
+        "geometry": "POINT (127.007917 37.491897)",
+        "uuid": "subway_11"
+      },
+      "elementId": "4142"
+    }
+  },
+  {
+    "n": {
+      "identity": 4143,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.995925,
+          "y": 37.503415,
+          "z": null
+        },
+        "name": "신반포역",
+        "line_name": "9호선",
+        "geometry": "POINT (126.995925 37.503415)",
+        "uuid": "subway_12"
+      },
+      "elementId": "4143"
+    }
+  },
+  {
+    "n": {
+      "identity": 4144,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.034631,
+          "y": 37.484147,
+          "z": null
+        },
+        "name": "양재역",
+        "line_name": "3호선, 신분당선",
+        "geometry": "POINT (127.034631 37.484147)",
+        "uuid": "subway_13"
+      },
+      "elementId": "4144"
+    }
+  },
+  {
+    "n": {
+      "identity": 4145,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.03842,
+          "y": 37.470023,
+          "z": null
+        },
+        "name": "양재시민의숲역",
+        "line_name": "신분당선",
+        "geometry": "POINT (127.03842 37.470023)",
+        "uuid": "subway_14"
+      },
+      "elementId": "4145"
+    }
+  },
+  {
+    "n": {
+      "identity": 4146,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.01122,
+          "y": 37.512759,
+          "z": null
+        },
+        "name": "잠원역",
+        "line_name": "3호선",
+        "geometry": "POINT (127.01122 37.512759)",
+        "uuid": "subway_15"
+      },
+      "elementId": "4146"
+    }
+  },
+  {
+    "n": {
+      "identity": 4147,
+      "labels": [
+        "Subway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.055664,
+          "y": 37.447211,
+          "z": null
+        },
+        "name": "청계산입구역",
+        "line_name": "신분당선",
+        "geometry": "POINT (127.055664 37.447211)",
+        "uuid": "subway_16"
+      },
+      "elementId": "4147"
+    }
+  }
+]

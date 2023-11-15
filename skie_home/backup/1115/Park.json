@@ -1,0 +1,302 @@
+﻿[
+  {
+    "n": {
+      "identity": 4067,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.990494,
+          "y": 37.498825,
+          "z": null
+        },
+        "name": "반포공원",
+        "geometry": "POINT (126.990494 37.498825)",
+        "uuid": "park_0"
+      },
+      "elementId": "4067"
+    }
+  },
+  {
+    "n": {
+      "identity": 4068,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.031245,
+          "y": 37.477852,
+          "z": null
+        },
+        "name": "말죽거리공원",
+        "geometry": "POINT (127.031245 37.477852)",
+        "uuid": "park_1"
+      },
+      "elementId": "4068"
+    }
+  },
+  {
+    "n": {
+      "identity": 4069,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.036037,
+          "y": 37.479681,
+          "z": null
+        },
+        "name": "포이근린공원",
+        "geometry": "POINT (127.036037 37.479681)",
+        "uuid": "park_2"
+      },
+      "elementId": "4069"
+    }
+  },
+  {
+    "n": {
+      "identity": 4070,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.016442,
+          "y": 37.465212,
+          "z": null
+        },
+        "name": "우면공원",
+        "geometry": "POINT (127.016442 37.465212)",
+        "uuid": "park_3"
+      },
+      "elementId": "4070"
+    }
+  },
+  {
+    "n": {
+      "identity": 4071,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.016712,
+          "y": 37.466158,
+          "z": null
+        },
+        "name": "태봉공원",
+        "geometry": "POINT (127.016712 37.466158)",
+        "uuid": "park_4"
+      },
+      "elementId": "4071"
+    }
+  },
+  {
+    "n": {
+      "identity": 4072,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.016743,
+          "y": 37.466518,
+          "z": null
+        },
+        "name": "섬들공원",
+        "geometry": "POINT (127.016743 37.466518)",
+        "uuid": "park_5"
+      },
+      "elementId": "4072"
+    }
+  },
+  {
+    "n": {
+      "identity": 4073,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.04238,
+          "y": 37.45859,
+          "z": null
+        },
+        "name": "서초종합체육공원",
+        "geometry": "POINT (127.04238 37.45859)",
+        "uuid": "park_6"
+      },
+      "elementId": "4073"
+    }
+  },
+  {
+    "n": {
+      "identity": 4074,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.042385,
+          "y": 37.471543,
+          "z": null
+        },
+        "name": "양재공원",
+        "geometry": "POINT (127.042385 37.471543)",
+        "uuid": "park_7"
+      },
+      "elementId": "4074"
+    }
+  },
+  {
+    "n": {
+      "identity": 4075,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.016712,
+          "y": 37.466518,
+          "z": null
+        },
+        "name": "망루공원",
+        "geometry": "POINT (127.016712 37.466518)",
+        "uuid": "park_8"
+      },
+      "elementId": "4075"
+    }
+  },
+  {
+    "n": {
+      "identity": 4076,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.996443,
+          "y": 37.476268,
+          "z": null
+        },
+        "name": "방배공원",
+        "geometry": "POINT (126.996443 37.476268)",
+        "uuid": "park_9"
+      },
+      "elementId": "4076"
+    }
+  },
+  {
+    "n": {
+      "identity": 4077,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.988317,
+          "y": 37.479508,
+          "z": null
+        },
+        "name": "도구머리공원",
+        "geometry": "POINT (126.988317 37.479508)",
+        "uuid": "park_10"
+      },
+      "elementId": "4077"
+    }
+  },
+  {
+    "n": {
+      "identity": 4078,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.985735,
+          "y": 37.472561,
+          "z": null
+        },
+        "name": "서리풀공원",
+        "geometry": "POINT (126.985735 37.472561)",
+        "uuid": "park_11"
+      },
+      "elementId": "4078"
+    }
+  },
+  {
+    "n": {
+      "identity": 4079,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.034344,
+          "y": 37.474627,
+          "z": null
+        },
+        "name": "바우뫼공원",
+        "geometry": "POINT (127.034344 37.474627)",
+        "uuid": "park_12"
+      },
+      "elementId": "4079"
+    }
+  },
+  {
+    "n": {
+      "identity": 4080,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.035223,
+          "y": 37.478025,
+          "z": null
+        },
+        "name": "양재천공원",
+        "geometry": "POINT (127.035223 37.478025)",
+        "uuid": "park_13"
+      },
+      "elementId": "4080"
+    }
+  },
+  {
+    "n": {
+      "identity": 4081,
+      "labels": [
+        "Park"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.016714,
+          "y": 37.468618,
+          "z": null
+        },
+        "name": "송동공원",
+        "geometry": "POINT (127.016714 37.468618)",
+        "uuid": "park_14"
+      },
+      "elementId": "4081"
+    }
+  }
+]
