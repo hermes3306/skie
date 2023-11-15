@@ -1,0 +1,134 @@
+﻿[
+  {
+    "n": {
+      "identity": 4339,
+      "labels": [
+        "Convention"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0055284,
+          "y": 37.5001768,
+          "z": null
+        },
+        "name": "PLENTY CONVENTION",
+        "lon": 127.0055284,
+        "geometry": "POINT(127.0055284 37.5001768)",
+        "uuid": "convention_1",
+        "lat": 37.5001768
+      },
+      "elementId": "4339"
+    }
+  },
+  {
+    "n": {
+      "identity": 4340,
+      "labels": [
+        "Convention"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0094869,
+          "y": 37.490749,
+          "z": null
+        },
+        "name": "ABCC 아시아비즈니스컨벤션센터",
+        "lon": 127.0094869,
+        "geometry": "POINT(127.0094869 37.490749)",
+        "uuid": "convention_2",
+        "lat": 37.490749
+      },
+      "elementId": "4340"
+    }
+  },
+  {
+    "n": {
+      "identity": 4341,
+      "labels": [
+        "Convention"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.032646,
+          "y": 37.46618,
+          "z": null
+        },
+        "name": "더케이호텔서울컨벤션센터",
+        "geometry": "POINT(127.032646 37.46618)",
+        "lon": 127.032646,
+        "uuid": "convention_3",
+        "lat": 37.46618
+      },
+      "elementId": "4341"
+    }
+  },
+  {
+    "n": {
+      "identity": 4342,
+      "labels": [
+        "Convention"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0289592,
+          "y": 37.4654289,
+          "z": null
+        },
+        "name": "한국교총MW컨벤션",
+        "lon": 127.0289592,
+        "geometry": "POINT(127.0289592 37.4654289)",
+        "uuid": "convention_4",
+        "lat": 37.4654289
+      },
+      "elementId": "4342"
+    }
+  },
+  {
+    "n": {
+      "identity": 4343,
+      "labels": [
+        "Convention"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0403435,
+          "y": 37.4662427,
+          "z": null
+        },
+        "name": "aT센터",
+        "lon": 127.0403435,
+        "geometry": "POINT(127.0403435 37.4662427)",
+        "uuid": "convention_5",
+        "lat": 37.4662427
+      },
+      "elementId": "4343"
+    }
+  },
+  {
+    "n": {
+      "identity": 4344,
+      "labels": [
+        "Convention"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0280393,
+          "y": 37.4945614,
+          "z": null
+        },
+        "name": "한국컨퍼런스센터",
+        "lon": 127.0280393,
+        "geometry": "POINT(127.0280393 37.4945614)",
+        "uuid": "convention_6",
+        "lat": 37.4945614
+      },
+      "elementId": "4344"
+    }
+  }
+]

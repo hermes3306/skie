@@ -1,0 +1,4 @@
+latitude,longitude,altitude,geometry,lon,lat,progress,name,scheduled_date,line_name,uuid
+37.484511,127.034069,,Point,127.034069,37.484511,계획,양재역,2026,GTX C,0
+37.4700185,127.0383496,,Point,127.0383496,37.4700185,구상,양재시민의숲역,미정,위례과천선,1
+37.460723,127.036074,,Point,127.036074,37.460723,구상,우면역,미정,위례과천선,2

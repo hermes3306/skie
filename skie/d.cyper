@@ -1,0 +1,15 @@
+// D
+
+load csv with headers from 'http://pi/skie/geojson/d.csv' as record
+merge(n: D {uuid : record.uuid})
+set n.name = record.name
+set n.restriction = record.restriction
+set n.geometry = record.geometry
+set n.coordinates = record.coordinates;
+//set n.wkt = "MULTIPOLYGON " 
+
+
+
+
+
+

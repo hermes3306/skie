@@ -1,0 +1,98 @@
+[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Apartment"
+      ],
+      "properties": {
+        "taxi_dropoff_ratio_morning_peak": 0.129,
+        "heating_resource": "열병합",
+        "max_area_use": 244.97,
+        "min_floor": "20층",
+        "parking_lot_under": 1,
+        "pop_ratio_60s_man": 0.095833333,
+        "max_area_supply": 301.38,
+        "uuid": "apartment_1165010710",
+        "addr_street": "서울시 서초구 신반포로 270",
+        "pop": 480,
+        "coord": {
+          "srid": 4326,
+          "x": 127.013605,
+          "y": 37.507538,
+          "z": null
+        },
+        "pop_density_10s": 0.133333333,
+        "parking_per_house": 1.78,
+        "heating": "지역난방",
+        "addr": "서울시 서초구 반포동 20-43",
+        "completion": 2009,
+        "taxi_dropoff_ratio": 0.4603,
+        "sectors": "44동",
+        "constructor": "GS건설(주)",
+        "min_area_supply": 84.23,
+        "households": 3410,
+        "slope": 1,
+        "community": 1,
+        "apartment_status": "아파트",
+        "floor_area_ratio": 1100.0,
+        "name": "반포자이아파트",
+        "min_area_use": 59.97,
+        "slope_ratio": 4.112,
+        "geometry": "POINT (127.013605 37.507538)",
+        "average_income_year": 15188,
+        "max_floor": "29층",
+        "parking_lot": 0
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Apartment"
+      ],
+      "properties": {
+        "taxi_dropoff_ratio_morning_peak": 0.2857,
+        "heating_resource": "열병합",
+        "max_area_use": 234.97,
+        "min_floor": "3층",
+        "parking_lot_under": 0,
+        "pop_ratio_60s_man": 0.053731343,
+        "max_area_supply": 318.75,
+        "uuid": "apartment_1165010711",
+        "addr_street": "서울시 서초구 신반포로15길 19",
+        "pop": 670,
+        "coord": {
+          "srid": 4326,
+          "x": 126.993312,
+          "y": 37.506089,
+          "z": null
+        },
+        "pop_density_10s": 0.119402985,
+        "parking_per_house": 1.84,
+        "heating": "지역난방",
+        "addr": "서울시 서초구 반포동 2-12",
+        "completion": 2016,
+        "taxi_dropoff_ratio": 0.4286,
+        "sectors": "15동",
+        "constructor": "대림산업(주)",
+        "min_area_supply": 78.68,
+        "households": 1612,
+        "slope": 1,
+        "community": 0,
+        "apartment_status": "아파트",
+        "floor_area_ratio": 500.0,
+        "min_area_use": 59.95,
+        "name": "아크로리버파크아파트",
+        "slope_ratio": 6.042,
+        "geometry": "POINT (126.993312 37.506089)",
+        "max_floor": "38층",
+        "average_income_year": 19757,
+        "parking_lot": 0
+      },
+      "elementId": "1"
+    }
+  }
+]

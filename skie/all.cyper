@@ -1,0 +1,630 @@
+// 부톡 2022-2023 20231113 
+
+// 2022 최초 자료 upload
+
+//1.1) 아파트, 지역 노드 생성
+MATCH (n:`Apartment`)-[r]-(b) DELETE r;
+MATCH (n:`Apartment`)-[r]-(b) DELETE b;
+MATCH (n:`Apartment`) DELETE n;
+MATCH (n) DETACH DELETE (n);
+
+//CREATE CONSTRAINT IF NOT EXISTS ON (apt: `Apartment`) ASSERT apt.`apt_id` IS UNIQUE;
+//CREATE CONSTRAINT IF NOT EXISTS ON (region_code: `Region`) ASSERT region_code.`region_code` IS UNIQUE;
+
+CREATE CONSTRAINT IF NOT EXISTS FOR (apt: `Apartment`) REQUIRE apt.`apt_id` IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (region_code: `Region`) REQUIRE region_code.`region_code` IS UNIQUE;
+
+// apt_info.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTc_mAKF78DEloooXtrpRent-OzssLxuOvzRlOaYP47Ckf7gdZleo-ovqfWM3F4AYvpxclJ11Qg_g2u/pub?gid=349222695&single=true&output=csv' AS nodeRecord 
+
+// Apartment 노드 생성
+MERGE (n: `Apartment` { `apt_id`: toInteger(nodeRecord.`apt_id`) })
+SET n.`addr` = nodeRecord.`addr`
+SET n.`primary_no` = toInteger(nodeRecord.`primary_no`)
+SET n.`sub_no` = toInteger(nodeRecord.`sub_no`)
+SET n.`dong_name` = nodeRecord.`apt_title` // apt_title 은 잘못 들어간 컬럼. 동이름임
+SET n.`apt_title` = nodeRecord.`n_apt_title` // n_apt_title 이 진짜 아파트 이름
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`sectors` = nodeRecord.`sectors`
+SET n.`construction` = nodeRecord.`construction`
+SET n.`completion` = toInteger(nodeRecord.`completion`)
+SET n.`households` = toInteger(nodeRecord.`households`)
+SET n.`heating_system` = nodeRecord.`heating_system`
+SET n.`heating_resource` = nodeRecord.`heating_resource`
+SET n.`max_floor` = nodeRecord.`max_floor`
+SET n.`min_floor` = nodeRecord.`min_floor`
+SET n.`parking_capacity` = toFloat(nodeRecord.`parking_capacity`)
+SET n.`parking_lot` = toInteger(nodeRecord.`parking_lot`) // '-' 은 null 로 들어감
+SET n.`community` = toInteger(nodeRecord.`community`) // '-' 은 null 로 들어감
+SET n.`min_area_supply` = toFloat(nodeRecord.`min_area_supply`)
+SET n.`max_area_supply` = toFloat(nodeRecord.`max_area_supply`)
+SET n.`min_area_use` = toFloat(nodeRecord.`min_area_use`)
+SET n.`max_area_use` = toFloat(nodeRecord.`max_area_use`)
+SET n.`addr_street` = nodeRecord.`addr_street`
+SET n.`addr_short` = nodeRecord.`addr_short`
+SET n.`executor` = nodeRecord.`executor`
+SET n.`homepage` = nodeRecord.`homepage`
+SET n.`telno` = nodeRecord.`telno`
+SET n.`category1` = nodeRecord.`category1`
+SET n.`category2` = nodeRecord.`category2`
+SET n.`available_date` = nodeRecord.`available_date`
+SET n.`ncode` = toInteger(nodeRecord.`ncode`)
+SET n.`in_use` = toInteger(nodeRecord.`in_use`)
+SET n.`deal_cnt` = toInteger(nodeRecord.`deal_cnt`)
+SET n.`lease_cnt` = toInteger(nodeRecord.`lease_cnt`)
+SET n.`rent_cnt` = toInteger(nodeRecord.`rent_cnt`)
+SET n.`sido_code` = toInteger(nodeRecord.`sido_code`)
+SET n.`dong_code` = toInteger(nodeRecord.`dong_code`)
+SET n.`gubun` = nodeRecord.`gubun`
+SET n.`join_key` = toInteger(nodeRecord.`join_key`)
+SET n.`area_supply_pyeong` = toInteger(nodeRecord.`area_supply_pyeong`)
+
+// Region 노드 생성
+MERGE (m:Region {region_code: toInteger(nodeRecord.region_code)})
+
+// (:Apartment)-[:IN]->(:Region) 관계 생성
+MERGE (n)-[:IN]->(m);
+
+// 1.2) 경사도 속성 추가
+// apt_slope.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRT_m7Dg2yS5u-kAcv13LScQvgOOYh3pV-zw7CepWk43JQZu1ahANvEwkcSqvwZj_8LRCxvj8SWshiL/pub?gid=196962442&single=true&output=csv' AS nodeRecord
+
+// Apartment 에 slope 속성 추가
+MATCH (apt:Apartment {apt_id:toInteger(nodeRecord.apt_id)})
+SET apt.slope = toInteger(nodeRecord.badge);
+
+//MATCH(apt:Apartment) return apt.apt_title, apt.slope;
+
+//1.3) 아파트 타입 노드 생성 및 연결
+
+// 타입 정보는 UNIQUE 제약을 걸 수 없으므로 매번 CREATE 로 생성한다. 따라서 아래 Import 절차 진행 전에 이 전의 ApartmentType 노드를 모두 삭제해야 한다.
+MATCH (n:ApartmentType) DETACH DELETE n;
+
+// apt_type.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSsfL8NIMnn2fmHhvGRSM8qKs5dVbXLLvjhWHupALjNcJOrVMstvEXW7bSE7PlUBFIE1_WlNQ-QV_bQ/pub?gid=1393455740&single=true&output=csv' AS nodeRecord
+
+// ApartmentType 노드 생성
+CREATE (n: `ApartmentType`)
+SET n.`space` = nodeRecord.`space`
+SET n.`area_group` = toInteger(nodeRecord.`area_group`)
+SET n.`area_use` = toFloat(nodeRecord.`area_use`)
+SET n.`area_supply` = toFloat(nodeRecord.`area_supply`)
+SET n.`rooms` = toInteger(nodeRecord.`rooms`)
+SET n.`restrooms` = toInteger(nodeRecord.`restrooms`)
+SET n.`entrance` = nodeRecord.`entrance`
+SET n.`deposit_avg` = toInteger(nodeRecord.`deposit_avg`)
+SET n.`deposit_summer` = toInteger(nodeRecord.`deposit_summer`)
+SET n.`deposit_winter` = toInteger(nodeRecord.`deposit_winter`)
+SET n.`floor_plan_url` = nodeRecord.`floor_plan_url`
+SET n.`households` = toInteger(nodeRecord.`households`)
+SET n.`area_supply_pyeong` = toInteger(nodeRecord.`area_supply_pyeong`)
+SET n.`households_n` = toInteger(nodeRecord.`households_n`)
+SET n.`households_s` = toInteger(nodeRecord.`households_s`)
+SET n.`price` = nodeRecord.`price`
+
+// (:Apartment)-[:HAVE]->(:ApartmentType) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {apt_id:toInteger(nodeRecord.apt_id)})
+MERGE (apt)-[:HAVE]->(n);
+
+// 1.4.0) 아파트 실거래가 노드 생성 및 연결
+// 실거래가 정보는 UNIQUE 제약을 걸 수 없으므로 매번 CREATE 로 생성한다. 따라서 아래 Import 절차 진행 전에 이 전의 노드를 모두 삭제해야 한다.
+MATCH (n:`Contract`) DETACH DELETE n;
+
+// apt_real_price.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTR8CN1SN2Hbp5A-x1FzfqrV2VxExTY9-EMnzDOwEtvyrY8HqV4uD5gui0YoMmkV_J3FMrwTa7luGaQ/pub?gid=2075593761&single=true&output=csv' AS nodeRecord
+
+// Trade 노드 생성
+CREATE (n: `Contract`)
+SET n.`join_key` = toInteger(nodeRecord.`join_key`)
+SET n.`area_use` = toFloat(nodeRecord.`area_use`)
+SET n.`deal_type` = nodeRecord.`deal_type`
+SET n.`contract_ym` = toInteger(nodeRecord.`contract_ym`)
+SET n.`price` = toInteger(nodeRecord.`price`)
+
+// (:Apartment)-[:TRADE]->(:Contract) 관계 생성
+WITH n
+MATCH (apt:Apartment {join_key:n.join_key})
+MERGE (apt)-[:`TRADE`]->(n);
+
+// 1.4.1) 아파트 실거래가 노드 생성 및 연결
+
+// 실거래가 정보는 UNIQUE 제약을 걸 수 없으므로 매번 CREATE 로 생성한다. 따라서 아래 Import 절차 진행 전에 이 전의 노드를 모두 삭제해야 한다.
+MATCH (n:`Contract`) DETACH DELETE n;
+
+// apt_real_price.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTR8CN1SN2Hbp5A-x1FzfqrV2VxExTY9-EMnzDOwEtvyrY8HqV4uD5gui0YoMmkV_J3FMrwTa7luGaQ/pub?gid=2075593761&single=true&output=csv' AS nodeRecord
+
+// Trade 노드 생성
+CREATE (n: `Contract`)
+SET n.`join_key` = toInteger(nodeRecord.`join_key`)
+SET n.`area_use` = toFloat(nodeRecord.`area_use`)
+SET n.`deal_type` = nodeRecord.`deal_type`
+SET n.`contract_ym` = toInteger(nodeRecord.`contract_ym`)
+SET n.`price` = toInteger(nodeRecord.`price`)
+
+// (:Apartment)-[:TRADE]->(:Contract) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {join_key:toInteger(nodeRecord.join_key)})--(at:ApartmentType {area_use:n.area_use})
+MERGE (at)-[:`TRADE`]->(n);
+
+// 연결되지 않은 (:Contract) 삭제
+MATCH (n:Contract) WHERE NOT (n)-[]-() DELETE n;
+
+// 1.4.1) 아파트 실거래가 노드 생성 및 연결
+
+// 실거래가 정보는 UNIQUE 제약을 걸 수 없으므로 매번 CREATE 로 생성한다. 따라서 아래 Import 절차 진행 전에 이 전의 노드를 모두 삭제해야 한다.
+MATCH (n:`Contract`) DETACH DELETE n;
+
+// apt_real_price.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTR8CN1SN2Hbp5A-x1FzfqrV2VxExTY9-EMnzDOwEtvyrY8HqV4uD5gui0YoMmkV_J3FMrwTa7luGaQ/pub?gid=2075593761&single=true&output=csv' AS nodeRecord
+
+// Trade 노드 생성
+CREATE (n: `Contract`)
+SET n.`join_key` = toInteger(nodeRecord.`join_key`)
+SET n.`area_use` = toFloat(nodeRecord.`area_use`)
+SET n.`deal_type` = nodeRecord.`deal_type`
+SET n.`contract_ym` = toInteger(nodeRecord.`contract_ym`)
+SET n.`price` = toInteger(nodeRecord.`price`)
+
+// (:Apartment)-[:TRADE]->(:Contract) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {join_key:toInteger(nodeRecord.join_key)})--(at:ApartmentType {area_use:n.area_use})
+MERGE (at)-[:`TRADE`]->(n);
+
+// 연결되지 않은 (:Contract) 삭제
+MATCH (n:Contract) WHERE NOT (n)-[]-() DELETE n;
+
+// 2.2) 병원노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (hospital: `Hospital`) REQUIRE hospital.`name` IS UNIQUE;
+
+// apt_hospital.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTNlxKXHqWXNA7TNWcn8kb2B41Mx5iWFHU7lCgbOKMs-wxs5yxMkae3JNconXoqGB3VnMpLewPOl4i1/pub?gid=806087151&single=true&output=csv' AS nodeRecord
+
+// Hospital 노드 생성
+MERGE (n: `Hospital` { `name`: nodeRecord.`name` })
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+
+// (:Apartment)-[:NEAR]->(:Hospital) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {apt_id:toInteger(nodeRecord.apt_id)})
+MERGE (apt)-[r:NEAR]->(n)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.3) 유치원 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (kinder: `Kinder`) REQUIRE kinder.`name` IS UNIQUE;
+
+// apt_kinder.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8hmuEKzOUwJQwwzSd0XlZD-DfAQ1EtQd_-c2lmAHX6IOxerWYnn0XPAp9vDSOEOifh_lGVy6gRcwz/pub?gid=540904510&single=true&output=csv' AS nodeRecord
+
+// Kinder 노드 생성
+MERGE (n: `Kinder` { `name`: nodeRecord.`name` })
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+
+// (:Apartment)-[:NEAR]->(:Kinder) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {apt_id:toInteger(nodeRecord.apt_id)})
+MERGE (apt)-[r:NEAR]->(n)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.4) 마트 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (mart: `Mart`) REQUIRE mart.`name` IS UNIQUE;
+
+// apt_mart.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQsynS5Ocn7DpDy50MyJCN6dOTf3vk4lfeM1oboPugKZAd_s_M_V7O9SksIu8LnT2l2T2Q34LTuAert/pub?gid=507843600&single=true&output=csv' AS nodeRecord
+
+// Mart 노드 생성
+MERGE (n: `Mart` { `name`: nodeRecord.`name` })
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+
+// (:Apartment)-[:NEAR]->(:Mart) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {apt_id:toInteger(nodeRecord.apt_id)})
+MERGE (apt)-[r:NEAR]->(n)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.5) 공원 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (park: `Park`) REQUIRE park.`name` IS UNIQUE;
+
+// apt_park.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQQaLtfE7-Z8JPyjJDtuqKbFPoNwipC7Mbsk0YNWKFS1xDDxg71xTN9fxCq2V4TSRnn9oq6Xm1iX-cC/pub?gid=171692443&single=true&output=csv' AS nodeRecord
+
+// Park 노드 생성
+MERGE (n: `Park` { `name`: nodeRecord.`name` })
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+
+// (:Apartment)-[:NEAR]->(:Park) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {apt_id:toInteger(nodeRecord.apt_id)})
+MERGE (apt)-[r:NEAR]->(n)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.6) 학교 노드 생성 및 연결 
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (school: `School`) REQUIRE school.`name` IS UNIQUE;
+
+// apt_school.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTt4sC-LTIibLdbxJwKmKCxDtzgMLRFXtC5ns7GdXjhGJvlBFFQKFUba58WoLdBOWJw37ce1FUs8SDk/pub?gid=676751154&single=true&output=csv' AS nodeRecord
+
+// School 노드 생성
+MERGE (n: `School` { `name`: nodeRecord.`school_name` })
+SET n.`hakgun` = nodeRecord.`hakgudo_name`
+SET n.`gubun` = nodeRecord.`school_gubun`
+SET n.`establishment` = nodeRecord.`establishment`
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`homepage` = nodeRecord.`homepage`
+
+// (:Apartment)-[:NEAR]->(:School) 관계 생성
+WITH nodeRecord, n
+MATCH (apt:Apartment {apt_id:toInteger(nodeRecord.apt_id)})
+MERGE (apt)-[r:NEAR]->(n)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.7) 버스정류장 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (bus: `BusStation`) REQUIRE  bus.`station_id` IS UNIQUE;
+
+// bus_station_all.csv 로드
+//:auto USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTIklzvtThBMu876zP-d1oxMFl1h5Na5KJd7LnzWpXvIzgYFKxq8gaeub77dwnB8t5fVHzF3cHtv5Ir/pub?gid=1981090009&single=true&output=csv' AS nodeRecord
+
+//  BusStation 노드 생성
+MERGE (n: `BusStation` { `station_id`: nodeRecord.`station_id` })
+SET n.`station_name` = nodeRecord.`station_name`
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)});
+
+// bus_station_apt.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQK8j8yiohftDUlFWkmr09ZB3WToM0pkwJebY_uCFNRz9TEpqtMxYAjsqtebyNTfEIQ0CSvwOB5_7Lb/pub?gid=700110950&single=true&output=csv' AS nodeRecord
+
+// (:Apartment)-[:NEAR]->(:BusStation) 관계 생성
+MATCH (apt:Apartment {apt_id: toInteger(nodeRecord.apt_id)}), (bs:BusStation {station_id: nodeRecord.station_id})
+MERGE (apt)-[r:NEAR]->(bs)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.8) 버스노선 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (bus: `BusRoute`) REQUIRE bus.`route_id` IS UNIQUE;
+
+// bus_route_all.csv 로드
+//:auto USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ2QZ_hwv4qwSLoL_kjI6m7sSFMaEjbm-wl21IOp5eUShY7Fi4AABjk9OjZSUdFRgPzQueiZ5bmxnD/pub?gid=451189410&single=true&output=csv' AS nodeRecord
+
+//  BusRoute 노드 생성
+MERGE (n: `BusRoute` { `route_id`: nodeRecord.`route_id` })
+SET n.`route_name` = nodeRecord.`route_name`
+SET n.`route_type` = nodeRecord.`route_type`;
+
+// bus_route_station_all.csv 로드
+//:auto USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrQ7Rqw2RNe221cH78mnEowIyVZdUkUyB07Y5RU2DKX4eczRGtk65xH1U1rn1WdkxH2kpkKjHEtrsZ/pub?gid=1609769136&single=true&output=csv' AS nodeRecord
+
+// (:BusRoute)-[:STOP_AT]->(:BusStation) 관계 생성
+MATCH (route:BusRoute {route_id: nodeRecord.route_id}), (station:BusStation {station_id: nodeRecord.station_id})
+MERGE (route)-[r:STOP_AT]->(station);
+
+// 연결되지 않은 (:BusRoute) 삭제
+MATCH (n:BusRoute) WHERE NOT (n)-[]-() DELETE n;
+MATCH (n:BusStation) WHERE NOT (n)-[]-() DELETE n;
+
+// 2.8) 버스노선 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (bus: `BusRoute`) REQUIRE bus.`route_id` IS UNIQUE;
+
+// bus_route_all.csv 로드
+//:auto USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ2QZ_hwv4qwSLoL_kjI6m7sSFMaEjbm-wl21IOp5eUShY7Fi4AABjk9OjZSUdFRgPzQueiZ5bmxnD/pub?gid=451189410&single=true&output=csv' AS nodeRecord
+
+//  BusRoute 노드 생성
+MERGE (n: `BusRoute` { `route_id`: nodeRecord.`route_id` })
+SET n.`route_name` = nodeRecord.`route_name`
+SET n.`route_type` = nodeRecord.`route_type`;
+
+// bus_route_station_all.csv 로드
+//:auto USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrQ7Rqw2RNe221cH78mnEowIyVZdUkUyB07Y5RU2DKX4eczRGtk65xH1U1rn1WdkxH2kpkKjHEtrsZ/pub?gid=1609769136&single=true&output=csv' AS nodeRecord
+
+// (:BusRoute)-[:STOP_AT]->(:BusStation) 관계 생성
+MATCH (route:BusRoute {route_id: nodeRecord.route_id}), (station:BusStation {station_id: nodeRecord.station_id})
+MERGE (route)-[r:STOP_AT]->(station);
+
+// 연결되지 않은 (:BusRoute) 삭제
+MATCH (n:BusRoute) WHERE NOT (n)-[]-() DELETE n;
+MATCH (n:BusStation) WHERE NOT (n)-[]-() DELETE n;
+// 2.A10) 고속도록 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (highway: `Highway`) REQUIRE highway.`no` IS UNIQUE;
+
+// highway.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQEM8cJ0DOTjoPMRjUmxo1XNycdOG9b9AX0eosGsdcIJ0TNcLjxPTdtik-Y4rfipU3gTmd8toHvxsBC/pub?gid=131423954&single=true&output=csv' AS nodeRecord
+
+// Highway 노드 생성
+MERGE (n: `Highway` { `no`: toInteger(nodeRecord.`no`) })
+SET n.`name` = nodeRecord.`highway_nm`
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)});
+
+// highway_apt.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ59j13vbwV6dHQIdrWP5rNc-K3wSEXVz55zuSsdTz_21AJJnJxh7QIqSgXid41JGDkbTW_c_F02Ac/pub?gid=686949205&single=true&output=csv' AS nodeRecord
+
+// (:Apartment)-[:NEAR]->(:Highway) 관계 생성
+MATCH (apt:Apartment {apt_id: toInteger(nodeRecord.apt_id)}), (highway:Highway {no: toInteger(nodeRecord.highway_no)})
+MERGE (apt)-[r:NEAR]->(highway)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.A11) 지하철 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (subway: `Subway`) REQUIRE subway.`no` IS UNIQUE;
+
+// subway_station_api.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTOAIbcJC8aEnoG6nfiPKBtlSpcH_GyT1QS3hQKAG7HT-NARK6XdjHSMu0P3BY-NJWT27wz4_Kss7RV/pub?gid=1641438675&single=true&output=csv' AS nodeRecord
+
+// Subway 노드 생성
+MERGE (n: `Subway` { `no`: toInteger(nodeRecord.`no`) })
+SET n.`station_cd` = toInteger(nodeRecord.`station_cd`)
+SET n.`station_nm` = nodeRecord.`station_nm`
+SET n.`line_num` = nodeRecord.`line_num`
+SET n.`line_name` = nodeRecord.`line_name`
+SET n.`fr_code` = nodeRecord.`fr_code`
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`ypoint_wgs`), longitude: toFloat(nodeRecord.`xpoint_wgs`)});
+
+// subway_station_apt.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTk-JlJWT3f4y42NMpo1yq6JmSWiZOwCaQGECQnkCiBgoOfKT29J7-rE9V7g9gEKGALvesGro9qlRii/pub?gid=1835856580&single=true&output=csv' AS nodeRecord
+
+// (:Apartment)-[:NEAR]->(:Subway) 관계 생성
+MATCH (apt:Apartment {apt_id: toInteger(nodeRecord.apt_id)}), (subway:Subway {no: toInteger(nodeRecord.subway_station_no)})
+MERGE (apt)-[r:NEAR]->(subway)
+SET r.distance = toFloat(nodeRecord.dist);
+
+// 2.A12) 예정 지하철 노드 생성 및 연결
+// 제약조건 설정
+CREATE CONSTRAINT IF NOT EXISTS FOR (subwayf: `SubwayFuture`) REQUIRE subwayf.`no` IS UNIQUE;
+
+// subway_station_future.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSwmFErZk3REFUzbVWsS4Kvae2Fgo4DrLR6vc_j1WB8xusQQdRjtxbLfq5IAeugobRvX7aW8TkEUGkx/pub?gid=1493978514&single=true&output=csv' AS nodeRecord
+
+// SubwayFuture 노드 생성
+MERGE (n: `SubwayFuture` { `no`: toInteger(nodeRecord.`no`) })
+SET n.`line_no` = toInteger(nodeRecord.`line_no`)
+SET n.`line_name` = nodeRecord.`line_name`
+SET n.`station_name` = nodeRecord.`station_name`
+SET n.`scheduled_date` = nodeRecord.`scheduled_date`
+SET n.`coord` = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`progress` = nodeRecord.`progress`;
+
+// subway_station_future_apt.csv 로드
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQu-6m76lKgUzB4ln2yDRrTDRrrJMrPfhSimkFHHoRx7gAk9S2BhYhF69I7O-H7cUspO0LRruuI65Wb/pub?gid=838260646&single=true&output=csv' AS nodeRecord
+
+// (:Apartment)-[:NEAR]->(:SubwayFuture) 관계 생성
+MATCH (apt:Apartment {apt_id: toInteger(nodeRecord.apt_id)}), (subwayFuture:SubwayFuture {no: toInteger(nodeRecord.station_no)})
+MERGE (apt)-[r:NEAR]->(subwayFuture)
+SET r.distance = toFloat(nodeRecord.dist);
+
+
+// 2023 모든 자료 수정 ---
+
+// 0) Apartment, Convention, Theater, Academy, Departmentstore - 2311101639
+//1.1.A) 아파트단지정보A
+MATCH (n:`Apartment`) DETACH DELETE n;
+CREATE CONSTRAINT IF NOT EXISTS FOR (apt: `Apartment`) REQUIRE apt.`uuid` IS UNIQUE;
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQjOso_O9r-UwZ6SLWPKtDzMqecNcSK6m4cB3DHqIvR7beHQdMXGgfSVqdmXYWMva7rQKCC3T0WXiS5/pub?gid=367398091&single=true&output=csv' AS nodeRecord 
+
+// Apartment 노드 생성 (20 attributes)
+MERGE (n: `Apartment` { `uuid`: nodeRecord.`uuid` })
+SET n.`name`                            = nodeRecord.`name`
+SET n.`addr`                            = nodeRecord.`addr`
+SET n.`coord`                           = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`geometry`                        = "POINT(" + nodeRecord.`lon` + " " + nodeRecord.`lat` + ")"
+SET n.`lat`                             = toFloat(nodeRecord.`lat`)
+SET n.`lon`                             = toFloat(nodeRecord.`lon`)
+SET n.`sectors`                         = nodeRecord.`sectors`
+SET n.`constructor`                     = nodeRecord.`constructor`
+SET n.`completion`                      = toInteger(nodeRecord.`completion`)
+SET n.`households`                      = toInteger(nodeRecord.`households`)
+SET n.`heating`                         = nodeRecord.`heating`
+SET n.`heating_resources`               = nodeRecord.`heating_resources`
+SET n.`max_floor`                       = nodeRecord.`max_floor`
+SET n.`min_floor`                       = nodeRecord.`min_floor`
+SET n.`parking_per_house`               = toFloat(nodeRecord.`parking_per_house`)
+SET n.`parking_lot`                     = toInteger(nodeRecord.`parking_lot`)
+SET n.`community`                       = toInteger(nodeRecord.`community`)
+SET n.`min_area_supply`                 = toFloat(nodeRecord.`min_area_supply`)
+SET n.`man_area_supply`                 = toFloat(nodeRecord.`man_area_supply`)
+SET n.`min_area_use`                    = toFloat(nodeRecord.`min_area_use`)
+SET n.`max_area_use`                    = toFloat(nodeRecord.`max_area_use`)
+SET n.`addr_street`                     = nodeRecord.`addr_street`
+SET n.`apartment_status`                = nodeRecord.`apartment_status`
+SET n.`slope`                           = toInteger(nodeRecord.`slope`);
+
+
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQjOso_O9r-UwZ6SLWPKtDzMqecNcSK6m4cB3DHqIvR7beHQdMXGgfSVqdmXYWMva7rQKCC3T0WXiS5/pub?gid=367398091&single=true&output=csv' AS nodeRecord 
+MATCH (n:Apartment {`uuid`:nodeRecord.`uuid`})
+// Apartment 노드 추가 속성 추가 (13 attributes)
+SET n.`pop`                             = toInteger(nodeRecord.`pop`)                       // 추가 attributes(이하)
+SET n.`pop_density_10s`                 = toFloat(nodeRecord.`pop_density_10s`)
+SET n.`pop_density_50s`                 = toFloat(nodeRecord.`pop_density_50s`)
+SET n.`pop_ratio_60s_man`               = toFloat(nodeRecord.`pop_ratio_60s_man`)
+SET n.`foreigner_purchase_ratio`        = toFloat(nodeRecord.`foreigner_purchase_ratio`)    // 자료 없음
+SET n.`average_income_year`             = toInteger(nodeRecord.`average_income_year`)
+SET n.`taxi_dropoff_ratio`              = toFloat(nodeRecord.`taxi_dropoff_ratio`)
+SET n.`taxi_dropoff_ratio_morning_peak` = toFloat(nodeRecord.`taxi_dropoff_ratio_morning_peak`)
+SET n.`floor_area_ratio`                = toFloat(nodeRecord.`floor_area_ratio`)
+SET n.`parking_lot_under`               = toInteger(nodeRecord.`parking_lot_under`)
+SET n.`slope_ratio`                     = toFloat(nodeRecord.`slope_ratio`)
+SET n.`remodeling_review`               = nodeRecord.`remodeling_review`                    // 자료 없음 
+SET n.`facilities`                      = nodeRecord.`facilities`                           // 자료 없음 
+;
+
+//1.2) Convention
+CREATE CONSTRAINT IF NOT EXISTS FOR (n: `Convention`) REQUIRE n.`uuid` IS UNIQUE;
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT_P1b5uLvEnNtkW_Rw-L0-ZyEGJ3YfnzyILMWwNSwHhLG0XxQuyme3P50L3UgCVFstETss2ecg0iRA/pub?gid=1318154571&single=true&output=csv' AS nodeRecord 
+// Convention 노드 생성
+MERGE (n: `Convention` { `uuid`: nodeRecord.`uuid` })
+SET n.`name`        = nodeRecord.`name`
+SET n.`coord`                           = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`geometry`                        = "POINT(" + nodeRecord.`lon` + " " + nodeRecord.`lat` + ")"
+SET n.`lat`         = toFloat(nodeRecord.`lat`)
+SET n.`lon`         = toFloat(nodeRecord.`lon`)
+;
+
+//1.3) Theater
+CREATE CONSTRAINT IF NOT EXISTS FOR (n: `Theater`) REQUIRE n.`uuid` IS UNIQUE;
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRo5zjlKNwrsFvOl4YJC6bMGBw1lRDHlD7YJmRoDgNnMz7fhWS0skaSKlCj7vckDhkUYHH7yPoyW92i/pub?gid=1258653966&single=true&output=csv' AS nodeRecord 
+// Theater 노드 생성
+MERGE (n: `Theater` { `uuid`: nodeRecord.`uuid` })
+SET n.`name`        = nodeRecord.`name`
+SET n.`coord`       = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`geometry`    = "POINT(" + nodeRecord.`lon` + " " + nodeRecord.`lat` + ")"
+SET n.`lat`         = toFloat(nodeRecord.`lat`)
+SET n.`lon`         = toFloat(nodeRecord.`lon`)
+;
+
+//1.4) Academy
+CREATE CONSTRAINT IF NOT EXISTS FOR (n: `Academy`) REQUIRE n.`uuid` IS UNIQUE;
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSZDAyDmPM8S_QjO7jC9Z-XaiAWhBEvGnAXGI-LAwTNS9ZJKkrVGHRzls63LwjP6KwQTnvATJwIBTay/pub?gid=1200274049&single=true&output=csv' AS nodeRecord 
+
+// Theater 노드 생성
+MERGE (n: `Academy` { `uuid`: nodeRecord.`uuid` })
+SET n.`name`        = nodeRecord.`name`
+SET n.`coord`       = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`geometry`    = "POINT(" + nodeRecord.`lon` + " " + nodeRecord.`lat` + ")"
+SET n.`lat`         = toFloat(nodeRecord.`lat`)
+SET n.`lon`         = toFloat(nodeRecord.`lon`)
+;
+
+//1.4) Departmentstore
+CREATE CONSTRAINT IF NOT EXISTS FOR (n: `Academy`) REQUIRE n.`uuid` IS UNIQUE;
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSieGS_AwgCXAKFtC8xvntP7PP5wHgoZRCm9WSz8GQIj11W2OHfbM66NuDlznNSCHoAdX5lbtH-hT-c/pub?gid=195373390&single=true&output=csv' AS nodeRecord 
+
+// Theater 노드 생성
+MERGE (n: `Departmentstore` { `uuid`: nodeRecord.`uuid` })
+SET n.`name`        = nodeRecord.`name`
+SET n.`coord`       = point({latitude: toFloat(nodeRecord.`lat`), longitude: toFloat(nodeRecord.`lon`)})
+SET n.`geometry`    = "POINT(" + nodeRecord.`lon` + " " + nodeRecord.`lat` + ")"
+SET n.`lat`         = toFloat(nodeRecord.`lat`)
+SET n.`lon`         = toFloat(nodeRecord.`lon`)
+;
+
+// 관계 테이블로 uuid 연결 
+//1) Join Table 20231111
+
+// districtboundarydong_with_academy.csv        districtboundarydong_with_hospital.csv
+// districtboundarydong_with_apartment.csv      districtboundarydong_with_kinder.csv
+// districtboundarydong_with_busstation.csv     districtboundarydong_with_mart.csv
+// districtboundarydong_with_convention.csv     districtboundarydong_with_park.csv
+// districtboundarydong_with_daycare.csv        districtboundarydong_with_school.csv
+// districtboundarydong_with_department.csv     districtboundarydong_with_subway.csv
+// districtboundarydong_with_goodwaytowalk.csv  districtboundarydong_with_subwayfuture.csv
+// districtboundarydong_with_highway.csv        districtboundarydong_with_theater.csv
+
+MATCH (n:districtboundarydong_with_academy) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_academy.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_academy` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`
+SET n.`uuid_academy`  = nodeRecord.`uuid_academy`;
+
+MATCH (n:districtboundarydong_with_apartment) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_apartment.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_apartment` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`
+SET n.`uuid_apartment`  = nodeRecord.`uuid_apartment`;
+
+MATCH (n:districtboundarydong_with_kinder) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_kinder.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_kinder` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`
+SET n.`uuid_kinder`  = nodeRecord.`uuid_kinder`;
+
+MATCH (n:districtboundarydong_with_busstation) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_busstation.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_busstation` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`
+SET n.`uuid_busstation`  = nodeRecord.`uuid_busstation`;
+
+MATCH (n:districtboundarydong_with_mart) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_mart.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_mart` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`
+SET n.`uuid_mart`  = nodeRecord.`uuid_mart`;
+
+MATCH (n:districtboundarydong_with_convention) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_convention.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_convention` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`
+SET n.`uuid_convention`  = nodeRecord.`uuid_convention`;
+
+MATCH (n:districtboundarydong_with_park) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_park.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_park` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_park`  = nodeRecord.`uuid_park`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+// districtboundarydong_with_daycare.csv        districtboundarydong_with_school.csv
+// districtboundarydong_with_department.csv     districtboundarydong_with_subway.csv
+// districtboundarydong_with_goodwaytowalk.csv  districtboundarydong_with_subwayfuture.csv
+// districtboundarydong_with_highway.csv        districtboundarydong_with_theater.csv
+MATCH (n:districtboundarydong_with_daycare) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_daycare.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_daycare` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_daycare`  = nodeRecord.`uuid_daycare`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_school) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_school.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_school` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_school`  = nodeRecord.`uuid_school`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_daycare) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_daycare.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_daycare` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_daycare`  = nodeRecord.`uuid_daycare`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_departmentstore) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_department.csv' AS nodeRecord
+MERGE (n: `districtboundarydong_with_departmentstore` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_departmentstore`  = replace(nodeRecord.`uuid_department`,"department","departmentstore")
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_subway) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_subway.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_subway` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_subway`  = nodeRecord.`uuid_subway`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_goodwaytowalk) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_goodwaytowalk.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_goodwaytowalk` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_goodwaytowalk`  = nodeRecord.`uuid_goodwaytowalk`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_subwayfuture) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_subwayfuture.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_subwayfuture` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_subwayfuture`  = nodeRecord.`uuid_subwayfuture`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_highway) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_highway.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_highway` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_highway`  = nodeRecord.`uuid_highway`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_theater) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_theater.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_theater` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_theater`  = nodeRecord.`uuid_theater`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+MATCH (n:districtboundarydong_with_hospital) DETACH DELETE(n);
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/districtboundarydong_with_hospital.csv' AS nodeRecord 
+MERGE (n: `districtboundarydong_with_hospital` { `uuid`: nodeRecord.`uuid` })
+SET n.`uuid_hospital`  = nodeRecord.`uuid_hospital`
+SET n.`uuid_districtboundarydong`  = nodeRecord.`uuid_districtboundarydong`;
+
+
+
+

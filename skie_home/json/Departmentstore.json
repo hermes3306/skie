@@ -1,0 +1,618 @@
+﻿[
+  {
+    "n": {
+      "identity": 6053,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.025952,
+          "y": 37.4889667,
+          "z": null
+        },
+        "name": "무지개종합상가",
+        "lon": 127.025952,
+        "geometry": "POINT(127.025952 37.4889667)",
+        "uuid": "departmentstore_0",
+        "lat": 37.4889667
+      },
+      "elementId": "6053"
+    }
+  },
+  {
+    "n": {
+      "identity": 6054,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0063666,
+          "y": 37.5052027,
+          "z": null
+        },
+        "name": "터미널상가",
+        "lon": 127.0063666,
+        "geometry": "POINT(127.0063666 37.5052027)",
+        "uuid": "departmentstore_1",
+        "lat": 37.5052027
+      },
+      "elementId": "6054"
+    }
+  },
+  {
+    "n": {
+      "identity": 6055,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0069895,
+          "y": 37.5102628,
+          "z": null
+        },
+        "name": "(주)이랜드킴스클럽 강남점",
+        "lon": 127.0069895,
+        "geometry": "POINT(127.0069895 37.5102628)",
+        "uuid": "departmentstore_2",
+        "lat": 37.5102628
+      },
+      "elementId": "6055"
+    }
+  },
+  {
+    "n": {
+      "identity": 6056,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0369441,
+          "y": 37.4624667,
+          "z": null
+        },
+        "name": "(주)이마트 양재점",
+        "lon": 127.0369441,
+        "geometry": "POINT(127.0369441 37.4624667)",
+        "uuid": "departmentstore_3",
+        "lat": 37.4624667
+      },
+      "elementId": "6056"
+    }
+  },
+  {
+    "n": {
+      "identity": 6057,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0032242,
+          "y": 37.5042121,
+          "z": null
+        },
+        "name": "신세계백화점 강남점",
+        "lon": 127.0032242,
+        "geometry": "POINT(127.0032242 37.5042121)",
+        "uuid": "departmentstore_4",
+        "lat": 37.5042121
+      },
+      "elementId": "6057"
+    }
+  },
+  {
+    "n": {
+      "identity": 6058,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9872199,
+          "y": 37.5017332,
+          "z": null
+        },
+        "name": "엘루체",
+        "lon": 126.9872199,
+        "geometry": "POINT(126.9872199 37.5017332)",
+        "uuid": "departmentstore_5",
+        "lat": 37.5017332
+      },
+      "elementId": "6058"
+    }
+  },
+  {
+    "n": {
+      "identity": 6059,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0259319,
+          "y": 37.4922553,
+          "z": null
+        },
+        "name": "무지개쇼핑",
+        "lon": 127.0259319,
+        "geometry": "POINT(127.0259319 37.4922553)",
+        "uuid": "departmentstore_6",
+        "lat": 37.4922553
+      },
+      "elementId": "6059"
+    }
+  },
+  {
+    "n": {
+      "identity": 6060,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9778779,
+          "y": 37.5664106,
+          "z": null
+        },
+        "name": "롯데슈퍼 방배2점",
+        "lon": 126.9778779,
+        "geometry": "POINT(126.9778779 37.5664106)",
+        "uuid": "departmentstore_8",
+        "lat": 37.5664106
+      },
+      "elementId": "6060"
+    }
+  },
+  {
+    "n": {
+      "identity": 6061,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0079985,
+          "y": 37.5083791,
+          "z": null
+        },
+        "name": "뉴코아백화점",
+        "lon": 127.0079985,
+        "geometry": "POINT(127.0079985 37.5083791)",
+        "uuid": "departmentstore_9",
+        "lat": 37.5083791
+      },
+      "elementId": "6061"
+    }
+  },
+  {
+    "n": {
+      "identity": 6062,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0074331,
+          "y": 37.5092213,
+          "z": null
+        },
+        "name": "뉴코아아울렛",
+        "lon": 127.0074331,
+        "geometry": "POINT(127.0074331 37.5092213)",
+        "uuid": "departmentstore_10",
+        "lat": 37.5092213
+      },
+      "elementId": "6062"
+    }
+  },
+  {
+    "n": {
+      "identity": 6063,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9856803,
+          "y": 37.4968273,
+          "z": null
+        },
+        "name": "롯데쇼핑(주)롯데슈퍼 방배점",
+        "lon": 126.9856803,
+        "geometry": "POINT(126.9856803 37.4968273)",
+        "uuid": "departmentstore_11",
+        "lat": 37.4968273
+      },
+      "elementId": "6063"
+    }
+  },
+  {
+    "n": {
+      "identity": 6064,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0178205,
+          "y": 37.4847365,
+          "z": null
+        },
+        "name": "국제전자도매센타",
+        "lon": 127.0178205,
+        "geometry": "POINT(127.0178205 37.4847365)",
+        "uuid": "departmentstore_13",
+        "lat": 37.4847365
+      },
+      "elementId": "6064"
+    }
+  },
+  {
+    "n": {
+      "identity": 6065,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9869203,
+          "y": 37.5021451,
+          "z": null
+        },
+        "name": "반포프라자",
+        "lon": 126.9869203,
+        "geometry": "POINT(126.9869203 37.5021451)",
+        "uuid": "departmentstore_14",
+        "lat": 37.5021451
+      },
+      "elementId": "6065"
+    }
+  },
+  {
+    "n": {
+      "identity": 6066,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0249371,
+          "y": 37.4904901,
+          "z": null
+        },
+        "name": "신동아종합상가",
+        "lon": 127.0249371,
+        "geometry": "POINT(127.0249371 37.4904901)",
+        "uuid": "departmentstore_15",
+        "lat": 37.4904901
+      },
+      "elementId": "6066"
+    }
+  },
+  {
+    "n": {
+      "identity": 6067,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0122802,
+          "y": 37.5147673,
+          "z": null
+        },
+        "name": "대림상가",
+        "lon": 127.0122802,
+        "geometry": "POINT(127.0122802 37.5147673)",
+        "uuid": "departmentstore_17",
+        "lat": 37.5147673
+      },
+      "elementId": "6067"
+    }
+  },
+  {
+    "n": {
+      "identity": 6068,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0174633,
+          "y": 37.4999252,
+          "z": null
+        },
+        "name": "서초쇼핑",
+        "lon": 127.0174633,
+        "geometry": "POINT(127.0174633 37.4999252)",
+        "uuid": "departmentstore_18",
+        "lat": 37.4999252
+      },
+      "elementId": "6068"
+    }
+  },
+  {
+    "n": {
+      "identity": 6069,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0134158,
+          "y": 37.5015404,
+          "z": null
+        },
+        "name": "한양스토아",
+        "lon": 127.0134158,
+        "geometry": "POINT(127.0134158 37.5015404)",
+        "uuid": "departmentstore_19",
+        "lat": 37.5015404
+      },
+      "elementId": "6069"
+    }
+  },
+  {
+    "n": {
+      "identity": 6070,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9838575,
+          "y": 37.4819534,
+          "z": null
+        },
+        "name": "방배종합시장",
+        "lon": 126.9838575,
+        "geometry": "POINT(126.9838575 37.4819534)",
+        "uuid": "departmentstore_20",
+        "lat": 37.4819534
+      },
+      "elementId": "6070"
+    }
+  },
+  {
+    "n": {
+      "identity": 6071,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9892846,
+          "y": 37.4911996,
+          "z": null
+        },
+        "name": "이수시장",
+        "lon": 126.9892846,
+        "geometry": "POINT(126.9892846 37.4911996)",
+        "uuid": "departmentstore_21",
+        "lat": 37.4911996
+      },
+      "elementId": "6071"
+    }
+  },
+  {
+    "n": {
+      "identity": 6072,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9947134,
+          "y": 37.5054735,
+          "z": null
+        },
+        "name": "신반포종합시장",
+        "lon": 126.9947134,
+        "geometry": "POINT(126.9947134 37.5054735)",
+        "uuid": "departmentstore_22",
+        "lat": 37.5054735
+      },
+      "elementId": "6072"
+    }
+  },
+  {
+    "n": {
+      "identity": 6073,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0141834,
+          "y": 37.5154139,
+          "z": null
+        },
+        "name": "신사쇼핑",
+        "lon": 127.0141834,
+        "geometry": "POINT(127.0141834 37.5154139)",
+        "uuid": "departmentstore_23",
+        "lat": 37.5154139
+      },
+      "elementId": "6073"
+    }
+  },
+  {
+    "n": {
+      "identity": 6074,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.015434,
+          "y": 37.4934028,
+          "z": null
+        },
+        "name": "대림서초리시온",
+        "lon": 127.015434,
+        "geometry": "POINT(127.015434 37.4934028)",
+        "uuid": "departmentstore_24",
+        "lat": 37.4934028
+      },
+      "elementId": "6074"
+    }
+  },
+  {
+    "n": {
+      "identity": 6075,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0131783,
+          "y": 37.4981054,
+          "z": null
+        },
+        "name": "아크로비스타 아케이드",
+        "lon": 127.0131783,
+        "geometry": "POINT(127.0131783 37.4981054)",
+        "uuid": "departmentstore_25",
+        "lat": 37.4981054
+      },
+      "elementId": "6075"
+    }
+  },
+  {
+    "n": {
+      "identity": 6076,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0369441,
+          "y": 37.4624667,
+          "z": null
+        },
+        "name": "하이브랜드",
+        "lon": 127.0369441,
+        "geometry": "POINT(127.0369441 37.4624667)",
+        "uuid": "departmentstore_26",
+        "lat": 37.4624667
+      },
+      "elementId": "6076"
+    }
+  },
+  {
+    "n": {
+      "identity": 6077,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0241309,
+          "y": 37.5037829,
+          "z": null
+        },
+        "name": "교보타워 지하아케이드",
+        "lon": 127.0241309,
+        "geometry": "POINT(127.0241309 37.5037829)",
+        "uuid": "departmentstore_27",
+        "lat": 37.5037829
+      },
+      "elementId": "6077"
+    }
+  },
+  {
+    "n": {
+      "identity": 6078,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.036182,
+          "y": 37.4619559,
+          "z": null
+        },
+        "name": "코스트코코리아",
+        "lon": 127.036182,
+        "geometry": "POINT(127.036182 37.4619559)",
+        "uuid": "departmentstore_28",
+        "lat": 37.4619559
+      },
+      "elementId": "6078"
+    }
+  },
+  {
+    "n": {
+      "identity": 6079,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9869203,
+          "y": 37.5021451,
+          "z": null
+        },
+        "name": "반포프라자",
+        "lon": 126.9869203,
+        "geometry": "POINT(126.9869203 37.5021451)",
+        "uuid": "departmentstore_29",
+        "lat": 37.5021451
+      },
+      "elementId": "6079"
+    }
+  },
+  {
+    "n": {
+      "identity": 6080,
+      "labels": [
+        "Departmentstore"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 123.7417741,
+          "y": 32.5220203,
+          "z": null
+        },
+        "name": "롯데쇼핑(주) 롯데마트 서초점",
+        "lon": 123.7417741,
+        "geometry": "POINT(123.7417741 32.5220203)",
+        "uuid": "departmentstore_31",
+        "lat": 32.5220203
+      },
+      "elementId": "6080"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "highway",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lon": 127.0377358, "name": "양재IC", "lat": 37.46189923, "uuid": 0 }, "geometry": { "type": "Point", "coordinates": [ 127.0377358, 37.46189923 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0251943, "name": "서초IC", "lat": 37.48339867, "uuid": 1 }, "geometry": { "type": "Point", "coordinates": [ 127.0251943, 37.48339867 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0798889, "name": "내곡IC", "lat": 37.46013538, "uuid": 2 }, "geometry": { "type": "Point", "coordinates": [ 127.0798889, 37.46013538 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0799376, "name": "내곡IC", "lat": 37.46003437, "uuid": 3 }, "geometry": { "type": "Point", "coordinates": [ 127.0799376, 37.46003437 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0707999, "name": "내곡IC", "lat": 37.45704499, "uuid": 4 }, "geometry": { "type": "Point", "coordinates": [ 127.0707999, 37.45704499 ] } },
+{ "type": "Feature", "properties": { "lon": 126.9855549, "name": "올림픽대로 한수길램프", "lat": 37.50488424, "uuid": 5 }, "geometry": { "type": "Point", "coordinates": [ 126.9855549, 37.50488424 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0418795, "name": "양재IC", "lat": 37.46496032, "uuid": 6 }, "geometry": { "type": "Point", "coordinates": [ 127.0418795, 37.46496032 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0405976, "name": "양재IC", "lat": 37.46385955, "uuid": 7 }, "geometry": { "type": "Point", "coordinates": [ 127.0405976, 37.46385955 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0173467, "name": "반포IC", "lat": 37.50319526, "uuid": 8 }, "geometry": { "type": "Point", "coordinates": [ 127.0173467, 37.50319526 ] } },
+{ "type": "Feature", "properties": { "lon": 127.017396, "name": "반포IC", "lat": 37.50329606, "uuid": 9 }, "geometry": { "type": "Point", "coordinates": [ 127.017396, 37.50329606 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0286616, "name": "서초IC", "lat": 37.48387714, "uuid": 10 }, "geometry": { "type": "Point", "coordinates": [ 127.0286616, 37.48387714 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0238381, "name": "서초IC", "lat": 37.48310174, "uuid": 11 }, "geometry": { "type": "Point", "coordinates": [ 127.0238381, 37.48310174 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0392707, "name": "양재IC", "lat": 37.46315547, "uuid": 12 }, "geometry": { "type": "Point", "coordinates": [ 127.0392707, 37.46315547 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0150312, "name": "잠원IC", "lat": 37.50914758, "uuid": 13 }, "geometry": { "type": "Point", "coordinates": [ 127.0150312, 37.50914758 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0171954, "name": "올림픽대로 강남대로", "lat": 37.52254564, "uuid": 14 }, "geometry": { "type": "Point", "coordinates": [ 127.0171954, 37.52254564 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0268364, "name": "서초IC", "lat": 37.48351551, "uuid": 15 }, "geometry": { "type": "Point", "coordinates": [ 127.0268364, 37.48351551 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0903546, "name": "용인서울고속국도 헌릉로", "lat": 37.46540643, "uuid": 16 }, "geometry": { "type": "Point", "coordinates": [ 127.0903546, 37.46540643 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0190394, "name": "선암로IC", "lat": 37.45968899, "uuid": 17 }, "geometry": { "type": "Point", "coordinates": [ 127.0190394, 37.45968899 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0204466, "name": "선암로IC", "lat": 37.460802, "uuid": 18 }, "geometry": { "type": "Point", "coordinates": [ 127.0204466, 37.460802 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0201769, "name": "선암로IC", "lat": 37.45950962, "uuid": 19 }, "geometry": { "type": "Point", "coordinates": [ 127.0201769, 37.45950962 ] } },
+{ "type": "Feature", "properties": { "lon": 126.9991849, "name": "올림픽대로 반포로램프", "lat": 37.50933579, "uuid": 20 }, "geometry": { "type": "Point", "coordinates": [ 126.9991849, 37.50933579 ] } },
+{ "type": "Feature", "properties": { "lon": 126.9803548, "name": "올림픽대로 동작대로램프", "lat": 37.50571321, "uuid": 21 }, "geometry": { "type": "Point", "coordinates": [ 126.9803548, 37.50571321 ] } },
+{ "type": "Feature", "properties": { "lon": 127.0854634, "name": "용인서울고속국도 헌릉", "lat": 37.46187398, "uuid": 22 }, "geometry": { "type": "Point", "coordinates": [ 127.0854634, 37.46187398 ] } },
+{ "type": "Feature", "properties": { "lon": 126.9982337, "name": "올림픽대로 반포로램프", "lat": 37.50972007, "uuid": 23 }, "geometry": { "type": "Point", "coordinates": [ 126.9982337, 37.50972007 ] } },
+{ "type": "Feature", "properties": { "lon": 126.986573, "name": "사당IC", "lat": 37.46913031, "uuid": 24 }, "geometry": { "type": "Point", "coordinates": [ 126.986573, 37.46913031 ] } }
+]
+}

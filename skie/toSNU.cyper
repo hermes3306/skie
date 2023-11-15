@@ -1,0 +1,11 @@
+// Districtboundg
+// Districtboundg.csv
+load csv with headers from 'http://1.229.96.163/skie/geojson/districtboundgu.csv' as record
+
+merge(n: Districtboundg {uuid : record.uuid})
+set n.name = record.name
+set n.restriction = record.restriction
+set n.geometry = record.geometry
+set n.coordinates = record.coordinates
+set n.wkt = "MULTIPOLYGON (((" + record.coordinates + ")))";
+

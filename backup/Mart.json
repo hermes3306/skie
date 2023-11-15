@@ -1,0 +1,782 @@
+﻿[
+  {
+    "n": {
+      "identity": 4028,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0139384,
+          "y": 37.50661145,
+          "z": null
+        },
+        "name": "홈플러스익스프레스 반포점",
+        "geometry": "POINT (127.0139384 37.50661145)",
+        "uuid": "mart_0"
+      },
+      "elementId": "4028"
+    }
+  },
+  {
+    "n": {
+      "identity": 4029,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0117717,
+          "y": 37.508511,
+          "z": null
+        },
+        "name": "롯데슈퍼 잠원점",
+        "geometry": "POINT (127.0117717 37.508511)",
+        "uuid": "mart_1"
+      },
+      "elementId": "4029"
+    }
+  },
+  {
+    "n": {
+      "identity": 4030,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0121864,
+          "y": 37.50290085,
+          "z": null
+        },
+        "name": "GS더프레시 서초점",
+        "geometry": "POINT (127.0121864 37.50290085)",
+        "uuid": "mart_2"
+      },
+      "elementId": "4030"
+    }
+  },
+  {
+    "n": {
+      "identity": 4031,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9950463,
+          "y": 37.50548411,
+          "z": null
+        },
+        "name": "롯데슈퍼 신반포점",
+        "geometry": "POINT (126.9950463 37.50548411)",
+        "uuid": "mart_3"
+      },
+      "elementId": "4031"
+    }
+  },
+  {
+    "n": {
+      "identity": 4032,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0008822,
+          "y": 37.50453275,
+          "z": null
+        },
+        "name": "홈플러스익스프레스 반포2점",
+        "geometry": "POINT (127.0008822 37.50453275)",
+        "uuid": "mart_4"
+      },
+      "elementId": "4032"
+    }
+  },
+  {
+    "n": {
+      "identity": 4033,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9981861,
+          "y": 37.49713367,
+          "z": null
+        },
+        "name": "홈플러스익스프레스 서래마을점",
+        "geometry": "POINT (126.9981861 37.49713367)",
+        "uuid": "mart_5"
+      },
+      "elementId": "4033"
+    }
+  },
+  {
+    "n": {
+      "identity": 4034,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0074377,
+          "y": 37.50923936,
+          "z": null
+        },
+        "name": "킴스클럽 강남점",
+        "geometry": "POINT (127.0074377 37.50923936)",
+        "uuid": "mart_6"
+      },
+      "elementId": "4034"
+    }
+  },
+  {
+    "n": {
+      "identity": 4035,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0069714,
+          "y": 37.50605704,
+          "z": null
+        },
+        "name": "노브랜드 강남터미널점",
+        "geometry": "POINT (127.0069714 37.50605704)",
+        "uuid": "mart_7"
+      },
+      "elementId": "4035"
+    }
+  },
+  {
+    "n": {
+      "identity": 4036,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0271725,
+          "y": 37.49180561,
+          "z": null
+        },
+        "name": "이마트에브리데이 래미안리더스원점",
+        "geometry": "POINT (127.0271725 37.49180561)",
+        "uuid": "mart_8"
+      },
+      "elementId": "4036"
+    }
+  },
+  {
+    "n": {
+      "identity": 4037,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0207683,
+          "y": 37.48567105,
+          "z": null
+        },
+        "name": "이마트에브리데이 남부터미널점",
+        "geometry": "POINT (127.0207683 37.48567105)",
+        "uuid": "mart_9"
+      },
+      "elementId": "4037"
+    }
+  },
+  {
+    "n": {
+      "identity": 4038,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0107575,
+          "y": 37.50257167,
+          "z": null
+        },
+        "name": "롯데슈퍼 반포2점",
+        "geometry": "POINT (127.0107575 37.50257167)",
+        "uuid": "mart_10"
+      },
+      "elementId": "4038"
+    }
+  },
+  {
+    "n": {
+      "identity": 4039,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0128016,
+          "y": 37.49923054,
+          "z": null
+        },
+        "name": "홈플러스익스프레스 서초점",
+        "geometry": "POINT (127.0128016 37.49923054)",
+        "uuid": "mart_11"
+      },
+      "elementId": "4039"
+    }
+  },
+  {
+    "n": {
+      "identity": 4040,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0161798,
+          "y": 37.49510441,
+          "z": null
+        },
+        "name": "노브랜드 서울서초G5점",
+        "geometry": "POINT (127.0161798 37.49510441)",
+        "uuid": "mart_12"
+      },
+      "elementId": "4040"
+    }
+  },
+  {
+    "n": {
+      "identity": 4041,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9856298,
+          "y": 37.49673745,
+          "z": null
+        },
+        "name": "롯데슈퍼 방배1점",
+        "geometry": "POINT (126.9856298 37.49673745)",
+        "uuid": "mart_13"
+      },
+      "elementId": "4041"
+    }
+  },
+  {
+    "n": {
+      "identity": 4042,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0159862,
+          "y": 37.45687189,
+          "z": null
+        },
+        "name": "남서울농협하나로마트 우면점",
+        "geometry": "POINT (127.0159862 37.45687189)",
+        "uuid": "mart_14"
+      },
+      "elementId": "4042"
+    }
+  },
+  {
+    "n": {
+      "identity": 4043,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0250757,
+          "y": 37.46368557,
+          "z": null
+        },
+        "name": "이마트에브리데이 우면점",
+        "geometry": "POINT (127.0250757 37.46368557)",
+        "uuid": "mart_15"
+      },
+      "elementId": "4043"
+    }
+  },
+  {
+    "n": {
+      "identity": 4044,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0362879,
+          "y": 37.46193109,
+          "z": null
+        },
+        "name": "코스트코 양재점",
+        "geometry": "POINT (127.0362879 37.46193109)",
+        "uuid": "mart_16"
+      },
+      "elementId": "4044"
+    }
+  },
+  {
+    "n": {
+      "identity": 4045,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0218722,
+          "y": 37.5023575,
+          "z": null
+        },
+        "name": "이마트에브리데이 서초동점",
+        "geometry": "POINT (127.0218722 37.5023575)",
+        "uuid": "mart_17"
+      },
+      "elementId": "4045"
+    }
+  },
+  {
+    "n": {
+      "identity": 4046,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0595141,
+          "y": 37.45662372,
+          "z": null
+        },
+        "name": "서울영동농협하나로마트 내곡점",
+        "geometry": "POINT (127.0595141 37.45662372)",
+        "uuid": "mart_18"
+      },
+      "elementId": "4046"
+    }
+  },
+  {
+    "n": {
+      "identity": 4047,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0563288,
+          "y": 37.44729619,
+          "z": null
+        },
+        "name": "이마트에브리데이 내곡점",
+        "geometry": "POINT (127.0563288 37.44729619)",
+        "uuid": "mart_19"
+      },
+      "elementId": "4047"
+    }
+  },
+  {
+    "n": {
+      "identity": 4048,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0559177,
+          "y": 37.447664,
+          "z": null
+        },
+        "name": "서울영동농협하나로마트 청계산역점",
+        "geometry": "POINT (127.0559177 37.447664)",
+        "uuid": "mart_20"
+      },
+      "elementId": "4048"
+    }
+  },
+  {
+    "n": {
+      "identity": 4049,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.037012,
+          "y": 37.46339411,
+          "z": null
+        },
+        "name": "이마트 양재점",
+        "geometry": "POINT (127.037012 37.46339411)",
+        "uuid": "mart_21"
+      },
+      "elementId": "4049"
+    }
+  },
+  {
+    "n": {
+      "identity": 4050,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0253823,
+          "y": 37.49812387,
+          "z": null
+        },
+        "name": "노브랜드 서울서초점",
+        "geometry": "POINT (127.0253823 37.49812387)",
+        "uuid": "mart_22"
+      },
+      "elementId": "4050"
+    }
+  },
+  {
+    "n": {
+      "identity": 4051,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0008513,
+          "y": 37.47578249,
+          "z": null
+        },
+        "name": "이마트에브리데이 방배그랑자이점",
+        "geometry": "POINT (127.0008513 37.47578249)",
+        "uuid": "mart_23"
+      },
+      "elementId": "4051"
+    }
+  },
+  {
+    "n": {
+      "identity": 4052,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9967709,
+          "y": 37.48362574,
+          "z": null
+        },
+        "name": "홈플러스익스프레스 방배2점",
+        "geometry": "POINT (126.9967709 37.48362574)",
+        "uuid": "mart_24"
+      },
+      "elementId": "4052"
+    }
+  },
+  {
+    "n": {
+      "identity": 4053,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9962507,
+          "y": 37.48402577,
+          "z": null
+        },
+        "name": "노브랜드 서초방배점",
+        "geometry": "POINT (126.9962507 37.48402577)",
+        "uuid": "mart_25"
+      },
+      "elementId": "4053"
+    }
+  },
+  {
+    "n": {
+      "identity": 4054,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0115871,
+          "y": 37.51438557,
+          "z": null
+        },
+        "name": "GS더프레시 잠원점",
+        "geometry": "POINT (127.0115871 37.51438557)",
+        "uuid": "mart_26"
+      },
+      "elementId": "4054"
+    }
+  },
+  {
+    "n": {
+      "identity": 4055,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0191276,
+          "y": 37.48959251,
+          "z": null
+        },
+        "name": "GS더프레시 서초교대점",
+        "geometry": "POINT (127.0191276 37.48959251)",
+        "uuid": "mart_27"
+      },
+      "elementId": "4055"
+    }
+  },
+  {
+    "n": {
+      "identity": 4056,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0406787,
+          "y": 37.47979129,
+          "z": null
+        },
+        "name": "남서울농협하나로마트 양재점",
+        "geometry": "POINT (127.0406787 37.47979129)",
+        "uuid": "mart_28"
+      },
+      "elementId": "4056"
+    }
+  },
+  {
+    "n": {
+      "identity": 4057,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.041835,
+          "y": 37.46908329,
+          "z": null
+        },
+        "name": "이마트에브리데이 양재점",
+        "geometry": "POINT (127.041835 37.46908329)",
+        "uuid": "mart_29"
+      },
+      "elementId": "4057"
+    }
+  },
+  {
+    "n": {
+      "identity": 4058,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0433824,
+          "y": 37.470755,
+          "z": null
+        },
+        "name": "영동농협하나로마트 본점",
+        "geometry": "POINT (127.0433824 37.470755)",
+        "uuid": "mart_30"
+      },
+      "elementId": "4058"
+    }
+  },
+  {
+    "n": {
+      "identity": 4059,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9867131,
+          "y": 37.47748529,
+          "z": null
+        },
+        "name": "롯데슈퍼 방배3점",
+        "geometry": "POINT (126.9867131 37.47748529)",
+        "uuid": "mart_31"
+      },
+      "elementId": "4059"
+    }
+  },
+  {
+    "n": {
+      "identity": 4060,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0036633,
+          "y": 37.48377709,
+          "z": null
+        },
+        "name": "이마트에브리데이 방배효령점",
+        "geometry": "POINT (127.0036633 37.48377709)",
+        "uuid": "mart_32"
+      },
+      "elementId": "4060"
+    }
+  },
+  {
+    "n": {
+      "identity": 4061,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0078153,
+          "y": 37.48642946,
+          "z": null
+        },
+        "name": "롯데슈퍼 서초3동점",
+        "geometry": "POINT (127.0078153 37.48642946)",
+        "uuid": "mart_33"
+      },
+      "elementId": "4061"
+    }
+  },
+  {
+    "n": {
+      "identity": 4062,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0179918,
+          "y": 37.48504638,
+          "z": null
+        },
+        "name": "롯데슈퍼 서초국제점",
+        "geometry": "POINT (127.0179918 37.48504638)",
+        "uuid": "mart_34"
+      },
+      "elementId": "4062"
+    }
+  },
+  {
+    "n": {
+      "identity": 4063,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0154499,
+          "y": 37.48687561,
+          "z": null
+        },
+        "name": "홈플러스익스프레스 서초2점",
+        "geometry": "POINT (127.0154499 37.48687561)",
+        "uuid": "mart_35"
+      },
+      "elementId": "4063"
+    }
+  },
+  {
+    "n": {
+      "identity": 4064,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9891842,
+          "y": 37.49143766,
+          "z": null
+        },
+        "name": "롯데슈퍼 방배2점",
+        "geometry": "POINT (126.9891842 37.49143766)",
+        "uuid": "mart_36"
+      },
+      "elementId": "4064"
+    }
+  },
+  {
+    "n": {
+      "identity": 4065,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0115444,
+          "y": 37.48697877,
+          "z": null
+        },
+        "name": "이마트에브리데이 서초센트럴점",
+        "geometry": "POINT (127.0115444 37.48697877)",
+        "uuid": "mart_37"
+      },
+      "elementId": "4065"
+    }
+  },
+  {
+    "n": {
+      "identity": 4066,
+      "labels": [
+        "Mart"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0063322,
+          "y": 37.49006962,
+          "z": null
+        },
+        "name": "롯데마트 서초점",
+        "geometry": "POINT (127.0063322 37.49006962)",
+        "uuid": "mart_38"
+      },
+      "elementId": "4066"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "kinder",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lat": 37.47435143, "name": "양재천사유치원", "url": null, "lon": 127.0311724, "uuid": 0 }, "geometry": { "type": "Point", "coordinates": [ 127.0311724, 37.47435143 ] } },
+{ "type": "Feature", "properties": { "lat": 37.49200276, "name": "석문유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000819", "lon": 127.0183925, "uuid": 1 }, "geometry": { "type": "Point", "coordinates": [ 127.0183925, 37.49200276 ] } },
+{ "type": "Feature", "properties": { "lat": 37.4560926, "name": "서초유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100005917", "lon": 127.0162145, "uuid": 2 }, "geometry": { "type": "Point", "coordinates": [ 127.0162145, 37.4560926 ] } },
+{ "type": "Feature", "properties": { "lat": 37.51519733, "name": "하나유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100004814", "lon": 127.0102659, "uuid": 3 }, "geometry": { "type": "Point", "coordinates": [ 127.0102659, 37.51519733 ] } },
+{ "type": "Feature", "properties": { "lat": 37.51044743, "name": "신반포중앙유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100005341", "lon": 127.0125033, "uuid": 4 }, "geometry": { "type": "Point", "coordinates": [ 127.0125033, 37.51044743 ] } },
+{ "type": "Feature", "properties": { "lat": 37.47919216, "name": "육영유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000840", "lon": 127.0004801, "uuid": 5 }, "geometry": { "type": "Point", "coordinates": [ 127.0004801, 37.47919216 ] } },
+{ "type": "Feature", "properties": { "lat": 37.4788147, "name": "영유유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000836", "lon": 127.0007427, "uuid": 6 }, "geometry": { "type": "Point", "coordinates": [ 127.0007427, 37.4788147 ] } },
+{ "type": "Feature", "properties": { "lat": 37.48066984, "name": "새성민유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000812", "lon": 126.9961044, "uuid": 7 }, "geometry": { "type": "Point", "coordinates": [ 126.9961044, 37.48066984 ] } },
+{ "type": "Feature", "properties": { "lat": 37.50500467, "name": "영생유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100005347", "lon": 126.9956694, "uuid": 8 }, "geometry": { "type": "Point", "coordinates": [ 126.9956694, 37.50500467 ] } },
+{ "type": "Feature", "properties": { "lat": 37.50314591, "name": "반포초등학교병설유치원", "url": null, "lon": 126.9910093, "uuid": 9 }, "geometry": { "type": "Point", "coordinates": [ 126.9910093, 37.50314591 ] } },
+{ "type": "Feature", "properties": { "lat": 37.48864117, "name": "새순유치원", "url": "http://e-childschoolinfo.mest.go.kr/presch/preschSumry.do?pPresch=B100000813", "lon": 126.9884834, "uuid": 10 }, "geometry": { "type": "Point", "coordinates": [ 126.9884834, 37.48864117 ] } }
+]
+}

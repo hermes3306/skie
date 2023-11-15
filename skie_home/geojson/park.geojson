@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "park",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lat": 37.498825, "name": "반포공원", "lon": 126.990494, "uuid": 0 }, "geometry": { "type": "Point", "coordinates": [ 126.990494, 37.498825 ] } },
+{ "type": "Feature", "properties": { "lat": 37.477852, "name": "말죽거리공원", "lon": 127.031245, "uuid": 1 }, "geometry": { "type": "Point", "coordinates": [ 127.031245, 37.477852 ] } },
+{ "type": "Feature", "properties": { "lat": 37.479681, "name": "포이근린공원", "lon": 127.036037, "uuid": 2 }, "geometry": { "type": "Point", "coordinates": [ 127.036037, 37.479681 ] } },
+{ "type": "Feature", "properties": { "lat": 37.465212, "name": "우면공원", "lon": 127.016442, "uuid": 3 }, "geometry": { "type": "Point", "coordinates": [ 127.016442, 37.465212 ] } },
+{ "type": "Feature", "properties": { "lat": 37.466158, "name": "태봉공원", "lon": 127.016712, "uuid": 4 }, "geometry": { "type": "Point", "coordinates": [ 127.016712, 37.466158 ] } },
+{ "type": "Feature", "properties": { "lat": 37.466518, "name": "섬들공원", "lon": 127.016743, "uuid": 5 }, "geometry": { "type": "Point", "coordinates": [ 127.016743, 37.466518 ] } },
+{ "type": "Feature", "properties": { "lat": 37.45859, "name": "서초종합체육공원", "lon": 127.04238, "uuid": 6 }, "geometry": { "type": "Point", "coordinates": [ 127.04238, 37.45859 ] } },
+{ "type": "Feature", "properties": { "lat": 37.471543, "name": "양재공원", "lon": 127.042385, "uuid": 7 }, "geometry": { "type": "Point", "coordinates": [ 127.042385, 37.471543 ] } },
+{ "type": "Feature", "properties": { "lat": 37.466518, "name": "망루공원", "lon": 127.016712, "uuid": 8 }, "geometry": { "type": "Point", "coordinates": [ 127.016712, 37.466518 ] } },
+{ "type": "Feature", "properties": { "lat": 37.476268, "name": "방배공원", "lon": 126.996443, "uuid": 9 }, "geometry": { "type": "Point", "coordinates": [ 126.996443, 37.476268 ] } },
+{ "type": "Feature", "properties": { "lat": 37.479508, "name": "도구머리공원", "lon": 126.988317, "uuid": 10 }, "geometry": { "type": "Point", "coordinates": [ 126.988317, 37.479508 ] } },
+{ "type": "Feature", "properties": { "lat": 37.472561, "name": "서리풀공원", "lon": 126.985735, "uuid": 11 }, "geometry": { "type": "Point", "coordinates": [ 126.985735, 37.472561 ] } },
+{ "type": "Feature", "properties": { "lat": 37.474627, "name": "바우뫼공원", "lon": 127.034344, "uuid": 12 }, "geometry": { "type": "Point", "coordinates": [ 127.034344, 37.474627 ] } },
+{ "type": "Feature", "properties": { "lat": 37.478025, "name": "양재천공원", "lon": 127.035223, "uuid": 13 }, "geometry": { "type": "Point", "coordinates": [ 127.035223, 37.478025 ] } },
+{ "type": "Feature", "properties": { "lat": 37.468618, "name": "송동공원", "lon": 127.016714, "uuid": 14 }, "geometry": { "type": "Point", "coordinates": [ 127.016714, 37.468618 ] } }
+]
+}

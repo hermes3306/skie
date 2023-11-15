@@ -1,0 +1,217 @@
+// Apartment
+CALL apoc.load.json("http://1.229.96.163/skie/json/Apartment.json") YIELD value AS records
+
+// Unwind the JSON array
+UNWIND records AS apartment
+
+// Create an :Apartment node
+CREATE (a:Apartment)
+
+// Remove the "ABC" property
+WITH a, apartment.n.properties as apartmentProperties
+//SET a = apartmentProperties {.*, coord: null} 
+SET a = apartmentProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(apartmentProperties.coord.y), longitude: toFloat(apartmentProperties.coord.x)})
+
+// Optionally, you can return the count of created nodes
+RETURN count(a);
+
+// ACADEMY
+CALL apoc.load.json("http://1.229.96.163/skie/json/Academy.json") YIELD value AS records
+// BusStation
+CALL apoc.load.json("http://1.229.96.163/skie/json/BusStation.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:BusStation)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+UNWIND records AS record
+CREATE (a:Academy)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// ApartmentType
+CALL apoc.load.json("http://1.229.96.163/skie/json/ApartmentType.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:ApartmentType)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// BusStation
+CALL apoc.load.json("http://1.229.96.163/skie/json/BusStation.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:BusStation)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Contract
+CALL apoc.load.json("http://1.229.96.163/skie/json/Contract.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Contract)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+
+// Convention
+CALL apoc.load.json("http://1.229.96.163/skie/json/Convention.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Convention)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Daycare
+CALL apoc.load.json("http://1.229.96.163/skie/json/Daycare.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Daycare)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Departmentstore
+CALL apoc.load.json("http://1.229.96.163/skie/json/Departmentstore.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Departmentstore)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// DistrictBoundaryDong
+CALL apoc.load.json("http://1.229.96.163/skie/json/DistrictBoundaryDong.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:DistrictBoundaryDong)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+
+// DistrictBoundaryGu
+CALL apoc.load.json("http://1.229.96.163/skie/json/DistrictBoundaryGu.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:DistrictBoundaryGu)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// GoodWayToWalk
+CALL apoc.load.json("http://1.229.96.163/skie/json/GoodWayToWalk.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:GoodWayToWalk)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Highway
+CALL apoc.load.json("http://1.229.96.163/skie/json/Highway.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Highway)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Hospital
+CALL apoc.load.json("http://1.229.96.163/skie/json/Hospital.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Hospital)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+// Kinder
+CALL apoc.load.json("http://1.229.96.163/skie/json/Kinder.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Kinder)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+// Mart
+CALL apoc.load.json("http://1.229.96.163/skie/json/Mart.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Mart)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Park
+CALL apoc.load.json("http://1.229.96.163/skie/json/Park.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Park)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// School
+CALL apoc.load.json("http://1.229.96.163/skie/json/School.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:School)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Subway
+CALL apoc.load.json("http://1.229.96.163/skie/json/Subway.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Subway)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// SubwayFuture 
+CALL apoc.load.json("http://1.229.96.163/skie/json/SubwayFuture.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:SubwayFuture)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Theater 
+CALL apoc.load.json("http://1.229.96.163/skie/json/Theater.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Theater)
+WITH a, record.n.properties as myProperties
+SET a = myProperties {.*, coord: null}
+SET a.coord = point({latitude: toFloat(myProperties.coord.y), longitude: toFloat(myProperties.coord.x)})
+RETURN count(a);
+
+// Relation_:IN
+MATCH (n:Relations_IN) detach delete n;
+CALL apoc.load.json("http://1.229.96.163/skie/json/Relations_IN.json") YIELD value AS records
+UNWIND records AS record
+CREATE (a:Relations_IN)
+SET a.src = record.`n.uuid`
+SET a.tar = record.`d.uuid`
+RETURN count(a);
+
+// RELATION MAKING
+match (n), (r:Relations_IN), (d:DistrictBoundaryDong)
+where n.uuid = r.src and d.uuid= r.tar
+create (n)-[:IN]->(d);
+
+
+
+
+
+
+

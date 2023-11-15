@@ -1,0 +1,23 @@
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRx4u0IaYzQm0_-1fHciZP4w6YkE-t16vPJsqdviz9ekaCXWxKMMTkREsplSkWBfQ/pub?output=csv' AS nodeRecord
+MATCH (n:`Apartment`) 
+WHERE n.`uuid` = nodeRecord.`id` AND toInteger(nodeRecord.`bad_bus`) <> 0 
+SET n.`bad_bus` = nodeRecord.`bad_bus`;
+
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRx4u0IaYzQm0_-1fHciZP4w6YkE-t16vPJsqdviz9ekaCXWxKMMTkREsplSkWBfQ/pub?output=csv' AS nodeRecord
+MATCH (n:`Apartment`) 
+WHERE n.`uuid` = nodeRecord.`id` AND toInteger(nodeRecord.`bad_by_foot`) <> 0 
+SET n.`bad_by_foot` = nodeRecord.`bad_by_foot`;
+
+LOAD CSV WITH HEADERS FROM 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRx4u0IaYzQm0_-1fHciZP4w6YkE-t16vPJsqdviz9ekaCXWxKMMTkREsplSkWBfQ/pub?output=csv' AS nodeRecord
+MATCH (n:`Apartment`) 
+WHERE n.`uuid` = nodeRecord.`id` AND toInteger(nodeRecord.`bad_by_foot`) <> 0 
+
+
+bad_bus
+	bad_by_foot	bad_commute	bad_distance_elementary_school	bad_distance_high_school	bad_distance_middle_school	bad_facilities	bad_grocery	bad_interior_space	bad_maintenance_cost	bad_managing	bad_noise	bad_parking	bad_parking_area	bad_public_transit	bad_school_district	bad_surroundings	bad_transport	good_academy	good_accessibility	good_air	good_bus	good_by_foot	good_commute	good_distance_elementary_school	good_distance_high_school	good_distance_middle_school	good_distance_school	good_facilities	good_grocery	good_infra	good_interior_space	good_maintenance_cost	good_managing	good_medical_facilities	good_noise	good_parking	"good_parking_area
+good_parking_area"	good_public_transit	good_raising	good_school_district	good_structure	good_surroundings	good_transport	good_view
+
+
+
+
+

@@ -1,0 +1,502 @@
+﻿[
+  {
+    "n": {
+      "identity": 3978,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0377358,
+          "y": 37.46189923,
+          "z": null
+        },
+        "name": "양재IC",
+        "geometry": "POINT (127.0377358 37.46189923)",
+        "uuid": "highway_0"
+      },
+      "elementId": "3978"
+    }
+  },
+  {
+    "n": {
+      "identity": 3979,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0251943,
+          "y": 37.48339867,
+          "z": null
+        },
+        "name": "서초IC",
+        "geometry": "POINT (127.0251943 37.48339867)",
+        "uuid": "highway_1"
+      },
+      "elementId": "3979"
+    }
+  },
+  {
+    "n": {
+      "identity": 3980,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0798889,
+          "y": 37.46013538,
+          "z": null
+        },
+        "name": "내곡IC",
+        "geometry": "POINT (127.0798889 37.46013538)",
+        "uuid": "highway_2"
+      },
+      "elementId": "3980"
+    }
+  },
+  {
+    "n": {
+      "identity": 3981,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0799376,
+          "y": 37.46003437,
+          "z": null
+        },
+        "name": "내곡IC",
+        "geometry": "POINT (127.0799376 37.46003437)",
+        "uuid": "highway_3"
+      },
+      "elementId": "3981"
+    }
+  },
+  {
+    "n": {
+      "identity": 3982,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0707999,
+          "y": 37.45704499,
+          "z": null
+        },
+        "name": "내곡IC",
+        "geometry": "POINT (127.0707999 37.45704499)",
+        "uuid": "highway_4"
+      },
+      "elementId": "3982"
+    }
+  },
+  {
+    "n": {
+      "identity": 3983,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9855549,
+          "y": 37.50488424,
+          "z": null
+        },
+        "name": "올림픽대로 한수길램프",
+        "geometry": "POINT (126.9855549 37.50488424)",
+        "uuid": "highway_5"
+      },
+      "elementId": "3983"
+    }
+  },
+  {
+    "n": {
+      "identity": 3984,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0418795,
+          "y": 37.46496032,
+          "z": null
+        },
+        "name": "양재IC",
+        "geometry": "POINT (127.0418795 37.46496032)",
+        "uuid": "highway_6"
+      },
+      "elementId": "3984"
+    }
+  },
+  {
+    "n": {
+      "identity": 3985,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0405976,
+          "y": 37.46385955,
+          "z": null
+        },
+        "name": "양재IC",
+        "geometry": "POINT (127.0405976 37.46385955)",
+        "uuid": "highway_7"
+      },
+      "elementId": "3985"
+    }
+  },
+  {
+    "n": {
+      "identity": 3986,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0173467,
+          "y": 37.50319526,
+          "z": null
+        },
+        "name": "반포IC",
+        "geometry": "POINT (127.0173467 37.50319526)",
+        "uuid": "highway_8"
+      },
+      "elementId": "3986"
+    }
+  },
+  {
+    "n": {
+      "identity": 3987,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.017396,
+          "y": 37.50329606,
+          "z": null
+        },
+        "name": "반포IC",
+        "geometry": "POINT (127.017396 37.50329606)",
+        "uuid": "highway_9"
+      },
+      "elementId": "3987"
+    }
+  },
+  {
+    "n": {
+      "identity": 3988,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0286616,
+          "y": 37.48387714,
+          "z": null
+        },
+        "name": "서초IC",
+        "geometry": "POINT (127.0286616 37.48387714)",
+        "uuid": "highway_10"
+      },
+      "elementId": "3988"
+    }
+  },
+  {
+    "n": {
+      "identity": 3989,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0238381,
+          "y": 37.48310174,
+          "z": null
+        },
+        "name": "서초IC",
+        "geometry": "POINT (127.0238381 37.48310174)",
+        "uuid": "highway_11"
+      },
+      "elementId": "3989"
+    }
+  },
+  {
+    "n": {
+      "identity": 3990,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0392707,
+          "y": 37.46315547,
+          "z": null
+        },
+        "name": "양재IC",
+        "geometry": "POINT (127.0392707 37.46315547)",
+        "uuid": "highway_12"
+      },
+      "elementId": "3990"
+    }
+  },
+  {
+    "n": {
+      "identity": 3991,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0150312,
+          "y": 37.50914758,
+          "z": null
+        },
+        "name": "잠원IC",
+        "geometry": "POINT (127.0150312 37.50914758)",
+        "uuid": "highway_13"
+      },
+      "elementId": "3991"
+    }
+  },
+  {
+    "n": {
+      "identity": 3992,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0171954,
+          "y": 37.52254564,
+          "z": null
+        },
+        "name": "올림픽대로 강남대로",
+        "geometry": "POINT (127.0171954 37.52254564)",
+        "uuid": "highway_14"
+      },
+      "elementId": "3992"
+    }
+  },
+  {
+    "n": {
+      "identity": 3993,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0268364,
+          "y": 37.48351551,
+          "z": null
+        },
+        "name": "서초IC",
+        "geometry": "POINT (127.0268364 37.48351551)",
+        "uuid": "highway_15"
+      },
+      "elementId": "3993"
+    }
+  },
+  {
+    "n": {
+      "identity": 3994,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0903546,
+          "y": 37.46540643,
+          "z": null
+        },
+        "name": "용인서울고속국도 헌릉로",
+        "geometry": "POINT (127.0903546 37.46540643)",
+        "uuid": "highway_16"
+      },
+      "elementId": "3994"
+    }
+  },
+  {
+    "n": {
+      "identity": 3995,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0190394,
+          "y": 37.45968899,
+          "z": null
+        },
+        "name": "선암로IC",
+        "geometry": "POINT (127.0190394 37.45968899)",
+        "uuid": "highway_17"
+      },
+      "elementId": "3995"
+    }
+  },
+  {
+    "n": {
+      "identity": 3996,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0204466,
+          "y": 37.460802,
+          "z": null
+        },
+        "name": "선암로IC",
+        "geometry": "POINT (127.0204466 37.460802)",
+        "uuid": "highway_18"
+      },
+      "elementId": "3996"
+    }
+  },
+  {
+    "n": {
+      "identity": 3997,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0201769,
+          "y": 37.45950962,
+          "z": null
+        },
+        "name": "선암로IC",
+        "geometry": "POINT (127.0201769 37.45950962)",
+        "uuid": "highway_19"
+      },
+      "elementId": "3997"
+    }
+  },
+  {
+    "n": {
+      "identity": 3998,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9991849,
+          "y": 37.50933579,
+          "z": null
+        },
+        "name": "올림픽대로 반포로램프",
+        "geometry": "POINT (126.9991849 37.50933579)",
+        "uuid": "highway_20"
+      },
+      "elementId": "3998"
+    }
+  },
+  {
+    "n": {
+      "identity": 3999,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9803548,
+          "y": 37.50571321,
+          "z": null
+        },
+        "name": "올림픽대로 동작대로램프",
+        "geometry": "POINT (126.9803548 37.50571321)",
+        "uuid": "highway_21"
+      },
+      "elementId": "3999"
+    }
+  },
+  {
+    "n": {
+      "identity": 4000,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0854634,
+          "y": 37.46187398,
+          "z": null
+        },
+        "name": "용인서울고속국도 헌릉",
+        "geometry": "POINT (127.0854634 37.46187398)",
+        "uuid": "highway_22"
+      },
+      "elementId": "4000"
+    }
+  },
+  {
+    "n": {
+      "identity": 4001,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9982337,
+          "y": 37.50972007,
+          "z": null
+        },
+        "name": "올림픽대로 반포로램프",
+        "geometry": "POINT (126.9982337 37.50972007)",
+        "uuid": "highway_23"
+      },
+      "elementId": "4001"
+    }
+  },
+  {
+    "n": {
+      "identity": 4002,
+      "labels": [
+        "Highway"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.986573,
+          "y": 37.46913031,
+          "z": null
+        },
+        "name": "사당IC",
+        "geometry": "POINT (126.986573 37.46913031)",
+        "uuid": "highway_24"
+      },
+      "elementId": "4002"
+    }
+  }
+]

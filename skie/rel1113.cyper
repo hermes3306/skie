@@ -1,0 +1,129 @@
+// 1. Convention
+MATCH (s:`Convention`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_convention`), (s:`Convention`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_convention` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_convention`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 2. Academy
+MATCH (s:`Academy`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_academy`), (s:`Academy`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_academy` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_academy`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 3. Apartment
+MATCH (s:`Apartment`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_apartment`), (s:`Apartment`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_apartment` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_apartment`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 4. Busstation
+MATCH (s:`BusStation`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_busstation`), (s:`BusStation`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_busstation` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_busstation`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 5. Daycare
+MATCH (s:`Daycare`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_daycare`), (s:`Daycare`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_daycare` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_daycare`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 6. Department
+MATCH (s:`Departmentstore`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_departmentstore`), (s:`Departmentstore`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_departmentstore` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_departmentstore`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 7. Subway
+MATCH (s:`Subwayu`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_subway`), (s:`Subway`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_subway` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_subway`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+
+// 8. Highway 
+MATCH (s:`Highway`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_highway`), (s:`Highway`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_highway` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_highway`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 9. Hospital 
+MATCH (s:`Hospital`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_hospital`), (s:`Hospital`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_hospital` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_hospital`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 10. Kinder 
+MATCH (s:`Kinder`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_kinder`), (s:`Kinder`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_kinder` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_kinder`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 11. Mart 
+MATCH (s:`Mart`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_mart`), (s:`Mart`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_mart` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_mart`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 12. Park 
+MATCH (s:`Park`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_park`), (s:`Park`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_park` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_park`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 13. School 
+MATCH (s:`School`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_school`), (s:`School`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_school` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_school`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 14. Theater
+MATCH (s:`Theater`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_theater`), (s:`Theater`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_theater` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_theater`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 15. Goodwaytowalk ---- NEED TO CHECK AGAIN
+MATCH (s:`GoodwayToWalk`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_goodwaytowalk`), (s:`GoodWayToWalk`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_goodwaytowalk` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_goodwaytotalk`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+
+// 16. Subwayfuture  -- CHECK ....... 
+MATCH (s:`SubwayFuture`)-[r]-(d:`DistrictBoundaryDong`) DELETE r;
+MATCH (n:`districtboundarydong_with_subwayfuture`), (s:`SubwayFuture`), (d:`DistrictBoundaryDong`)
+WHERE (n.`uuid_subwayfuture` = s.`uuid`)
+AND (n.`uuid_districtboundarydong` = d.`uuid`)
+//RETURN s.`uuid`, d.`uuid`, n.`uuid_subwayfuture`, n.`uuid_districtboundarydong`;
+CREATE (s)-[:IN]->(d);
+

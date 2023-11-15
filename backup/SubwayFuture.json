@@ -1,0 +1,71 @@
+﻿[
+  {
+    "n": {
+      "identity": 4148,
+      "labels": [
+        "SubwayFuture"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.034069,
+          "y": 37.484511,
+          "z": null
+        },
+        "name": "양재역",
+        "progress": "계획",
+        "line_name": "GTX C",
+        "geometry": "POINT (127.034069 37.484511)",
+        "scheduled_date": "2026",
+        "uuid": "subwayfuture_0"
+      },
+      "elementId": "4148"
+    }
+  },
+  {
+    "n": {
+      "identity": 4149,
+      "labels": [
+        "SubwayFuture"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0383496,
+          "y": 37.4700185,
+          "z": null
+        },
+        "name": "양재시민의숲역",
+        "line_name": "위례과천선",
+        "progress": "구상",
+        "geometry": "POINT (127.0383496 37.4700185)",
+        "scheduled_date": "미정",
+        "uuid": "subwayfuture_1"
+      },
+      "elementId": "4149"
+    }
+  },
+  {
+    "n": {
+      "identity": 4150,
+      "labels": [
+        "SubwayFuture"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.036074,
+          "y": 37.460723,
+          "z": null
+        },
+        "name": "우면역",
+        "progress": "구상",
+        "line_name": "위례과천선",
+        "geometry": "POINT (127.036074 37.460723)",
+        "scheduled_date": "미정",
+        "uuid": "subwayfuture_2"
+      },
+      "elementId": "4150"
+    }
+  }
+]
