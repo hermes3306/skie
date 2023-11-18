@@ -94,8 +94,35 @@ CREATE (a:  DistrictBoundaryGu) SET a = n RETURN a;
 
 MATCH (n:ALL)	WHERE 
 n.uuid CONTAINS "Reputation_"
-CREATE (a:  Reputation ) lSET a = n RETURN a;
+CREATE (a:  Reputation ) SET a = n RETURN a;
 
 MATCH (n:ALL)	WHERE 
 n.uuid CONTAINS "districtboundarydong_"
 CREATE (a:  DistrictBoundaryDong) SET a = n RETURN a;
+
+
+// RELATION SETUP - HAS_TYPE
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/backup/backup_20231118_2.csv' AS csv
+MATCH (p:Apartment),  (q:ApartmentType)
+WHERE (p.uuid = csv.src) AND (q.uuid = csv.tar) AND (csv.rel ="HAS_TYPE")
+CREATE (p)-[:HAS_TYPE]->(q);
+
+// RELATION SETUP - REPUTATION
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/backup/backup_20231118_2.csv' AS csv
+WITH csv
+WHERE csv.rel = "EVALUATE"
+MATCH (p:Apartment {uuid: csv.src}), (q:Reputation {uuid: csv.tar})
+CREATE (p)-[:EVALUATE]->(q);
+
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/backup/backup_20231118_2.csv' AS csv
+WITH csv
+WHERE csv.rel = "TRADE"
+MATCH (p:ApartmentType {uuid: csv.src}), (q:Contract {uuid: csv.tar})
+CREATE (p)-[:TRADE]->(q);]
+
+// RELATION SETUP - IN
+LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/backup/backup_20231118_2.csv' AS csv
+WITH csv
+WHERE csv.rel = "IN"
+MATCH (p {uuid: csv.src}), (q:DistrictBoundaryDong {uuid: csv.tar})
+CREATE (p)-[:IN]->(q);
