@@ -109,7 +109,7 @@ CALL
 	MATCH (q:ApartmentType  {uuid: row.tar})
 	WHERE row.rel="HAS_TYPE"
 	MERGE (p)-[r:HAS_TYPE]->(q)
-} IN TRANSACTIONS OF 500 ROWS
+} IN TRANSACTIONS OF 500 ROWS;
 
 // RELATION SETUP - EVALUATE
 LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/backup/backup_20231118_2.csv' AS row
@@ -120,7 +120,7 @@ CALL
 	MATCH (q:Reputation {uuid: row.tar})
 	WHERE row.rel="EVALUATE"
 	MERGE (p)-[r:EVALUATE]->(q)
-} IN TRANSACTIONS OF 500 ROWS
+} IN TRANSACTIONS OF 500 ROWS;
 
 // RELATION SETUP - IN
 LOAD CSV WITH HEADERS FROM 'http://1.229.96.163/skie/backup/backup_20231118_2.csv' AS row
@@ -131,7 +131,7 @@ CALL
 	MATCH (q:DistrictBoundaryDong  {uuid: row.tar})
 	WHERE row.rel="IN"
 	MERGE (p)-[r:IN]->(q)
-} IN TRANSACTIONS OF 500 ROWS
+} IN TRANSACTIONS OF 500 ROWS;
 
 
 // RELATION SETUP - TRADE
@@ -143,4 +143,4 @@ CALL
 	MATCH (q:Contract  {uuid: row.tar})
 	WHERE row.rel="TRADE"
 	MERGE (p)-[r:TRADE]->(q)
-} IN TRANSACTIONS OF 500 ROWS
+} IN TRANSACTIONS OF 500 ROWS;
