@@ -2,7 +2,7 @@
 //  match (n) return n; 이후  json 저장
 //  해당 파일을 웹에 올리고 url 확인
 //  1) ALL 라벨 생성
-match (a:) detach delete a;
+match (a) detach delete a;
 CALL apoc.load.json("http://1.229.96.163/skie/backup/backup_231118.json") YIELD value AS records
 UNWIND records AS r
 CREATE (a:ALL)
