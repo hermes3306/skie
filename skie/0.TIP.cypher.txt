@@ -29,3 +29,14 @@ WITH n, id(n) as IDs
 WITH n, IDs, apoc.text.replace(n.uuid, '[_0-9]', '') AS labels
 WITH n, IDs, labels, toUpper(substring(labels, 0, 1)) + substring(labels, 1) AS label
 RETURN n {.*,label: label, id:IDs}
+
+-- properties using keys, n[k], reduce
+MATCH (n)
+RETURN 
+  reduce(s = '', key in keys(n) | s + key + ': ' + n[key] + ', ') AS properties
+
+MATCH (n)
+RETURN keys(n)
+ // reduce(s = '', key in keys(n) | s + key + ': ' + n[key] + ', ') AS properties
+
+
