@@ -1,1 +1,31 @@
 match (n) return distinct apoc.text.replace(n.uuid, '[_0-9]', '')
+
+
+-- uuid 2 label
+MATCH (n)
+WITH DISTINCT apoc.text.replace(n.uuid, '[_0-9]', '') AS labels
+WITH toUpper(substring(labels, 0, 1)) + substring(labels, 1) AS labels2
+RETURN labels2
+
+MATCH (n)
+WITH DISTINCT apoc.text.replace(n.uuid, '[_0-9]', '') AS labels
+WITH labels, toUpper(substring(labels, 0, 1)) + substring(labels, 1) AS labels2
+RETURN labels2, labels
+
+MATCH (n)
+WITH n, apoc.text.replace(n.uuid, '[_0-9]', '') AS labels
+WITH n, labels, toUpper(substring(labels, 0, 1)) + substring(labels, 1) AS labels2
+RETURN n.name, labels2, labels
+
+
+MATCH (n)
+WITH n, apoc.text.replace(n.uuid, '[_0-9]', '') AS labels
+WITH n, labels, toUpper(substring(labels, 0, 1)) + substring(labels, 1) AS labels2
+RETURN n {.*, name: n.name, labels2: labels2, labels: labels}
+
+-- 괜찮은 결과
+MATCH (n)
+WITH n, id(n) as IDs
+WITH n, IDs, apoc.text.replace(n.uuid, '[_0-9]', '') AS labels
+WITH n, IDs, labels, toUpper(substring(labels, 0, 1)) + substring(labels, 1) AS label
+RETURN n {.*,label: label, id:IDs}
