@@ -1,0 +1,101 @@
+// 우선 모든 노드를 다운 받아서 json 저장한다.
+//  match (n) return n; 이후  json 저장
+//  해당 파일을 웹에 올리고 url 확인
+//  1) ALL 라벨 생성
+match (a:ALL) detach delete a;
+CALL apoc.load.json("http://1.229.96.163/skie/backup/backup_231118.json") YIELD value AS records
+UNWIND records AS r
+CREATE (a:ALL)
+WITH a, r.n.properties AS props, r.n.labels AS labels
+SET a = props {.*, coord: null}
+SET a.coord = point({latitude: toFloat(props.coord.y), longitude: toFloat(props.coord.x)})
+// Add labels to the node based on n.labels[]
+FOREACH (label IN labels | SET a:`{$label}`)
+RETURN count(a);
+
+// ALL 노드를 제외한 다른 노드 삭제
+MATCH (n)
+WHERE NOT n:ALL
+DETACH DELETE n;
+
+// 2) 각 레이블 별로 규칙을 확인하여 노드 생성
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS ' apartment_' 
+CREATE (a:Apartment) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS 'academy_' 
+CREATE (a:Academy) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS 'apartmenttype_' 
+CREATE (a:ApartmentType) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "daycare_"
+CREATE (a:Daycare) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "goodwaytowalk_"
+CREATE (a:  GoodWayToWalk ) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "highway_"
+CREATE (a:  Highway) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "hospital_"
+CREATE (a:  Hospital ) SET a = n RETURN a;
+
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "kinder_"
+CREATE (a:  Kinder ) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "mart_"
+CREATE (a:  Mart ) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "park_"
+CREATE (a:  Park) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "schoo_l"
+CREATE (a:  School ) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "subway_"
+CREATE (a:  Subway) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS  "subwayfuture_"
+CREATE (a:  SchsubwayFuture ) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "convention_"
+CREATE (a:  Convention) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "theater_"
+CREATE (a:  Theater) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "departmentstore_"
+CREATE (a:  DepartmentStore) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "specialpurposearea_"
+CREATE (a:  SpecialPurposeArea) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "districtboundarygu_"
+CREATE (a:  DistrictBoundaryGu) SET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "Reputation_"
+CREATE (a:  Reputation ) lSET a = n RETURN a;
+
+MATCH (n:ALL)	WHERE 
+n.uuid CONTAINS "districtboundarydong_"
+CREATE (a:  DistrictBoundaryDong) SET a = n RETURN a;
