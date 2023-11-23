@@ -17,8 +17,8 @@ NEO4J_USER="neo4j"
 NEO4J_PASSWORD="re91na00"
 
 # Neo4j server details
-NEO4J_HOST="localhost"
-NEO4J_PORT="7689"
+NEO4J_HOST="vm"
+NEO4J_PORT="7687"
 
 # Run Cypher query using cypher-shell
 echo "$QUERY" | cypher-shell -u $NEO4J_USER -p $NEO4J_PASSWORD -a $NEO4J_HOST:$NEO4J_PORT -d neo4j
