@@ -1,1 +1,1 @@
-cat 1.restore1114.cypher | cypher-shell -u neo4j -p re91na00 -a neo4j://vm:7687 -d neo4j
+cat 1.restore1114.cypher | cypher-shell -u neo4j -p rPNgDfFeruVONoEH1Vc8JgsnukQLVKadEQJ5dtlCsaI -a neo4j+s://942801e8.databases.neo4j.io:7687 -d neo4j
