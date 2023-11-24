@@ -18,7 +18,7 @@ AND (n.`uuid_districtboundarydong` = d.`uuid`)
 CREATE (s)-[:IN]->(d);
 
 MATCH (s:districtboundarydong_with_specialpurposearea) detach delete s;
-MATCH (s:`SpecialPurposeArea`)-[r]-(d:`DistrictBoundaryDong`) return s,d;
+/jj
 
 
 

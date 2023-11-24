@@ -19,9 +19,5 @@ match (n:Apartment), (r:Reputation)
 where n.uuid = r.apartment_uuid
 create (n)-[:EVALUATE]->(r);
 
-// RESULT
-match (a:Apartment)-[:EVALUATE]->(r:Reputation) return a,r
-
-
 
 
