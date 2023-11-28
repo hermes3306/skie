@@ -2,7 +2,7 @@
 
 # Set your Neo4j credentials
 NEO4J_USER="neo4j"
-NEO4J_PASSWORD="re91na00"
+NEO4J_PASSWORD="neo4j2012"
 NEO4J_URI="neo4j+s://942801e8.databases.neo4j.io:7687"
 CSV_URI="http://1.229.96.163/skie/json"
 #CSV_URI="http://192.168.1.105/skie/json"

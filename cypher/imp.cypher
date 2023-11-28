@@ -178,8 +178,8 @@ MATCH (n:Relations_HAS) detach delete n;
 CALL apoc.load.json("http://1.229.96.163/skie/json/Relations_HAS.json") YIELD value AS has_records
 UNWIND has_records AS record
 CREATE (a:Relations_HAS)
-SET a.src = record.a.uuid
-SET a.tar = record.b.uuid
+SET a.src = record.auuid
+SET a.tar = record.buuid
 RETURN count(a);
 
 match (n:Apartment), (r:Relations_HAS), (d:ApartmentType)
@@ -190,10 +190,10 @@ MATCH (n:Relations_HAS) detach delete n;
 
 MATCH (n:Relations_TRADE) detach delete n;
 CALL apoc.load.json("http://1.229.96.163/skie/json/Relations_TRADE.json") YIELD value AS trade_records
-//UNWIND trade_records AS record
+UNWIND trade_records AS record
 CREATE (a:Relations_TRADE)
-SET a.src = trade_records.a.uuid
-SET a.tar = tradeerecords.b.uuid
+SET a.src = record.auuid
+SET a.tar = record.buuid
 RETURN count(a);
 
 match (n:ApartmentType), (r:Relations_TRADE), (d:Contract)
