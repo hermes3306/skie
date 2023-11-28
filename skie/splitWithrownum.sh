@@ -13,10 +13,10 @@ RETURN row.a AS a, row.b AS b, rowNum AS rowNumber;"
 
 # Neo4j credentials
 NEO4J_USER="neo4j"
-NEO4J_PASSWORD="neo4j2012"
+NEO4J_PASSWORD="neo4j2023"
 
 # Neo4j server details
-NEO4J_HOST="942801e8.databases.neo4j.io"
+NEO4J_HOST="2648b64e.databases.neo4j.io"
 NEO4J_PORT="7687"
 
 # Run Cypher query using cypher-shell

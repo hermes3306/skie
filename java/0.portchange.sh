@@ -9,3 +9,6 @@
 
 find . -type f -name "*.sh" ! -name "0.portchange.sh" -exec sed -i 's/942801e8.databases.neo4j.io/2648b64e.databases.neo4j.io/g' {} +
 find . -type f -name "*.sh" ! -name "0.portchange.sh" -exec sed -i 's/neo4j2012/neo4j2023/g' {} +
+
+find . -type f -name "*.java" ! -name "0.portchange.sh" -exec sed -i 's/942801e8.databases.neo4j.io/2648b64e.databases.neo4j.io/g' {} +
+find . -type f -name "*.java" ! -name "0.portchange.sh" -exec sed -i 's/neo4j2012/neo4j2023/g' {} +

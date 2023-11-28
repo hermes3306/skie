@@ -1,10 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <properties>
-	     <maven.compiler.source>8</maven.compiler.source>
-	        <maven.compiler.target>8</maven.compiler.target>
-	</properties>
+
+
+
+<properties>
+   <maven.compiler.source>8</maven.compiler.source>
+   <maven.compiler.target>8</maven.compiler.target>
+</properties>
 
 
 
@@ -17,11 +20,11 @@
   <name>jhpark</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-	<dependency>
-		   <groupId>org.neo4j.driver</groupId>
-		      <artifactId>neo4j-java-driver</artifactId>
-		         <version>5.13.0</version>
-		 </dependency>
+<dependency>
+   <groupId>org.neo4j.driver</groupId>
+   <artifactId>neo4j-java-driver</artifactId>
+   <version>5.13.0</version>
+</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="jhpark.AppTest" time="0.017" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.9+9-Raspbian-1deb11u1rpt1"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-armhf/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/pi/skie/java/jhpark"/>
+    <property name="java.vm.vendor" value="Raspbian"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/pi/skie/java/jhpark"/>
+    <property name="java.runtime.version" value="17.0.9+9-Raspbian-1deb11u1rpt1"/>
+    <property name="os.arch" value="arm"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/arm-linux-gnueabihf/jni:/lib/arm-linux-gnueabihf:/usr/lib/arm-linux-gnueabihf:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1.21-v7+"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="sun.arch.abi" value=""/>
+    <property name="user.home" value="/home/pi"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="pi"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-armhf"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, emulated-client"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Raspbian"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase classname="jhpark.AppTest" name="testApp" time="0.017"/>
+</testsuite>
