@@ -1,0 +1,6494 @@
+﻿[
+  {
+    "auuid": "apartmenttype_684",
+    "buuid": "contract_0"
+  },
+  {
+    "auuid": "apartmenttype_689",
+    "buuid": "contract_1"
+  },
+  {
+    "auuid": "apartmenttype_690",
+    "buuid": "contract_2"
+  },
+  {
+    "auuid": "apartmenttype_691",
+    "buuid": "contract_3"
+  },
+  {
+    "auuid": "apartmenttype_692",
+    "buuid": "contract_4"
+  },
+  {
+    "auuid": "apartmenttype_695",
+    "buuid": "contract_5"
+  },
+  {
+    "auuid": "apartmenttype_697",
+    "buuid": "contract_6"
+  },
+  {
+    "auuid": "apartmenttype_701",
+    "buuid": "contract_7"
+  },
+  {
+    "auuid": "apartmenttype_705",
+    "buuid": "contract_8"
+  },
+  {
+    "auuid": "apartmenttype_577",
+    "buuid": "contract_9"
+  },
+  {
+    "auuid": "apartmenttype_578",
+    "buuid": "contract_10"
+  },
+  {
+    "auuid": "apartmenttype_579",
+    "buuid": "contract_11"
+  },
+  {
+    "auuid": "apartmenttype_580",
+    "buuid": "contract_12"
+  },
+  {
+    "auuid": "apartmenttype_581",
+    "buuid": "contract_13"
+  },
+  {
+    "auuid": "apartmenttype_582",
+    "buuid": "contract_14"
+  },
+  {
+    "auuid": "apartmenttype_583",
+    "buuid": "contract_15"
+  },
+  {
+    "auuid": "apartmenttype_584",
+    "buuid": "contract_16"
+  },
+  {
+    "auuid": "apartmenttype_585",
+    "buuid": "contract_17"
+  },
+  {
+    "auuid": "apartmenttype_586",
+    "buuid": "contract_18"
+  },
+  {
+    "auuid": "apartmenttype_587",
+    "buuid": "contract_19"
+  },
+  {
+    "auuid": "apartmenttype_588",
+    "buuid": "contract_20"
+  },
+  {
+    "auuid": "apartmenttype_589",
+    "buuid": "contract_21"
+  },
+  {
+    "auuid": "apartmenttype_590",
+    "buuid": "contract_22"
+  },
+  {
+    "auuid": "apartmenttype_591",
+    "buuid": "contract_23"
+  },
+  {
+    "auuid": "apartmenttype_592",
+    "buuid": "contract_24"
+  },
+  {
+    "auuid": "apartmenttype_593",
+    "buuid": "contract_25"
+  },
+  {
+    "auuid": "apartmenttype_594",
+    "buuid": "contract_26"
+  },
+  {
+    "auuid": "apartmenttype_595",
+    "buuid": "contract_27"
+  },
+  {
+    "auuid": "apartmenttype_596",
+    "buuid": "contract_28"
+  },
+  {
+    "auuid": "apartmenttype_598",
+    "buuid": "contract_29"
+  },
+  {
+    "auuid": "apartmenttype_513",
+    "buuid": "contract_30"
+  },
+  {
+    "auuid": "apartmenttype_514",
+    "buuid": "contract_31"
+  },
+  {
+    "auuid": "apartmenttype_516",
+    "buuid": "contract_32"
+  },
+  {
+    "auuid": "apartmenttype_517",
+    "buuid": "contract_33"
+  },
+  {
+    "auuid": "apartmenttype_518",
+    "buuid": "contract_34"
+  },
+  {
+    "auuid": "apartmenttype_540",
+    "buuid": "contract_35"
+  },
+  {
+    "auuid": "apartmenttype_541",
+    "buuid": "contract_36"
+  },
+  {
+    "auuid": "apartmenttype_542",
+    "buuid": "contract_37"
+  },
+  {
+    "auuid": "apartmenttype_543",
+    "buuid": "contract_38"
+  },
+  {
+    "auuid": "apartmenttype_544",
+    "buuid": "contract_39"
+  },
+  {
+    "auuid": "apartmenttype_545",
+    "buuid": "contract_40"
+  },
+  {
+    "auuid": "apartmenttype_546",
+    "buuid": "contract_41"
+  },
+  {
+    "auuid": "apartmenttype_547",
+    "buuid": "contract_42"
+  },
+  {
+    "auuid": "apartmenttype_549",
+    "buuid": "contract_43"
+  },
+  {
+    "auuid": "apartmenttype_550",
+    "buuid": "contract_44"
+  },
+  {
+    "auuid": "apartmenttype_551",
+    "buuid": "contract_45"
+  },
+  {
+    "auuid": "apartmenttype_552",
+    "buuid": "contract_46"
+  },
+  {
+    "auuid": "apartmenttype_553",
+    "buuid": "contract_47"
+  },
+  {
+    "auuid": "apartmenttype_554",
+    "buuid": "contract_48"
+  },
+  {
+    "auuid": "apartmenttype_555",
+    "buuid": "contract_49"
+  },
+  {
+    "auuid": "apartmenttype_556",
+    "buuid": "contract_50"
+  },
+  {
+    "auuid": "apartmenttype_557",
+    "buuid": "contract_51"
+  },
+  {
+    "auuid": "apartmenttype_558",
+    "buuid": "contract_52"
+  },
+  {
+    "auuid": "apartmenttype_559",
+    "buuid": "contract_53"
+  },
+  {
+    "auuid": "apartmenttype_560",
+    "buuid": "contract_54"
+  },
+  {
+    "auuid": "apartmenttype_561",
+    "buuid": "contract_55"
+  },
+  {
+    "auuid": "apartmenttype_562",
+    "buuid": "contract_56"
+  },
+  {
+    "auuid": "apartmenttype_563",
+    "buuid": "contract_57"
+  },
+  {
+    "auuid": "apartmenttype_564",
+    "buuid": "contract_58"
+  },
+  {
+    "auuid": "apartmenttype_565",
+    "buuid": "contract_59"
+  },
+  {
+    "auuid": "apartmenttype_566",
+    "buuid": "contract_60"
+  },
+  {
+    "auuid": "apartmenttype_567",
+    "buuid": "contract_61"
+  },
+  {
+    "auuid": "apartmenttype_568",
+    "buuid": "contract_62"
+  },
+  {
+    "auuid": "apartmenttype_569",
+    "buuid": "contract_63"
+  },
+  {
+    "auuid": "apartmenttype_570",
+    "buuid": "contract_64"
+  },
+  {
+    "auuid": "apartmenttype_571",
+    "buuid": "contract_65"
+  },
+  {
+    "auuid": "apartmenttype_572",
+    "buuid": "contract_66"
+  },
+  {
+    "auuid": "apartmenttype_573",
+    "buuid": "contract_67"
+  },
+  {
+    "auuid": "apartmenttype_574",
+    "buuid": "contract_68"
+  },
+  {
+    "auuid": "apartmenttype_575",
+    "buuid": "contract_69"
+  },
+  {
+    "auuid": "apartmenttype_576",
+    "buuid": "contract_70"
+  },
+  {
+    "auuid": "apartmenttype_604",
+    "buuid": "contract_71"
+  },
+  {
+    "auuid": "apartmenttype_605",
+    "buuid": "contract_72"
+  },
+  {
+    "auuid": "apartmenttype_606",
+    "buuid": "contract_73"
+  },
+  {
+    "auuid": "apartmenttype_615",
+    "buuid": "contract_74"
+  },
+  {
+    "auuid": "apartmenttype_616",
+    "buuid": "contract_75"
+  },
+  {
+    "auuid": "apartmenttype_617",
+    "buuid": "contract_76"
+  },
+  {
+    "auuid": "apartmenttype_618",
+    "buuid": "contract_77"
+  },
+  {
+    "auuid": "apartmenttype_619",
+    "buuid": "contract_78"
+  },
+  {
+    "auuid": "apartmenttype_679",
+    "buuid": "contract_79"
+  },
+  {
+    "auuid": "apartmenttype_323",
+    "buuid": "contract_80"
+  },
+  {
+    "auuid": "apartmenttype_324",
+    "buuid": "contract_81"
+  },
+  {
+    "auuid": "apartmenttype_325",
+    "buuid": "contract_82"
+  },
+  {
+    "auuid": "apartmenttype_327",
+    "buuid": "contract_83"
+  },
+  {
+    "auuid": "apartmenttype_328",
+    "buuid": "contract_84"
+  },
+  {
+    "auuid": "apartmenttype_329",
+    "buuid": "contract_85"
+  },
+  {
+    "auuid": "apartmenttype_621",
+    "buuid": "contract_86"
+  },
+  {
+    "auuid": "apartmenttype_622",
+    "buuid": "contract_87"
+  },
+  {
+    "auuid": "apartmenttype_623",
+    "buuid": "contract_88"
+  },
+  {
+    "auuid": "apartmenttype_332",
+    "buuid": "contract_89"
+  },
+  {
+    "auuid": "apartmenttype_333",
+    "buuid": "contract_90"
+  },
+  {
+    "auuid": "apartmenttype_330",
+    "buuid": "contract_91"
+  },
+  {
+    "auuid": "apartmenttype_334",
+    "buuid": "contract_92"
+  },
+  {
+    "auuid": "apartmenttype_336",
+    "buuid": "contract_93"
+  },
+  {
+    "auuid": "apartmenttype_337",
+    "buuid": "contract_94"
+  },
+  {
+    "auuid": "apartmenttype_338",
+    "buuid": "contract_95"
+  },
+  {
+    "auuid": "apartmenttype_339",
+    "buuid": "contract_96"
+  },
+  {
+    "auuid": "apartmenttype_340",
+    "buuid": "contract_97"
+  },
+  {
+    "auuid": "apartmenttype_341",
+    "buuid": "contract_98"
+  },
+  {
+    "auuid": "apartmenttype_342",
+    "buuid": "contract_99"
+  },
+  {
+    "auuid": "apartmenttype_343",
+    "buuid": "contract_100"
+  },
+  {
+    "auuid": "apartmenttype_344",
+    "buuid": "contract_101"
+  },
+  {
+    "auuid": "apartmenttype_345",
+    "buuid": "contract_102"
+  },
+  {
+    "auuid": "apartmenttype_346",
+    "buuid": "contract_103"
+  },
+  {
+    "auuid": "apartmenttype_347",
+    "buuid": "contract_104"
+  },
+  {
+    "auuid": "apartmenttype_348",
+    "buuid": "contract_105"
+  },
+  {
+    "auuid": "apartmenttype_349",
+    "buuid": "contract_106"
+  },
+  {
+    "auuid": "apartmenttype_350",
+    "buuid": "contract_107"
+  },
+  {
+    "auuid": "apartmenttype_351",
+    "buuid": "contract_108"
+  },
+  {
+    "auuid": "apartmenttype_352",
+    "buuid": "contract_109"
+  },
+  {
+    "auuid": "apartmenttype_353",
+    "buuid": "contract_110"
+  },
+  {
+    "auuid": "apartmenttype_354",
+    "buuid": "contract_111"
+  },
+  {
+    "auuid": "apartmenttype_355",
+    "buuid": "contract_112"
+  },
+  {
+    "auuid": "apartmenttype_356",
+    "buuid": "contract_113"
+  },
+  {
+    "auuid": "apartmenttype_358",
+    "buuid": "contract_114"
+  },
+  {
+    "auuid": "apartmenttype_359",
+    "buuid": "contract_115"
+  },
+  {
+    "auuid": "apartmenttype_360",
+    "buuid": "contract_116"
+  },
+  {
+    "auuid": "apartmenttype_361",
+    "buuid": "contract_117"
+  },
+  {
+    "auuid": "apartmenttype_362",
+    "buuid": "contract_118"
+  },
+  {
+    "auuid": "apartmenttype_363",
+    "buuid": "contract_119"
+  },
+  {
+    "auuid": "apartmenttype_365",
+    "buuid": "contract_120"
+  },
+  {
+    "auuid": "apartmenttype_239",
+    "buuid": "contract_121"
+  },
+  {
+    "auuid": "apartmenttype_366",
+    "buuid": "contract_122"
+  },
+  {
+    "auuid": "apartmenttype_367",
+    "buuid": "contract_123"
+  },
+  {
+    "auuid": "apartmenttype_368",
+    "buuid": "contract_124"
+  },
+  {
+    "auuid": "apartmenttype_369",
+    "buuid": "contract_125"
+  },
+  {
+    "auuid": "apartmenttype_370",
+    "buuid": "contract_126"
+  },
+  {
+    "auuid": "apartmenttype_373",
+    "buuid": "contract_127"
+  },
+  {
+    "auuid": "apartmenttype_374",
+    "buuid": "contract_128"
+  },
+  {
+    "auuid": "apartmenttype_375",
+    "buuid": "contract_129"
+  },
+  {
+    "auuid": "apartmenttype_379",
+    "buuid": "contract_130"
+  },
+  {
+    "auuid": "apartmenttype_382",
+    "buuid": "contract_131"
+  },
+  {
+    "auuid": "apartmenttype_384",
+    "buuid": "contract_132"
+  },
+  {
+    "auuid": "apartmenttype_240",
+    "buuid": "contract_133"
+  },
+  {
+    "auuid": "apartmenttype_241",
+    "buuid": "contract_134"
+  },
+  {
+    "auuid": "apartmenttype_388",
+    "buuid": "contract_135"
+  },
+  {
+    "auuid": "apartmenttype_390",
+    "buuid": "contract_136"
+  },
+  {
+    "auuid": "apartmenttype_386",
+    "buuid": "contract_137"
+  },
+  {
+    "auuid": "apartmenttype_387",
+    "buuid": "contract_138"
+  },
+  {
+    "auuid": "apartmenttype_391",
+    "buuid": "contract_139"
+  },
+  {
+    "auuid": "apartmenttype_392",
+    "buuid": "contract_140"
+  },
+  {
+    "auuid": "apartmenttype_393",
+    "buuid": "contract_141"
+  },
+  {
+    "auuid": "apartmenttype_394",
+    "buuid": "contract_142"
+  },
+  {
+    "auuid": "apartmenttype_395",
+    "buuid": "contract_143"
+  },
+  {
+    "auuid": "apartmenttype_396",
+    "buuid": "contract_144"
+  },
+  {
+    "auuid": "apartmenttype_397",
+    "buuid": "contract_145"
+  },
+  {
+    "auuid": "apartmenttype_399",
+    "buuid": "contract_146"
+  },
+  {
+    "auuid": "apartmenttype_624",
+    "buuid": "contract_147"
+  },
+  {
+    "auuid": "apartmenttype_625",
+    "buuid": "contract_148"
+  },
+  {
+    "auuid": "apartmenttype_626",
+    "buuid": "contract_149"
+  },
+  {
+    "auuid": "apartmenttype_400",
+    "buuid": "contract_150"
+  },
+  {
+    "auuid": "apartmenttype_401",
+    "buuid": "contract_151"
+  },
+  {
+    "auuid": "apartmenttype_402",
+    "buuid": "contract_152"
+  },
+  {
+    "auuid": "apartmenttype_404",
+    "buuid": "contract_153"
+  },
+  {
+    "auuid": "apartmenttype_405",
+    "buuid": "contract_154"
+  },
+  {
+    "auuid": "apartmenttype_406",
+    "buuid": "contract_155"
+  },
+  {
+    "auuid": "apartmenttype_407",
+    "buuid": "contract_156"
+  },
+  {
+    "auuid": "apartmenttype_408",
+    "buuid": "contract_157"
+  },
+  {
+    "auuid": "apartmenttype_412",
+    "buuid": "contract_158"
+  },
+  {
+    "auuid": "apartmenttype_413",
+    "buuid": "contract_159"
+  },
+  {
+    "auuid": "apartmenttype_417",
+    "buuid": "contract_160"
+  },
+  {
+    "auuid": "apartmenttype_418",
+    "buuid": "contract_161"
+  },
+  {
+    "auuid": "apartmenttype_419",
+    "buuid": "contract_162"
+  },
+  {
+    "auuid": "apartmenttype_420",
+    "buuid": "contract_163"
+  },
+  {
+    "auuid": "apartmenttype_421",
+    "buuid": "contract_164"
+  },
+  {
+    "auuid": "apartmenttype_422",
+    "buuid": "contract_165"
+  },
+  {
+    "auuid": "apartmenttype_423",
+    "buuid": "contract_166"
+  },
+  {
+    "auuid": "apartmenttype_627",
+    "buuid": "contract_167"
+  },
+  {
+    "auuid": "apartmenttype_628",
+    "buuid": "contract_168"
+  },
+  {
+    "auuid": "apartmenttype_629",
+    "buuid": "contract_169"
+  },
+  {
+    "auuid": "apartmenttype_630",
+    "buuid": "contract_170"
+  },
+  {
+    "auuid": "apartmenttype_631",
+    "buuid": "contract_171"
+  },
+  {
+    "auuid": "apartmenttype_632",
+    "buuid": "contract_172"
+  },
+  {
+    "auuid": "apartmenttype_634",
+    "buuid": "contract_173"
+  },
+  {
+    "auuid": "apartmenttype_433",
+    "buuid": "contract_174"
+  },
+  {
+    "auuid": "apartmenttype_424",
+    "buuid": "contract_175"
+  },
+  {
+    "auuid": "apartmenttype_426",
+    "buuid": "contract_176"
+  },
+  {
+    "auuid": "apartmenttype_427",
+    "buuid": "contract_177"
+  },
+  {
+    "auuid": "apartmenttype_429",
+    "buuid": "contract_178"
+  },
+  {
+    "auuid": "apartmenttype_242",
+    "buuid": "contract_179"
+  },
+  {
+    "auuid": "apartmenttype_243",
+    "buuid": "contract_180"
+  },
+  {
+    "auuid": "apartmenttype_434",
+    "buuid": "contract_181"
+  },
+  {
+    "auuid": "apartmenttype_435",
+    "buuid": "contract_182"
+  },
+  {
+    "auuid": "apartmenttype_436",
+    "buuid": "contract_183"
+  },
+  {
+    "auuid": "apartmenttype_437",
+    "buuid": "contract_184"
+  },
+  {
+    "auuid": "apartmenttype_439",
+    "buuid": "contract_185"
+  },
+  {
+    "auuid": "apartmenttype_440",
+    "buuid": "contract_186"
+  },
+  {
+    "auuid": "apartmenttype_441",
+    "buuid": "contract_187"
+  },
+  {
+    "auuid": "apartmenttype_442",
+    "buuid": "contract_188"
+  },
+  {
+    "auuid": "apartmenttype_443",
+    "buuid": "contract_189"
+  },
+  {
+    "auuid": "apartmenttype_444",
+    "buuid": "contract_190"
+  },
+  {
+    "auuid": "apartmenttype_635",
+    "buuid": "contract_191"
+  },
+  {
+    "auuid": "apartmenttype_636",
+    "buuid": "contract_192"
+  },
+  {
+    "auuid": "apartmenttype_637",
+    "buuid": "contract_193"
+  },
+  {
+    "auuid": "apartmenttype_639",
+    "buuid": "contract_194"
+  },
+  {
+    "auuid": "apartmenttype_640",
+    "buuid": "contract_195"
+  },
+  {
+    "auuid": "apartmenttype_445",
+    "buuid": "contract_196"
+  },
+  {
+    "auuid": "apartmenttype_446",
+    "buuid": "contract_197"
+  },
+  {
+    "auuid": "apartmenttype_448",
+    "buuid": "contract_198"
+  },
+  {
+    "auuid": "apartmenttype_452",
+    "buuid": "contract_199"
+  },
+  {
+    "auuid": "apartmenttype_460",
+    "buuid": "contract_200"
+  },
+  {
+    "auuid": "apartmenttype_461",
+    "buuid": "contract_201"
+  },
+  {
+    "auuid": "apartmenttype_462",
+    "buuid": "contract_202"
+  },
+  {
+    "auuid": "apartmenttype_463",
+    "buuid": "contract_203"
+  },
+  {
+    "auuid": "apartmenttype_464",
+    "buuid": "contract_204"
+  },
+  {
+    "auuid": "apartmenttype_466",
+    "buuid": "contract_205"
+  },
+  {
+    "auuid": "apartmenttype_467",
+    "buuid": "contract_206"
+  },
+  {
+    "auuid": "apartmenttype_468",
+    "buuid": "contract_207"
+  },
+  {
+    "auuid": "apartmenttype_469",
+    "buuid": "contract_208"
+  },
+  {
+    "auuid": "apartmenttype_470",
+    "buuid": "contract_209"
+  },
+  {
+    "auuid": "apartmenttype_471",
+    "buuid": "contract_210"
+  },
+  {
+    "auuid": "apartmenttype_472",
+    "buuid": "contract_211"
+  },
+  {
+    "auuid": "apartmenttype_473",
+    "buuid": "contract_212"
+  },
+  {
+    "auuid": "apartmenttype_474",
+    "buuid": "contract_213"
+  },
+  {
+    "auuid": "apartmenttype_475",
+    "buuid": "contract_214"
+  },
+  {
+    "auuid": "apartmenttype_234",
+    "buuid": "contract_215"
+  },
+  {
+    "auuid": "apartmenttype_235",
+    "buuid": "contract_216"
+  },
+  {
+    "auuid": "apartmenttype_236",
+    "buuid": "contract_217"
+  },
+  {
+    "auuid": "apartmenttype_238",
+    "buuid": "contract_218"
+  },
+  {
+    "auuid": "apartmenttype_229",
+    "buuid": "contract_219"
+  },
+  {
+    "auuid": "apartmenttype_230",
+    "buuid": "contract_220"
+  },
+  {
+    "auuid": "apartmenttype_231",
+    "buuid": "contract_221"
+  },
+  {
+    "auuid": "apartmenttype_476",
+    "buuid": "contract_222"
+  },
+  {
+    "auuid": "apartmenttype_477",
+    "buuid": "contract_223"
+  },
+  {
+    "auuid": "apartmenttype_478",
+    "buuid": "contract_224"
+  },
+  {
+    "auuid": "apartmenttype_298",
+    "buuid": "contract_225"
+  },
+  {
+    "auuid": "apartmenttype_299",
+    "buuid": "contract_226"
+  },
+  {
+    "auuid": "apartmenttype_300",
+    "buuid": "contract_227"
+  },
+  {
+    "auuid": "apartmenttype_301",
+    "buuid": "contract_228"
+  },
+  {
+    "auuid": "apartmenttype_302",
+    "buuid": "contract_229"
+  },
+  {
+    "auuid": "apartmenttype_303",
+    "buuid": "contract_230"
+  },
+  {
+    "auuid": "apartmenttype_304",
+    "buuid": "contract_231"
+  },
+  {
+    "auuid": "apartmenttype_308",
+    "buuid": "contract_232"
+  },
+  {
+    "auuid": "apartmenttype_309",
+    "buuid": "contract_233"
+  },
+  {
+    "auuid": "apartmenttype_310",
+    "buuid": "contract_234"
+  },
+  {
+    "auuid": "apartmenttype_311",
+    "buuid": "contract_235"
+  },
+  {
+    "auuid": "apartmenttype_312",
+    "buuid": "contract_236"
+  },
+  {
+    "auuid": "apartmenttype_313",
+    "buuid": "contract_237"
+  },
+  {
+    "auuid": "apartmenttype_314",
+    "buuid": "contract_238"
+  },
+  {
+    "auuid": "apartmenttype_315",
+    "buuid": "contract_239"
+  },
+  {
+    "auuid": "apartmenttype_316",
+    "buuid": "contract_240"
+  },
+  {
+    "auuid": "apartmenttype_317",
+    "buuid": "contract_241"
+  },
+  {
+    "auuid": "apartmenttype_318",
+    "buuid": "contract_242"
+  },
+  {
+    "auuid": "apartmenttype_319",
+    "buuid": "contract_243"
+  },
+  {
+    "auuid": "apartmenttype_320",
+    "buuid": "contract_244"
+  },
+  {
+    "auuid": "apartmenttype_321",
+    "buuid": "contract_245"
+  },
+  {
+    "auuid": "apartmenttype_233",
+    "buuid": "contract_246"
+  },
+  {
+    "auuid": "apartmenttype_480",
+    "buuid": "contract_247"
+  },
+  {
+    "auuid": "apartmenttype_481",
+    "buuid": "contract_248"
+  },
+  {
+    "auuid": "apartmenttype_482",
+    "buuid": "contract_249"
+  },
+  {
+    "auuid": "apartmenttype_483",
+    "buuid": "contract_250"
+  },
+  {
+    "auuid": "apartmenttype_484",
+    "buuid": "contract_251"
+  },
+  {
+    "auuid": "apartmenttype_485",
+    "buuid": "contract_252"
+  },
+  {
+    "auuid": "apartmenttype_486",
+    "buuid": "contract_253"
+  },
+  {
+    "auuid": "apartmenttype_487",
+    "buuid": "contract_254"
+  },
+  {
+    "auuid": "apartmenttype_488",
+    "buuid": "contract_255"
+  },
+  {
+    "auuid": "apartmenttype_489",
+    "buuid": "contract_256"
+  },
+  {
+    "auuid": "apartmenttype_491",
+    "buuid": "contract_257"
+  },
+  {
+    "auuid": "apartmenttype_493",
+    "buuid": "contract_258"
+  },
+  {
+    "auuid": "apartmenttype_65",
+    "buuid": "contract_259"
+  },
+  {
+    "auuid": "apartmenttype_66",
+    "buuid": "contract_260"
+  },
+  {
+    "auuid": "apartmenttype_67",
+    "buuid": "contract_261"
+  },
+  {
+    "auuid": "apartmenttype_68",
+    "buuid": "contract_262"
+  },
+  {
+    "auuid": "apartmenttype_69",
+    "buuid": "contract_263"
+  },
+  {
+    "auuid": "apartmenttype_70",
+    "buuid": "contract_264"
+  },
+  {
+    "auuid": "apartmenttype_71",
+    "buuid": "contract_265"
+  },
+  {
+    "auuid": "apartmenttype_72",
+    "buuid": "contract_266"
+  },
+  {
+    "auuid": "apartmenttype_73",
+    "buuid": "contract_267"
+  },
+  {
+    "auuid": "apartmenttype_74",
+    "buuid": "contract_268"
+  },
+  {
+    "auuid": "apartmenttype_75",
+    "buuid": "contract_269"
+  },
+  {
+    "auuid": "apartmenttype_76",
+    "buuid": "contract_270"
+  },
+  {
+    "auuid": "apartmenttype_77",
+    "buuid": "contract_271"
+  },
+  {
+    "auuid": "apartmenttype_1245",
+    "buuid": "contract_272"
+  },
+  {
+    "auuid": "apartmenttype_1246",
+    "buuid": "contract_273"
+  },
+  {
+    "auuid": "apartmenttype_1247",
+    "buuid": "contract_274"
+  },
+  {
+    "auuid": "apartmenttype_1248",
+    "buuid": "contract_275"
+  },
+  {
+    "auuid": "apartmenttype_1249",
+    "buuid": "contract_276"
+  },
+  {
+    "auuid": "apartmenttype_1250",
+    "buuid": "contract_277"
+  },
+  {
+    "auuid": "apartmenttype_1251",
+    "buuid": "contract_278"
+  },
+  {
+    "auuid": "apartmenttype_1265",
+    "buuid": "contract_279"
+  },
+  {
+    "auuid": "apartmenttype_1266",
+    "buuid": "contract_280"
+  },
+  {
+    "auuid": "apartmenttype_1267",
+    "buuid": "contract_281"
+  },
+  {
+    "auuid": "apartmenttype_1268",
+    "buuid": "contract_282"
+  },
+  {
+    "auuid": "apartmenttype_1269",
+    "buuid": "contract_283"
+  },
+  {
+    "auuid": "apartmenttype_1270",
+    "buuid": "contract_284"
+  },
+  {
+    "auuid": "apartmenttype_1272",
+    "buuid": "contract_285"
+  },
+  {
+    "auuid": "apartmenttype_1273",
+    "buuid": "contract_286"
+  },
+  {
+    "auuid": "apartmenttype_1275",
+    "buuid": "contract_287"
+  },
+  {
+    "auuid": "apartmenttype_245",
+    "buuid": "contract_288"
+  },
+  {
+    "auuid": "apartmenttype_246",
+    "buuid": "contract_289"
+  },
+  {
+    "auuid": "apartmenttype_247",
+    "buuid": "contract_290"
+  },
+  {
+    "auuid": "apartmenttype_248",
+    "buuid": "contract_291"
+  },
+  {
+    "auuid": "apartmenttype_251",
+    "buuid": "contract_292"
+  },
+  {
+    "auuid": "apartmenttype_252",
+    "buuid": "contract_293"
+  },
+  {
+    "auuid": "apartmenttype_253",
+    "buuid": "contract_294"
+  },
+  {
+    "auuid": "apartmenttype_254",
+    "buuid": "contract_295"
+  },
+  {
+    "auuid": "apartmenttype_255",
+    "buuid": "contract_296"
+  },
+  {
+    "auuid": "apartmenttype_256",
+    "buuid": "contract_297"
+  },
+  {
+    "auuid": "apartmenttype_257",
+    "buuid": "contract_298"
+  },
+  {
+    "auuid": "apartmenttype_78",
+    "buuid": "contract_299"
+  },
+  {
+    "auuid": "apartmenttype_79",
+    "buuid": "contract_300"
+  },
+  {
+    "auuid": "apartmenttype_80",
+    "buuid": "contract_301"
+  },
+  {
+    "auuid": "apartmenttype_81",
+    "buuid": "contract_302"
+  },
+  {
+    "auuid": "apartmenttype_259",
+    "buuid": "contract_303"
+  },
+  {
+    "auuid": "apartmenttype_260",
+    "buuid": "contract_304"
+  },
+  {
+    "auuid": "apartmenttype_261",
+    "buuid": "contract_305"
+  },
+  {
+    "auuid": "apartmenttype_262",
+    "buuid": "contract_306"
+  },
+  {
+    "auuid": "apartmenttype_263",
+    "buuid": "contract_307"
+  },
+  {
+    "auuid": "apartmenttype_264",
+    "buuid": "contract_308"
+  },
+  {
+    "auuid": "apartmenttype_82",
+    "buuid": "contract_309"
+  },
+  {
+    "auuid": "apartmenttype_83",
+    "buuid": "contract_310"
+  },
+  {
+    "auuid": "apartmenttype_85",
+    "buuid": "contract_311"
+  },
+  {
+    "auuid": "apartmenttype_265",
+    "buuid": "contract_312"
+  },
+  {
+    "auuid": "apartmenttype_266",
+    "buuid": "contract_313"
+  },
+  {
+    "auuid": "apartmenttype_267",
+    "buuid": "contract_314"
+  },
+  {
+    "auuid": "apartmenttype_268",
+    "buuid": "contract_315"
+  },
+  {
+    "auuid": "apartmenttype_269",
+    "buuid": "contract_316"
+  },
+  {
+    "auuid": "apartmenttype_270",
+    "buuid": "contract_317"
+  },
+  {
+    "auuid": "apartmenttype_271",
+    "buuid": "contract_318"
+  },
+  {
+    "auuid": "apartmenttype_86",
+    "buuid": "contract_319"
+  },
+  {
+    "auuid": "apartmenttype_87",
+    "buuid": "contract_320"
+  },
+  {
+    "auuid": "apartmenttype_90",
+    "buuid": "contract_321"
+  },
+  {
+    "auuid": "apartmenttype_91",
+    "buuid": "contract_322"
+  },
+  {
+    "auuid": "apartmenttype_94",
+    "buuid": "contract_323"
+  },
+  {
+    "auuid": "apartmenttype_95",
+    "buuid": "contract_324"
+  },
+  {
+    "auuid": "apartmenttype_96",
+    "buuid": "contract_325"
+  },
+  {
+    "auuid": "apartmenttype_101",
+    "buuid": "contract_326"
+  },
+  {
+    "auuid": "apartmenttype_103",
+    "buuid": "contract_327"
+  },
+  {
+    "auuid": "apartmenttype_104",
+    "buuid": "contract_328"
+  },
+  {
+    "auuid": "apartmenttype_105",
+    "buuid": "contract_329"
+  },
+  {
+    "auuid": "apartmenttype_108",
+    "buuid": "contract_330"
+  },
+  {
+    "auuid": "apartmenttype_109",
+    "buuid": "contract_331"
+  },
+  {
+    "auuid": "apartmenttype_110",
+    "buuid": "contract_332"
+  },
+  {
+    "auuid": "apartmenttype_112",
+    "buuid": "contract_333"
+  },
+  {
+    "auuid": "apartmenttype_277",
+    "buuid": "contract_334"
+  },
+  {
+    "auuid": "apartmenttype_278",
+    "buuid": "contract_335"
+  },
+  {
+    "auuid": "apartmenttype_279",
+    "buuid": "contract_336"
+  },
+  {
+    "auuid": "apartmenttype_280",
+    "buuid": "contract_337"
+  },
+  {
+    "auuid": "apartmenttype_281",
+    "buuid": "contract_338"
+  },
+  {
+    "auuid": "apartmenttype_282",
+    "buuid": "contract_339"
+  },
+  {
+    "auuid": "apartmenttype_283",
+    "buuid": "contract_340"
+  },
+  {
+    "auuid": "apartmenttype_284",
+    "buuid": "contract_341"
+  },
+  {
+    "auuid": "apartmenttype_285",
+    "buuid": "contract_342"
+  },
+  {
+    "auuid": "apartmenttype_286",
+    "buuid": "contract_343"
+  },
+  {
+    "auuid": "apartmenttype_287",
+    "buuid": "contract_344"
+  },
+  {
+    "auuid": "apartmenttype_120",
+    "buuid": "contract_345"
+  },
+  {
+    "auuid": "apartmenttype_121",
+    "buuid": "contract_346"
+  },
+  {
+    "auuid": "apartmenttype_122",
+    "buuid": "contract_347"
+  },
+  {
+    "auuid": "apartmenttype_123",
+    "buuid": "contract_348"
+  },
+  {
+    "auuid": "apartmenttype_292",
+    "buuid": "contract_349"
+  },
+  {
+    "auuid": "apartmenttype_293",
+    "buuid": "contract_350"
+  },
+  {
+    "auuid": "apartmenttype_295",
+    "buuid": "contract_351"
+  },
+  {
+    "auuid": "apartmenttype_297",
+    "buuid": "contract_352"
+  },
+  {
+    "auuid": "apartmenttype_124",
+    "buuid": "contract_353"
+  },
+  {
+    "auuid": "apartmenttype_125",
+    "buuid": "contract_354"
+  },
+  {
+    "auuid": "apartmenttype_126",
+    "buuid": "contract_355"
+  },
+  {
+    "auuid": "apartmenttype_127",
+    "buuid": "contract_356"
+  },
+  {
+    "auuid": "apartmenttype_129",
+    "buuid": "contract_357"
+  },
+  {
+    "auuid": "apartmenttype_130",
+    "buuid": "contract_358"
+  },
+  {
+    "auuid": "apartmenttype_132",
+    "buuid": "contract_359"
+  },
+  {
+    "auuid": "apartmenttype_134",
+    "buuid": "contract_360"
+  },
+  {
+    "auuid": "apartmenttype_136",
+    "buuid": "contract_361"
+  },
+  {
+    "auuid": "apartmenttype_137",
+    "buuid": "contract_362"
+  },
+  {
+    "auuid": "apartmenttype_138",
+    "buuid": "contract_363"
+  },
+  {
+    "auuid": "apartmenttype_140",
+    "buuid": "contract_364"
+  },
+  {
+    "auuid": "apartmenttype_142",
+    "buuid": "contract_365"
+  },
+  {
+    "auuid": "apartmenttype_144",
+    "buuid": "contract_366"
+  },
+  {
+    "auuid": "apartmenttype_146",
+    "buuid": "contract_367"
+  },
+  {
+    "auuid": "apartmenttype_148",
+    "buuid": "contract_368"
+  },
+  {
+    "auuid": "apartmenttype_149",
+    "buuid": "contract_369"
+  },
+  {
+    "auuid": "apartmenttype_150",
+    "buuid": "contract_370"
+  },
+  {
+    "auuid": "apartmenttype_151",
+    "buuid": "contract_371"
+  },
+  {
+    "auuid": "apartmenttype_153",
+    "buuid": "contract_372"
+  },
+  {
+    "auuid": "apartmenttype_154",
+    "buuid": "contract_373"
+  },
+  {
+    "auuid": "apartmenttype_155",
+    "buuid": "contract_374"
+  },
+  {
+    "auuid": "apartmenttype_156",
+    "buuid": "contract_375"
+  },
+  {
+    "auuid": "apartmenttype_157",
+    "buuid": "contract_376"
+  },
+  {
+    "auuid": "apartmenttype_158",
+    "buuid": "contract_377"
+  },
+  {
+    "auuid": "apartmenttype_159",
+    "buuid": "contract_378"
+  },
+  {
+    "auuid": "apartmenttype_160",
+    "buuid": "contract_379"
+  },
+  {
+    "auuid": "apartmenttype_161",
+    "buuid": "contract_380"
+  },
+  {
+    "auuid": "apartmenttype_163",
+    "buuid": "contract_381"
+  },
+  {
+    "auuid": "apartmenttype_164",
+    "buuid": "contract_382"
+  },
+  {
+    "auuid": "apartmenttype_165",
+    "buuid": "contract_383"
+  },
+  {
+    "auuid": "apartmenttype_169",
+    "buuid": "contract_384"
+  },
+  {
+    "auuid": "apartmenttype_170",
+    "buuid": "contract_385"
+  },
+  {
+    "auuid": "apartmenttype_171",
+    "buuid": "contract_386"
+  },
+  {
+    "auuid": "apartmenttype_173",
+    "buuid": "contract_387"
+  },
+  {
+    "auuid": "apartmenttype_175",
+    "buuid": "contract_388"
+  },
+  {
+    "auuid": "apartmenttype_176",
+    "buuid": "contract_389"
+  },
+  {
+    "auuid": "apartmenttype_178",
+    "buuid": "contract_390"
+  },
+  {
+    "auuid": "apartmenttype_182",
+    "buuid": "contract_391"
+  },
+  {
+    "auuid": "apartmenttype_183",
+    "buuid": "contract_392"
+  },
+  {
+    "auuid": "apartmenttype_184",
+    "buuid": "contract_393"
+  },
+  {
+    "auuid": "apartmenttype_185",
+    "buuid": "contract_394"
+  },
+  {
+    "auuid": "apartmenttype_186",
+    "buuid": "contract_395"
+  },
+  {
+    "auuid": "apartmenttype_188",
+    "buuid": "contract_396"
+  },
+  {
+    "auuid": "apartmenttype_191",
+    "buuid": "contract_397"
+  },
+  {
+    "auuid": "apartmenttype_192",
+    "buuid": "contract_398"
+  },
+  {
+    "auuid": "apartmenttype_195",
+    "buuid": "contract_399"
+  },
+  {
+    "auuid": "apartmenttype_196",
+    "buuid": "contract_400"
+  },
+  {
+    "auuid": "apartmenttype_203",
+    "buuid": "contract_401"
+  },
+  {
+    "auuid": "apartmenttype_206",
+    "buuid": "contract_402"
+  },
+  {
+    "auuid": "apartmenttype_209",
+    "buuid": "contract_403"
+  },
+  {
+    "auuid": "apartmenttype_210",
+    "buuid": "contract_404"
+  },
+  {
+    "auuid": "apartmenttype_211",
+    "buuid": "contract_405"
+  },
+  {
+    "auuid": "apartmenttype_214",
+    "buuid": "contract_406"
+  },
+  {
+    "auuid": "apartmenttype_217",
+    "buuid": "contract_407"
+  },
+  {
+    "auuid": "apartmenttype_1",
+    "buuid": "contract_408"
+  },
+  {
+    "auuid": "apartmenttype_8",
+    "buuid": "contract_409"
+  },
+  {
+    "auuid": "apartmenttype_9",
+    "buuid": "contract_410"
+  },
+  {
+    "auuid": "apartmenttype_10",
+    "buuid": "contract_411"
+  },
+  {
+    "auuid": "apartmenttype_11",
+    "buuid": "contract_412"
+  },
+  {
+    "auuid": "apartmenttype_13",
+    "buuid": "contract_413"
+  },
+  {
+    "auuid": "apartmenttype_15",
+    "buuid": "contract_414"
+  },
+  {
+    "auuid": "apartmenttype_24",
+    "buuid": "contract_415"
+  },
+  {
+    "auuid": "apartmenttype_25",
+    "buuid": "contract_416"
+  },
+  {
+    "auuid": "apartmenttype_26",
+    "buuid": "contract_417"
+  },
+  {
+    "auuid": "apartmenttype_28",
+    "buuid": "contract_418"
+  },
+  {
+    "auuid": "apartmenttype_29",
+    "buuid": "contract_419"
+  },
+  {
+    "auuid": "apartmenttype_30",
+    "buuid": "contract_420"
+  },
+  {
+    "auuid": "apartmenttype_31",
+    "buuid": "contract_421"
+  },
+  {
+    "auuid": "apartmenttype_32",
+    "buuid": "contract_422"
+  },
+  {
+    "auuid": "apartmenttype_33",
+    "buuid": "contract_423"
+  },
+  {
+    "auuid": "apartmenttype_35",
+    "buuid": "contract_424"
+  },
+  {
+    "auuid": "apartmenttype_36",
+    "buuid": "contract_425"
+  },
+  {
+    "auuid": "apartmenttype_37",
+    "buuid": "contract_426"
+  },
+  {
+    "auuid": "apartmenttype_721",
+    "buuid": "contract_427"
+  },
+  {
+    "auuid": "apartmenttype_722",
+    "buuid": "contract_428"
+  },
+  {
+    "auuid": "apartmenttype_724",
+    "buuid": "contract_429"
+  },
+  {
+    "auuid": "apartmenttype_725",
+    "buuid": "contract_430"
+  },
+  {
+    "auuid": "apartmenttype_726",
+    "buuid": "contract_431"
+  },
+  {
+    "auuid": "apartmenttype_727",
+    "buuid": "contract_432"
+  },
+  {
+    "auuid": "apartmenttype_728",
+    "buuid": "contract_433"
+  },
+  {
+    "auuid": "apartmenttype_730",
+    "buuid": "contract_434"
+  },
+  {
+    "auuid": "apartmenttype_731",
+    "buuid": "contract_435"
+  },
+  {
+    "auuid": "apartmenttype_732",
+    "buuid": "contract_436"
+  },
+  {
+    "auuid": "apartmenttype_733",
+    "buuid": "contract_437"
+  },
+  {
+    "auuid": "apartmenttype_734",
+    "buuid": "contract_438"
+  },
+  {
+    "auuid": "apartmenttype_735",
+    "buuid": "contract_439"
+  },
+  {
+    "auuid": "apartmenttype_736",
+    "buuid": "contract_440"
+  },
+  {
+    "auuid": "apartmenttype_737",
+    "buuid": "contract_441"
+  },
+  {
+    "auuid": "apartmenttype_738",
+    "buuid": "contract_442"
+  },
+  {
+    "auuid": "apartmenttype_740",
+    "buuid": "contract_443"
+  },
+  {
+    "auuid": "apartmenttype_741",
+    "buuid": "contract_444"
+  },
+  {
+    "auuid": "apartmenttype_742",
+    "buuid": "contract_445"
+  },
+  {
+    "auuid": "apartmenttype_743",
+    "buuid": "contract_446"
+  },
+  {
+    "auuid": "apartmenttype_744",
+    "buuid": "contract_447"
+  },
+  {
+    "auuid": "apartmenttype_745",
+    "buuid": "contract_448"
+  },
+  {
+    "auuid": "apartmenttype_746",
+    "buuid": "contract_449"
+  },
+  {
+    "auuid": "apartmenttype_747",
+    "buuid": "contract_450"
+  },
+  {
+    "auuid": "apartmenttype_748",
+    "buuid": "contract_451"
+  },
+  {
+    "auuid": "apartmenttype_749",
+    "buuid": "contract_452"
+  },
+  {
+    "auuid": "apartmenttype_750",
+    "buuid": "contract_453"
+  },
+  {
+    "auuid": "apartmenttype_751",
+    "buuid": "contract_454"
+  },
+  {
+    "auuid": "apartmenttype_752",
+    "buuid": "contract_455"
+  },
+  {
+    "auuid": "apartmenttype_754",
+    "buuid": "contract_456"
+  },
+  {
+    "auuid": "apartmenttype_755",
+    "buuid": "contract_457"
+  },
+  {
+    "auuid": "apartmenttype_756",
+    "buuid": "contract_458"
+  },
+  {
+    "auuid": "apartmenttype_758",
+    "buuid": "contract_459"
+  },
+  {
+    "auuid": "apartmenttype_763",
+    "buuid": "contract_460"
+  },
+  {
+    "auuid": "apartmenttype_764",
+    "buuid": "contract_461"
+  },
+  {
+    "auuid": "apartmenttype_765",
+    "buuid": "contract_462"
+  },
+  {
+    "auuid": "apartmenttype_766",
+    "buuid": "contract_463"
+  },
+  {
+    "auuid": "apartmenttype_767",
+    "buuid": "contract_464"
+  },
+  {
+    "auuid": "apartmenttype_768",
+    "buuid": "contract_465"
+  },
+  {
+    "auuid": "apartmenttype_772",
+    "buuid": "contract_466"
+  },
+  {
+    "auuid": "apartmenttype_775",
+    "buuid": "contract_467"
+  },
+  {
+    "auuid": "apartmenttype_776",
+    "buuid": "contract_468"
+  },
+  {
+    "auuid": "apartmenttype_777",
+    "buuid": "contract_469"
+  },
+  {
+    "auuid": "apartmenttype_781",
+    "buuid": "contract_470"
+  },
+  {
+    "auuid": "apartmenttype_782",
+    "buuid": "contract_471"
+  },
+  {
+    "auuid": "apartmenttype_783",
+    "buuid": "contract_472"
+  },
+  {
+    "auuid": "apartmenttype_784",
+    "buuid": "contract_473"
+  },
+  {
+    "auuid": "apartmenttype_790",
+    "buuid": "contract_474"
+  },
+  {
+    "auuid": "apartmenttype_792",
+    "buuid": "contract_475"
+  },
+  {
+    "auuid": "apartmenttype_795",
+    "buuid": "contract_476"
+  },
+  {
+    "auuid": "apartmenttype_796",
+    "buuid": "contract_477"
+  },
+  {
+    "auuid": "apartmenttype_797",
+    "buuid": "contract_478"
+  },
+  {
+    "auuid": "apartmenttype_798",
+    "buuid": "contract_479"
+  },
+  {
+    "auuid": "apartmenttype_799",
+    "buuid": "contract_480"
+  },
+  {
+    "auuid": "apartmenttype_800",
+    "buuid": "contract_481"
+  },
+  {
+    "auuid": "apartmenttype_803",
+    "buuid": "contract_482"
+  },
+  {
+    "auuid": "apartmenttype_805",
+    "buuid": "contract_483"
+  },
+  {
+    "auuid": "apartmenttype_807",
+    "buuid": "contract_484"
+  },
+  {
+    "auuid": "apartmenttype_809",
+    "buuid": "contract_485"
+  },
+  {
+    "auuid": "apartmenttype_810",
+    "buuid": "contract_486"
+  },
+  {
+    "auuid": "apartmenttype_811",
+    "buuid": "contract_487"
+  },
+  {
+    "auuid": "apartmenttype_817",
+    "buuid": "contract_488"
+  },
+  {
+    "auuid": "apartmenttype_818",
+    "buuid": "contract_489"
+  },
+  {
+    "auuid": "apartmenttype_819",
+    "buuid": "contract_490"
+  },
+  {
+    "auuid": "apartmenttype_820",
+    "buuid": "contract_491"
+  },
+  {
+    "auuid": "apartmenttype_824",
+    "buuid": "contract_492"
+  },
+  {
+    "auuid": "apartmenttype_826",
+    "buuid": "contract_493"
+  },
+  {
+    "auuid": "apartmenttype_1213",
+    "buuid": "contract_494"
+  },
+  {
+    "auuid": "apartmenttype_1222",
+    "buuid": "contract_495"
+  },
+  {
+    "auuid": "apartmenttype_834",
+    "buuid": "contract_496"
+  },
+  {
+    "auuid": "apartmenttype_835",
+    "buuid": "contract_497"
+  },
+  {
+    "auuid": "apartmenttype_836",
+    "buuid": "contract_498"
+  },
+  {
+    "auuid": "apartmenttype_837",
+    "buuid": "contract_499"
+  },
+  {
+    "auuid": "apartmenttype_838",
+    "buuid": "contract_500"
+  },
+  {
+    "auuid": "apartmenttype_839",
+    "buuid": "contract_501"
+  },
+  {
+    "auuid": "apartmenttype_840",
+    "buuid": "contract_502"
+  },
+  {
+    "auuid": "apartmenttype_841",
+    "buuid": "contract_503"
+  },
+  {
+    "auuid": "apartmenttype_842",
+    "buuid": "contract_504"
+  },
+  {
+    "auuid": "apartmenttype_829",
+    "buuid": "contract_505"
+  },
+  {
+    "auuid": "apartmenttype_830",
+    "buuid": "contract_506"
+  },
+  {
+    "auuid": "apartmenttype_831",
+    "buuid": "contract_507"
+  },
+  {
+    "auuid": "apartmenttype_832",
+    "buuid": "contract_508"
+  },
+  {
+    "auuid": "apartmenttype_833",
+    "buuid": "contract_509"
+  },
+  {
+    "auuid": "apartmenttype_843",
+    "buuid": "contract_510"
+  },
+  {
+    "auuid": "apartmenttype_845",
+    "buuid": "contract_511"
+  },
+  {
+    "auuid": "apartmenttype_846",
+    "buuid": "contract_512"
+  },
+  {
+    "auuid": "apartmenttype_848",
+    "buuid": "contract_513"
+  },
+  {
+    "auuid": "apartmenttype_849",
+    "buuid": "contract_514"
+  },
+  {
+    "auuid": "apartmenttype_850",
+    "buuid": "contract_515"
+  },
+  {
+    "auuid": "apartmenttype_851",
+    "buuid": "contract_516"
+  },
+  {
+    "auuid": "apartmenttype_852",
+    "buuid": "contract_517"
+  },
+  {
+    "auuid": "apartmenttype_853",
+    "buuid": "contract_518"
+  },
+  {
+    "auuid": "apartmenttype_530",
+    "buuid": "contract_519"
+  },
+  {
+    "auuid": "apartmenttype_532",
+    "buuid": "contract_520"
+  },
+  {
+    "auuid": "apartmenttype_533",
+    "buuid": "contract_521"
+  },
+  {
+    "auuid": "apartmenttype_534",
+    "buuid": "contract_522"
+  },
+  {
+    "auuid": "apartmenttype_535",
+    "buuid": "contract_523"
+  },
+  {
+    "auuid": "apartmenttype_536",
+    "buuid": "contract_524"
+  },
+  {
+    "auuid": "apartmenttype_537",
+    "buuid": "contract_525"
+  },
+  {
+    "auuid": "apartmenttype_538",
+    "buuid": "contract_526"
+  },
+  {
+    "auuid": "apartmenttype_539",
+    "buuid": "contract_527"
+  },
+  {
+    "auuid": "apartmenttype_607",
+    "buuid": "contract_528"
+  },
+  {
+    "auuid": "apartmenttype_608",
+    "buuid": "contract_529"
+  },
+  {
+    "auuid": "apartmenttype_609",
+    "buuid": "contract_530"
+  },
+  {
+    "auuid": "apartmenttype_610",
+    "buuid": "contract_531"
+  },
+  {
+    "auuid": "apartmenttype_611",
+    "buuid": "contract_532"
+  },
+  {
+    "auuid": "apartmenttype_612",
+    "buuid": "contract_533"
+  },
+  {
+    "auuid": "apartmenttype_613",
+    "buuid": "contract_534"
+  },
+  {
+    "auuid": "apartmenttype_614",
+    "buuid": "contract_535"
+  },
+  {
+    "auuid": "apartmenttype_38",
+    "buuid": "contract_536"
+  },
+  {
+    "auuid": "apartmenttype_39",
+    "buuid": "contract_537"
+  },
+  {
+    "auuid": "apartmenttype_40",
+    "buuid": "contract_538"
+  },
+  {
+    "auuid": "apartmenttype_42",
+    "buuid": "contract_539"
+  },
+  {
+    "auuid": "apartmenttype_854",
+    "buuid": "contract_540"
+  },
+  {
+    "auuid": "apartmenttype_855",
+    "buuid": "contract_541"
+  },
+  {
+    "auuid": "apartmenttype_856",
+    "buuid": "contract_542"
+  },
+  {
+    "auuid": "apartmenttype_857",
+    "buuid": "contract_543"
+  },
+  {
+    "auuid": "apartmenttype_858",
+    "buuid": "contract_544"
+  },
+  {
+    "auuid": "apartmenttype_860",
+    "buuid": "contract_545"
+  },
+  {
+    "auuid": "apartmenttype_862",
+    "buuid": "contract_546"
+  },
+  {
+    "auuid": "apartmenttype_864",
+    "buuid": "contract_547"
+  },
+  {
+    "auuid": "apartmenttype_865",
+    "buuid": "contract_548"
+  },
+  {
+    "auuid": "apartmenttype_868",
+    "buuid": "contract_549"
+  },
+  {
+    "auuid": "apartmenttype_870",
+    "buuid": "contract_550"
+  },
+  {
+    "auuid": "apartmenttype_872",
+    "buuid": "contract_551"
+  },
+  {
+    "auuid": "apartmenttype_873",
+    "buuid": "contract_552"
+  },
+  {
+    "auuid": "apartmenttype_875",
+    "buuid": "contract_553"
+  },
+  {
+    "auuid": "apartmenttype_879",
+    "buuid": "contract_554"
+  },
+  {
+    "auuid": "apartmenttype_881",
+    "buuid": "contract_555"
+  },
+  {
+    "auuid": "apartmenttype_882",
+    "buuid": "contract_556"
+  },
+  {
+    "auuid": "apartmenttype_883",
+    "buuid": "contract_557"
+  },
+  {
+    "auuid": "apartmenttype_884",
+    "buuid": "contract_558"
+  },
+  {
+    "auuid": "apartmenttype_885",
+    "buuid": "contract_559"
+  },
+  {
+    "auuid": "apartmenttype_886",
+    "buuid": "contract_560"
+  },
+  {
+    "auuid": "apartmenttype_887",
+    "buuid": "contract_561"
+  },
+  {
+    "auuid": "apartmenttype_892",
+    "buuid": "contract_562"
+  },
+  {
+    "auuid": "apartmenttype_894",
+    "buuid": "contract_563"
+  },
+  {
+    "auuid": "apartmenttype_896",
+    "buuid": "contract_564"
+  },
+  {
+    "auuid": "apartmenttype_901",
+    "buuid": "contract_565"
+  },
+  {
+    "auuid": "apartmenttype_902",
+    "buuid": "contract_566"
+  },
+  {
+    "auuid": "apartmenttype_904",
+    "buuid": "contract_567"
+  },
+  {
+    "auuid": "apartmenttype_906",
+    "buuid": "contract_568"
+  },
+  {
+    "auuid": "apartmenttype_907",
+    "buuid": "contract_569"
+  },
+  {
+    "auuid": "apartmenttype_908",
+    "buuid": "contract_570"
+  },
+  {
+    "auuid": "apartmenttype_910",
+    "buuid": "contract_571"
+  },
+  {
+    "auuid": "apartmenttype_911",
+    "buuid": "contract_572"
+  },
+  {
+    "auuid": "apartmenttype_916",
+    "buuid": "contract_573"
+  },
+  {
+    "auuid": "apartmenttype_917",
+    "buuid": "contract_574"
+  },
+  {
+    "auuid": "apartmenttype_920",
+    "buuid": "contract_575"
+  },
+  {
+    "auuid": "apartmenttype_921",
+    "buuid": "contract_576"
+  },
+  {
+    "auuid": "apartmenttype_923",
+    "buuid": "contract_577"
+  },
+  {
+    "auuid": "apartmenttype_924",
+    "buuid": "contract_578"
+  },
+  {
+    "auuid": "apartmenttype_926",
+    "buuid": "contract_579"
+  },
+  {
+    "auuid": "apartmenttype_927",
+    "buuid": "contract_580"
+  },
+  {
+    "auuid": "apartmenttype_928",
+    "buuid": "contract_581"
+  },
+  {
+    "auuid": "apartmenttype_929",
+    "buuid": "contract_582"
+  },
+  {
+    "auuid": "apartmenttype_953",
+    "buuid": "contract_583"
+  },
+  {
+    "auuid": "apartmenttype_954",
+    "buuid": "contract_584"
+  },
+  {
+    "auuid": "apartmenttype_955",
+    "buuid": "contract_585"
+  },
+  {
+    "auuid": "apartmenttype_956",
+    "buuid": "contract_586"
+  },
+  {
+    "auuid": "apartmenttype_958",
+    "buuid": "contract_587"
+  },
+  {
+    "auuid": "apartmenttype_959",
+    "buuid": "contract_588"
+  },
+  {
+    "auuid": "apartmenttype_960",
+    "buuid": "contract_589"
+  },
+  {
+    "auuid": "apartmenttype_961",
+    "buuid": "contract_590"
+  },
+  {
+    "auuid": "apartmenttype_963",
+    "buuid": "contract_591"
+  },
+  {
+    "auuid": "apartmenttype_964",
+    "buuid": "contract_592"
+  },
+  {
+    "auuid": "apartmenttype_965",
+    "buuid": "contract_593"
+  },
+  {
+    "auuid": "apartmenttype_966",
+    "buuid": "contract_594"
+  },
+  {
+    "auuid": "apartmenttype_967",
+    "buuid": "contract_595"
+  },
+  {
+    "auuid": "apartmenttype_968",
+    "buuid": "contract_596"
+  },
+  {
+    "auuid": "apartmenttype_970",
+    "buuid": "contract_597"
+  },
+  {
+    "auuid": "apartmenttype_971",
+    "buuid": "contract_598"
+  },
+  {
+    "auuid": "apartmenttype_972",
+    "buuid": "contract_599"
+  },
+  {
+    "auuid": "apartmenttype_973",
+    "buuid": "contract_600"
+  },
+  {
+    "auuid": "apartmenttype_975",
+    "buuid": "contract_601"
+  },
+  {
+    "auuid": "apartmenttype_933",
+    "buuid": "contract_602"
+  },
+  {
+    "auuid": "apartmenttype_935",
+    "buuid": "contract_603"
+  },
+  {
+    "auuid": "apartmenttype_936",
+    "buuid": "contract_604"
+  },
+  {
+    "auuid": "apartmenttype_937",
+    "buuid": "contract_605"
+  },
+  {
+    "auuid": "apartmenttype_939",
+    "buuid": "contract_606"
+  },
+  {
+    "auuid": "apartmenttype_940",
+    "buuid": "contract_607"
+  },
+  {
+    "auuid": "apartmenttype_941",
+    "buuid": "contract_608"
+  },
+  {
+    "auuid": "apartmenttype_942",
+    "buuid": "contract_609"
+  },
+  {
+    "auuid": "apartmenttype_944",
+    "buuid": "contract_610"
+  },
+  {
+    "auuid": "apartmenttype_945",
+    "buuid": "contract_611"
+  },
+  {
+    "auuid": "apartmenttype_947",
+    "buuid": "contract_612"
+  },
+  {
+    "auuid": "apartmenttype_948",
+    "buuid": "contract_613"
+  },
+  {
+    "auuid": "apartmenttype_949",
+    "buuid": "contract_614"
+  },
+  {
+    "auuid": "apartmenttype_952",
+    "buuid": "contract_615"
+  },
+  {
+    "auuid": "apartmenttype_976",
+    "buuid": "contract_616"
+  },
+  {
+    "auuid": "apartmenttype_977",
+    "buuid": "contract_617"
+  },
+  {
+    "auuid": "apartmenttype_978",
+    "buuid": "contract_618"
+  },
+  {
+    "auuid": "apartmenttype_979",
+    "buuid": "contract_619"
+  },
+  {
+    "auuid": "apartmenttype_980",
+    "buuid": "contract_620"
+  },
+  {
+    "auuid": "apartmenttype_981",
+    "buuid": "contract_621"
+  },
+  {
+    "auuid": "apartmenttype_982",
+    "buuid": "contract_622"
+  },
+  {
+    "auuid": "apartmenttype_983",
+    "buuid": "contract_623"
+  },
+  {
+    "auuid": "apartmenttype_984",
+    "buuid": "contract_624"
+  },
+  {
+    "auuid": "apartmenttype_985",
+    "buuid": "contract_625"
+  },
+  {
+    "auuid": "apartmenttype_986",
+    "buuid": "contract_626"
+  },
+  {
+    "auuid": "apartmenttype_987",
+    "buuid": "contract_627"
+  },
+  {
+    "auuid": "apartmenttype_988",
+    "buuid": "contract_628"
+  },
+  {
+    "auuid": "apartmenttype_989",
+    "buuid": "contract_629"
+  },
+  {
+    "auuid": "apartmenttype_990",
+    "buuid": "contract_630"
+  },
+  {
+    "auuid": "apartmenttype_991",
+    "buuid": "contract_631"
+  },
+  {
+    "auuid": "apartmenttype_992",
+    "buuid": "contract_632"
+  },
+  {
+    "auuid": "apartmenttype_993",
+    "buuid": "contract_633"
+  },
+  {
+    "auuid": "apartmenttype_994",
+    "buuid": "contract_634"
+  },
+  {
+    "auuid": "apartmenttype_995",
+    "buuid": "contract_635"
+  },
+  {
+    "auuid": "apartmenttype_996",
+    "buuid": "contract_636"
+  },
+  {
+    "auuid": "apartmenttype_997",
+    "buuid": "contract_637"
+  },
+  {
+    "auuid": "apartmenttype_998",
+    "buuid": "contract_638"
+  },
+  {
+    "auuid": "apartmenttype_999",
+    "buuid": "contract_639"
+  },
+  {
+    "auuid": "apartmenttype_1002",
+    "buuid": "contract_640"
+  },
+  {
+    "auuid": "apartmenttype_1005",
+    "buuid": "contract_641"
+  },
+  {
+    "auuid": "apartmenttype_1006",
+    "buuid": "contract_642"
+  },
+  {
+    "auuid": "apartmenttype_1007",
+    "buuid": "contract_643"
+  },
+  {
+    "auuid": "apartmenttype_1008",
+    "buuid": "contract_644"
+  },
+  {
+    "auuid": "apartmenttype_1009",
+    "buuid": "contract_645"
+  },
+  {
+    "auuid": "apartmenttype_1200",
+    "buuid": "contract_646"
+  },
+  {
+    "auuid": "apartmenttype_1201",
+    "buuid": "contract_647"
+  },
+  {
+    "auuid": "apartmenttype_1010",
+    "buuid": "contract_648"
+  },
+  {
+    "auuid": "apartmenttype_1011",
+    "buuid": "contract_649"
+  },
+  {
+    "auuid": "apartmenttype_1012",
+    "buuid": "contract_650"
+  },
+  {
+    "auuid": "apartmenttype_1013",
+    "buuid": "contract_651"
+  },
+  {
+    "auuid": "apartmenttype_1014",
+    "buuid": "contract_652"
+  },
+  {
+    "auuid": "apartmenttype_1015",
+    "buuid": "contract_653"
+  },
+  {
+    "auuid": "apartmenttype_1016",
+    "buuid": "contract_654"
+  },
+  {
+    "auuid": "apartmenttype_1017",
+    "buuid": "contract_655"
+  },
+  {
+    "auuid": "apartmenttype_1020",
+    "buuid": "contract_656"
+  },
+  {
+    "auuid": "apartmenttype_1025",
+    "buuid": "contract_657"
+  },
+  {
+    "auuid": "apartmenttype_1038",
+    "buuid": "contract_658"
+  },
+  {
+    "auuid": "apartmenttype_1039",
+    "buuid": "contract_659"
+  },
+  {
+    "auuid": "apartmenttype_1040",
+    "buuid": "contract_660"
+  },
+  {
+    "auuid": "apartmenttype_1041",
+    "buuid": "contract_661"
+  },
+  {
+    "auuid": "apartmenttype_1042",
+    "buuid": "contract_662"
+  },
+  {
+    "auuid": "apartmenttype_1043",
+    "buuid": "contract_663"
+  },
+  {
+    "auuid": "apartmenttype_1044",
+    "buuid": "contract_664"
+  },
+  {
+    "auuid": "apartmenttype_1045",
+    "buuid": "contract_665"
+  },
+  {
+    "auuid": "apartmenttype_1046",
+    "buuid": "contract_666"
+  },
+  {
+    "auuid": "apartmenttype_1048",
+    "buuid": "contract_667"
+  },
+  {
+    "auuid": "apartmenttype_1049",
+    "buuid": "contract_668"
+  },
+  {
+    "auuid": "apartmenttype_1050",
+    "buuid": "contract_669"
+  },
+  {
+    "auuid": "apartmenttype_1052",
+    "buuid": "contract_670"
+  },
+  {
+    "auuid": "apartmenttype_1054",
+    "buuid": "contract_671"
+  },
+  {
+    "auuid": "apartmenttype_1055",
+    "buuid": "contract_672"
+  },
+  {
+    "auuid": "apartmenttype_1057",
+    "buuid": "contract_673"
+  },
+  {
+    "auuid": "apartmenttype_1058",
+    "buuid": "contract_674"
+  },
+  {
+    "auuid": "apartmenttype_1060",
+    "buuid": "contract_675"
+  },
+  {
+    "auuid": "apartmenttype_1062",
+    "buuid": "contract_676"
+  },
+  {
+    "auuid": "apartmenttype_1063",
+    "buuid": "contract_677"
+  },
+  {
+    "auuid": "apartmenttype_1064",
+    "buuid": "contract_678"
+  },
+  {
+    "auuid": "apartmenttype_1066",
+    "buuid": "contract_679"
+  },
+  {
+    "auuid": "apartmenttype_1068",
+    "buuid": "contract_680"
+  },
+  {
+    "auuid": "apartmenttype_1069",
+    "buuid": "contract_681"
+  },
+  {
+    "auuid": "apartmenttype_1070",
+    "buuid": "contract_682"
+  },
+  {
+    "auuid": "apartmenttype_1071",
+    "buuid": "contract_683"
+  },
+  {
+    "auuid": "apartmenttype_1072",
+    "buuid": "contract_684"
+  },
+  {
+    "auuid": "apartmenttype_1073",
+    "buuid": "contract_685"
+  },
+  {
+    "auuid": "apartmenttype_1074",
+    "buuid": "contract_686"
+  },
+  {
+    "auuid": "apartmenttype_1078",
+    "buuid": "contract_687"
+  },
+  {
+    "auuid": "apartmenttype_1082",
+    "buuid": "contract_688"
+  },
+  {
+    "auuid": "apartmenttype_1087",
+    "buuid": "contract_689"
+  },
+  {
+    "auuid": "apartmenttype_1091",
+    "buuid": "contract_690"
+  },
+  {
+    "auuid": "apartmenttype_1093",
+    "buuid": "contract_691"
+  },
+  {
+    "auuid": "apartmenttype_1094",
+    "buuid": "contract_692"
+  },
+  {
+    "auuid": "apartmenttype_1095",
+    "buuid": "contract_693"
+  },
+  {
+    "auuid": "apartmenttype_1097",
+    "buuid": "contract_694"
+  },
+  {
+    "auuid": "apartmenttype_1098",
+    "buuid": "contract_695"
+  },
+  {
+    "auuid": "apartmenttype_1099",
+    "buuid": "contract_696"
+  },
+  {
+    "auuid": "apartmenttype_1101",
+    "buuid": "contract_697"
+  },
+  {
+    "auuid": "apartmenttype_1102",
+    "buuid": "contract_698"
+  },
+  {
+    "auuid": "apartmenttype_1103",
+    "buuid": "contract_699"
+  },
+  {
+    "auuid": "apartmenttype_1104",
+    "buuid": "contract_700"
+  },
+  {
+    "auuid": "apartmenttype_1105",
+    "buuid": "contract_701"
+  },
+  {
+    "auuid": "apartmenttype_1106",
+    "buuid": "contract_702"
+  },
+  {
+    "auuid": "apartmenttype_1107",
+    "buuid": "contract_703"
+  },
+  {
+    "auuid": "apartmenttype_1108",
+    "buuid": "contract_704"
+  },
+  {
+    "auuid": "apartmenttype_1109",
+    "buuid": "contract_705"
+  },
+  {
+    "auuid": "apartmenttype_1110",
+    "buuid": "contract_706"
+  },
+  {
+    "auuid": "apartmenttype_1111",
+    "buuid": "contract_707"
+  },
+  {
+    "auuid": "apartmenttype_1112",
+    "buuid": "contract_708"
+  },
+  {
+    "auuid": "apartmenttype_1113",
+    "buuid": "contract_709"
+  },
+  {
+    "auuid": "apartmenttype_1115",
+    "buuid": "contract_710"
+  },
+  {
+    "auuid": "apartmenttype_1119",
+    "buuid": "contract_711"
+  },
+  {
+    "auuid": "apartmenttype_1120",
+    "buuid": "contract_712"
+  },
+  {
+    "auuid": "apartmenttype_1122",
+    "buuid": "contract_713"
+  },
+  {
+    "auuid": "apartmenttype_1125",
+    "buuid": "contract_714"
+  },
+  {
+    "auuid": "apartmenttype_1126",
+    "buuid": "contract_715"
+  },
+  {
+    "auuid": "apartmenttype_1127",
+    "buuid": "contract_716"
+  },
+  {
+    "auuid": "apartmenttype_1128",
+    "buuid": "contract_717"
+  },
+  {
+    "auuid": "apartmenttype_1129",
+    "buuid": "contract_718"
+  },
+  {
+    "auuid": "apartmenttype_1130",
+    "buuid": "contract_719"
+  },
+  {
+    "auuid": "apartmenttype_1131",
+    "buuid": "contract_720"
+  },
+  {
+    "auuid": "apartmenttype_1132",
+    "buuid": "contract_721"
+  },
+  {
+    "auuid": "apartmenttype_1133",
+    "buuid": "contract_722"
+  },
+  {
+    "auuid": "apartmenttype_1134",
+    "buuid": "contract_723"
+  },
+  {
+    "auuid": "apartmenttype_1135",
+    "buuid": "contract_724"
+  },
+  {
+    "auuid": "apartmenttype_1136",
+    "buuid": "contract_725"
+  },
+  {
+    "auuid": "apartmenttype_1137",
+    "buuid": "contract_726"
+  },
+  {
+    "auuid": "apartmenttype_1138",
+    "buuid": "contract_727"
+  },
+  {
+    "auuid": "apartmenttype_1139",
+    "buuid": "contract_728"
+  },
+  {
+    "auuid": "apartmenttype_1140",
+    "buuid": "contract_729"
+  },
+  {
+    "auuid": "apartmenttype_1141",
+    "buuid": "contract_730"
+  },
+  {
+    "auuid": "apartmenttype_1142",
+    "buuid": "contract_731"
+  },
+  {
+    "auuid": "apartmenttype_1143",
+    "buuid": "contract_732"
+  },
+  {
+    "auuid": "apartmenttype_1144",
+    "buuid": "contract_733"
+  },
+  {
+    "auuid": "apartmenttype_1145",
+    "buuid": "contract_734"
+  },
+  {
+    "auuid": "apartmenttype_1147",
+    "buuid": "contract_735"
+  },
+  {
+    "auuid": "apartmenttype_1148",
+    "buuid": "contract_736"
+  },
+  {
+    "auuid": "apartmenttype_1149",
+    "buuid": "contract_737"
+  },
+  {
+    "auuid": "apartmenttype_1150",
+    "buuid": "contract_738"
+  },
+  {
+    "auuid": "apartmenttype_1152",
+    "buuid": "contract_739"
+  },
+  {
+    "auuid": "apartmenttype_1154",
+    "buuid": "contract_740"
+  },
+  {
+    "auuid": "apartmenttype_1155",
+    "buuid": "contract_741"
+  },
+  {
+    "auuid": "apartmenttype_1156",
+    "buuid": "contract_742"
+  },
+  {
+    "auuid": "apartmenttype_1158",
+    "buuid": "contract_743"
+  },
+  {
+    "auuid": "apartmenttype_1160",
+    "buuid": "contract_744"
+  },
+  {
+    "auuid": "apartmenttype_1161",
+    "buuid": "contract_745"
+  },
+  {
+    "auuid": "apartmenttype_1162",
+    "buuid": "contract_746"
+  },
+  {
+    "auuid": "apartmenttype_1163",
+    "buuid": "contract_747"
+  },
+  {
+    "auuid": "apartmenttype_1164",
+    "buuid": "contract_748"
+  },
+  {
+    "auuid": "apartmenttype_1169",
+    "buuid": "contract_749"
+  },
+  {
+    "auuid": "apartmenttype_1170",
+    "buuid": "contract_750"
+  },
+  {
+    "auuid": "apartmenttype_1171",
+    "buuid": "contract_751"
+  },
+  {
+    "auuid": "apartmenttype_1172",
+    "buuid": "contract_752"
+  },
+  {
+    "auuid": "apartmenttype_1173",
+    "buuid": "contract_753"
+  },
+  {
+    "auuid": "apartmenttype_1174",
+    "buuid": "contract_754"
+  },
+  {
+    "auuid": "apartmenttype_1175",
+    "buuid": "contract_755"
+  },
+  {
+    "auuid": "apartmenttype_1177",
+    "buuid": "contract_756"
+  },
+  {
+    "auuid": "apartmenttype_1187",
+    "buuid": "contract_757"
+  },
+  {
+    "auuid": "apartmenttype_1189",
+    "buuid": "contract_758"
+  },
+  {
+    "auuid": "apartmenttype_1190",
+    "buuid": "contract_759"
+  },
+  {
+    "auuid": "apartmenttype_1192",
+    "buuid": "contract_760"
+  },
+  {
+    "auuid": "apartmenttype_1193",
+    "buuid": "contract_761"
+  },
+  {
+    "auuid": "apartmenttype_43",
+    "buuid": "contract_762"
+  },
+  {
+    "auuid": "apartmenttype_44",
+    "buuid": "contract_763"
+  },
+  {
+    "auuid": "apartmenttype_45",
+    "buuid": "contract_764"
+  },
+  {
+    "auuid": "apartmenttype_46",
+    "buuid": "contract_765"
+  },
+  {
+    "auuid": "apartmenttype_47",
+    "buuid": "contract_766"
+  },
+  {
+    "auuid": "apartmenttype_48",
+    "buuid": "contract_767"
+  },
+  {
+    "auuid": "apartmenttype_49",
+    "buuid": "contract_768"
+  },
+  {
+    "auuid": "apartmenttype_50",
+    "buuid": "contract_769"
+  },
+  {
+    "auuid": "apartmenttype_51",
+    "buuid": "contract_770"
+  },
+  {
+    "auuid": "apartmenttype_52",
+    "buuid": "contract_771"
+  },
+  {
+    "auuid": "apartmenttype_53",
+    "buuid": "contract_772"
+  },
+  {
+    "auuid": "apartmenttype_54",
+    "buuid": "contract_773"
+  },
+  {
+    "auuid": "apartmenttype_55",
+    "buuid": "contract_774"
+  },
+  {
+    "auuid": "apartmenttype_56",
+    "buuid": "contract_775"
+  },
+  {
+    "auuid": "apartmenttype_57",
+    "buuid": "contract_776"
+  },
+  {
+    "auuid": "apartmenttype_58",
+    "buuid": "contract_777"
+  },
+  {
+    "auuid": "apartmenttype_59",
+    "buuid": "contract_778"
+  },
+  {
+    "auuid": "apartmenttype_60",
+    "buuid": "contract_779"
+  },
+  {
+    "auuid": "apartmenttype_61",
+    "buuid": "contract_780"
+  },
+  {
+    "auuid": "apartmenttype_62",
+    "buuid": "contract_781"
+  },
+  {
+    "auuid": "apartmenttype_63",
+    "buuid": "contract_782"
+  },
+  {
+    "auuid": "apartmenttype_64",
+    "buuid": "contract_783"
+  },
+  {
+    "auuid": "apartmenttype_198",
+    "buuid": "contract_784"
+  },
+  {
+    "auuid": "apartmenttype_199",
+    "buuid": "contract_785"
+  },
+  {
+    "auuid": "apartmenttype_200",
+    "buuid": "contract_786"
+  },
+  {
+    "auuid": "apartmenttype_201",
+    "buuid": "contract_787"
+  },
+  {
+    "auuid": "apartmenttype_202",
+    "buuid": "contract_788"
+  },
+  {
+    "auuid": "apartmenttype_577",
+    "buuid": "contract_789"
+  },
+  {
+    "auuid": "apartmenttype_578",
+    "buuid": "contract_790"
+  },
+  {
+    "auuid": "apartmenttype_579",
+    "buuid": "contract_791"
+  },
+  {
+    "auuid": "apartmenttype_581",
+    "buuid": "contract_792"
+  },
+  {
+    "auuid": "apartmenttype_582",
+    "buuid": "contract_793"
+  },
+  {
+    "auuid": "apartmenttype_583",
+    "buuid": "contract_794"
+  },
+  {
+    "auuid": "apartmenttype_584",
+    "buuid": "contract_795"
+  },
+  {
+    "auuid": "apartmenttype_585",
+    "buuid": "contract_796"
+  },
+  {
+    "auuid": "apartmenttype_586",
+    "buuid": "contract_797"
+  },
+  {
+    "auuid": "apartmenttype_587",
+    "buuid": "contract_798"
+  },
+  {
+    "auuid": "apartmenttype_588",
+    "buuid": "contract_799"
+  },
+  {
+    "auuid": "apartmenttype_589",
+    "buuid": "contract_800"
+  },
+  {
+    "auuid": "apartmenttype_590",
+    "buuid": "contract_801"
+  },
+  {
+    "auuid": "apartmenttype_592",
+    "buuid": "contract_802"
+  },
+  {
+    "auuid": "apartmenttype_593",
+    "buuid": "contract_803"
+  },
+  {
+    "auuid": "apartmenttype_594",
+    "buuid": "contract_804"
+  },
+  {
+    "auuid": "apartmenttype_595",
+    "buuid": "contract_805"
+  },
+  {
+    "auuid": "apartmenttype_596",
+    "buuid": "contract_806"
+  },
+  {
+    "auuid": "apartmenttype_597",
+    "buuid": "contract_807"
+  },
+  {
+    "auuid": "apartmenttype_599",
+    "buuid": "contract_808"
+  },
+  {
+    "auuid": "apartmenttype_513",
+    "buuid": "contract_809"
+  },
+  {
+    "auuid": "apartmenttype_514",
+    "buuid": "contract_810"
+  },
+  {
+    "auuid": "apartmenttype_515",
+    "buuid": "contract_811"
+  },
+  {
+    "auuid": "apartmenttype_516",
+    "buuid": "contract_812"
+  },
+  {
+    "auuid": "apartmenttype_517",
+    "buuid": "contract_813"
+  },
+  {
+    "auuid": "apartmenttype_518",
+    "buuid": "contract_814"
+  },
+  {
+    "auuid": "apartmenttype_540",
+    "buuid": "contract_815"
+  },
+  {
+    "auuid": "apartmenttype_541",
+    "buuid": "contract_816"
+  },
+  {
+    "auuid": "apartmenttype_542",
+    "buuid": "contract_817"
+  },
+  {
+    "auuid": "apartmenttype_543",
+    "buuid": "contract_818"
+  },
+  {
+    "auuid": "apartmenttype_544",
+    "buuid": "contract_819"
+  },
+  {
+    "auuid": "apartmenttype_545",
+    "buuid": "contract_820"
+  },
+  {
+    "auuid": "apartmenttype_546",
+    "buuid": "contract_821"
+  },
+  {
+    "auuid": "apartmenttype_547",
+    "buuid": "contract_822"
+  },
+  {
+    "auuid": "apartmenttype_548",
+    "buuid": "contract_823"
+  },
+  {
+    "auuid": "apartmenttype_549",
+    "buuid": "contract_824"
+  },
+  {
+    "auuid": "apartmenttype_550",
+    "buuid": "contract_825"
+  },
+  {
+    "auuid": "apartmenttype_551",
+    "buuid": "contract_826"
+  },
+  {
+    "auuid": "apartmenttype_552",
+    "buuid": "contract_827"
+  },
+  {
+    "auuid": "apartmenttype_553",
+    "buuid": "contract_828"
+  },
+  {
+    "auuid": "apartmenttype_554",
+    "buuid": "contract_829"
+  },
+  {
+    "auuid": "apartmenttype_555",
+    "buuid": "contract_830"
+  },
+  {
+    "auuid": "apartmenttype_556",
+    "buuid": "contract_831"
+  },
+  {
+    "auuid": "apartmenttype_557",
+    "buuid": "contract_832"
+  },
+  {
+    "auuid": "apartmenttype_558",
+    "buuid": "contract_833"
+  },
+  {
+    "auuid": "apartmenttype_559",
+    "buuid": "contract_834"
+  },
+  {
+    "auuid": "apartmenttype_560",
+    "buuid": "contract_835"
+  },
+  {
+    "auuid": "apartmenttype_561",
+    "buuid": "contract_836"
+  },
+  {
+    "auuid": "apartmenttype_562",
+    "buuid": "contract_837"
+  },
+  {
+    "auuid": "apartmenttype_563",
+    "buuid": "contract_838"
+  },
+  {
+    "auuid": "apartmenttype_564",
+    "buuid": "contract_839"
+  },
+  {
+    "auuid": "apartmenttype_565",
+    "buuid": "contract_840"
+  },
+  {
+    "auuid": "apartmenttype_566",
+    "buuid": "contract_841"
+  },
+  {
+    "auuid": "apartmenttype_567",
+    "buuid": "contract_842"
+  },
+  {
+    "auuid": "apartmenttype_568",
+    "buuid": "contract_843"
+  },
+  {
+    "auuid": "apartmenttype_569",
+    "buuid": "contract_844"
+  },
+  {
+    "auuid": "apartmenttype_570",
+    "buuid": "contract_845"
+  },
+  {
+    "auuid": "apartmenttype_571",
+    "buuid": "contract_846"
+  },
+  {
+    "auuid": "apartmenttype_572",
+    "buuid": "contract_847"
+  },
+  {
+    "auuid": "apartmenttype_573",
+    "buuid": "contract_848"
+  },
+  {
+    "auuid": "apartmenttype_574",
+    "buuid": "contract_849"
+  },
+  {
+    "auuid": "apartmenttype_575",
+    "buuid": "contract_850"
+  },
+  {
+    "auuid": "apartmenttype_576",
+    "buuid": "contract_851"
+  },
+  {
+    "auuid": "apartmenttype_604",
+    "buuid": "contract_852"
+  },
+  {
+    "auuid": "apartmenttype_605",
+    "buuid": "contract_853"
+  },
+  {
+    "auuid": "apartmenttype_606",
+    "buuid": "contract_854"
+  },
+  {
+    "auuid": "apartmenttype_615",
+    "buuid": "contract_855"
+  },
+  {
+    "auuid": "apartmenttype_616",
+    "buuid": "contract_856"
+  },
+  {
+    "auuid": "apartmenttype_617",
+    "buuid": "contract_857"
+  },
+  {
+    "auuid": "apartmenttype_618",
+    "buuid": "contract_858"
+  },
+  {
+    "auuid": "apartmenttype_619",
+    "buuid": "contract_859"
+  },
+  {
+    "auuid": "apartmenttype_323",
+    "buuid": "contract_860"
+  },
+  {
+    "auuid": "apartmenttype_324",
+    "buuid": "contract_861"
+  },
+  {
+    "auuid": "apartmenttype_325",
+    "buuid": "contract_862"
+  },
+  {
+    "auuid": "apartmenttype_327",
+    "buuid": "contract_863"
+  },
+  {
+    "auuid": "apartmenttype_328",
+    "buuid": "contract_864"
+  },
+  {
+    "auuid": "apartmenttype_329",
+    "buuid": "contract_865"
+  },
+  {
+    "auuid": "apartmenttype_621",
+    "buuid": "contract_866"
+  },
+  {
+    "auuid": "apartmenttype_622",
+    "buuid": "contract_867"
+  },
+  {
+    "auuid": "apartmenttype_623",
+    "buuid": "contract_868"
+  },
+  {
+    "auuid": "apartmenttype_332",
+    "buuid": "contract_869"
+  },
+  {
+    "auuid": "apartmenttype_333",
+    "buuid": "contract_870"
+  },
+  {
+    "auuid": "apartmenttype_330",
+    "buuid": "contract_871"
+  },
+  {
+    "auuid": "apartmenttype_331",
+    "buuid": "contract_872"
+  },
+  {
+    "auuid": "apartmenttype_334",
+    "buuid": "contract_873"
+  },
+  {
+    "auuid": "apartmenttype_335",
+    "buuid": "contract_874"
+  },
+  {
+    "auuid": "apartmenttype_336",
+    "buuid": "contract_875"
+  },
+  {
+    "auuid": "apartmenttype_337",
+    "buuid": "contract_876"
+  },
+  {
+    "auuid": "apartmenttype_338",
+    "buuid": "contract_877"
+  },
+  {
+    "auuid": "apartmenttype_339",
+    "buuid": "contract_878"
+  },
+  {
+    "auuid": "apartmenttype_340",
+    "buuid": "contract_879"
+  },
+  {
+    "auuid": "apartmenttype_341",
+    "buuid": "contract_880"
+  },
+  {
+    "auuid": "apartmenttype_342",
+    "buuid": "contract_881"
+  },
+  {
+    "auuid": "apartmenttype_343",
+    "buuid": "contract_882"
+  },
+  {
+    "auuid": "apartmenttype_344",
+    "buuid": "contract_883"
+  },
+  {
+    "auuid": "apartmenttype_345",
+    "buuid": "contract_884"
+  },
+  {
+    "auuid": "apartmenttype_346",
+    "buuid": "contract_885"
+  },
+  {
+    "auuid": "apartmenttype_347",
+    "buuid": "contract_886"
+  },
+  {
+    "auuid": "apartmenttype_349",
+    "buuid": "contract_887"
+  },
+  {
+    "auuid": "apartmenttype_350",
+    "buuid": "contract_888"
+  },
+  {
+    "auuid": "apartmenttype_351",
+    "buuid": "contract_889"
+  },
+  {
+    "auuid": "apartmenttype_352",
+    "buuid": "contract_890"
+  },
+  {
+    "auuid": "apartmenttype_353",
+    "buuid": "contract_891"
+  },
+  {
+    "auuid": "apartmenttype_354",
+    "buuid": "contract_892"
+  },
+  {
+    "auuid": "apartmenttype_355",
+    "buuid": "contract_893"
+  },
+  {
+    "auuid": "apartmenttype_356",
+    "buuid": "contract_894"
+  },
+  {
+    "auuid": "apartmenttype_358",
+    "buuid": "contract_895"
+  },
+  {
+    "auuid": "apartmenttype_359",
+    "buuid": "contract_896"
+  },
+  {
+    "auuid": "apartmenttype_360",
+    "buuid": "contract_897"
+  },
+  {
+    "auuid": "apartmenttype_361",
+    "buuid": "contract_898"
+  },
+  {
+    "auuid": "apartmenttype_362",
+    "buuid": "contract_899"
+  },
+  {
+    "auuid": "apartmenttype_363",
+    "buuid": "contract_900"
+  },
+  {
+    "auuid": "apartmenttype_364",
+    "buuid": "contract_901"
+  },
+  {
+    "auuid": "apartmenttype_365",
+    "buuid": "contract_902"
+  },
+  {
+    "auuid": "apartmenttype_239",
+    "buuid": "contract_903"
+  },
+  {
+    "auuid": "apartmenttype_366",
+    "buuid": "contract_904"
+  },
+  {
+    "auuid": "apartmenttype_367",
+    "buuid": "contract_905"
+  },
+  {
+    "auuid": "apartmenttype_368",
+    "buuid": "contract_906"
+  },
+  {
+    "auuid": "apartmenttype_369",
+    "buuid": "contract_907"
+  },
+  {
+    "auuid": "apartmenttype_370",
+    "buuid": "contract_908"
+  },
+  {
+    "auuid": "apartmenttype_373",
+    "buuid": "contract_909"
+  },
+  {
+    "auuid": "apartmenttype_375",
+    "buuid": "contract_910"
+  },
+  {
+    "auuid": "apartmenttype_379",
+    "buuid": "contract_911"
+  },
+  {
+    "auuid": "apartmenttype_380",
+    "buuid": "contract_912"
+  },
+  {
+    "auuid": "apartmenttype_382",
+    "buuid": "contract_913"
+  },
+  {
+    "auuid": "apartmenttype_384",
+    "buuid": "contract_914"
+  },
+  {
+    "auuid": "apartmenttype_240",
+    "buuid": "contract_915"
+  },
+  {
+    "auuid": "apartmenttype_241",
+    "buuid": "contract_916"
+  },
+  {
+    "auuid": "apartmenttype_388",
+    "buuid": "contract_917"
+  },
+  {
+    "auuid": "apartmenttype_389",
+    "buuid": "contract_918"
+  },
+  {
+    "auuid": "apartmenttype_390",
+    "buuid": "contract_919"
+  },
+  {
+    "auuid": "apartmenttype_386",
+    "buuid": "contract_920"
+  },
+  {
+    "auuid": "apartmenttype_387",
+    "buuid": "contract_921"
+  },
+  {
+    "auuid": "apartmenttype_391",
+    "buuid": "contract_922"
+  },
+  {
+    "auuid": "apartmenttype_392",
+    "buuid": "contract_923"
+  },
+  {
+    "auuid": "apartmenttype_393",
+    "buuid": "contract_924"
+  },
+  {
+    "auuid": "apartmenttype_395",
+    "buuid": "contract_925"
+  },
+  {
+    "auuid": "apartmenttype_396",
+    "buuid": "contract_926"
+  },
+  {
+    "auuid": "apartmenttype_397",
+    "buuid": "contract_927"
+  },
+  {
+    "auuid": "apartmenttype_398",
+    "buuid": "contract_928"
+  },
+  {
+    "auuid": "apartmenttype_399",
+    "buuid": "contract_929"
+  },
+  {
+    "auuid": "apartmenttype_624",
+    "buuid": "contract_930"
+  },
+  {
+    "auuid": "apartmenttype_625",
+    "buuid": "contract_931"
+  },
+  {
+    "auuid": "apartmenttype_626",
+    "buuid": "contract_932"
+  },
+  {
+    "auuid": "apartmenttype_400",
+    "buuid": "contract_933"
+  },
+  {
+    "auuid": "apartmenttype_401",
+    "buuid": "contract_934"
+  },
+  {
+    "auuid": "apartmenttype_403",
+    "buuid": "contract_935"
+  },
+  {
+    "auuid": "apartmenttype_404",
+    "buuid": "contract_936"
+  },
+  {
+    "auuid": "apartmenttype_405",
+    "buuid": "contract_937"
+  },
+  {
+    "auuid": "apartmenttype_406",
+    "buuid": "contract_938"
+  },
+  {
+    "auuid": "apartmenttype_407",
+    "buuid": "contract_939"
+  },
+  {
+    "auuid": "apartmenttype_408",
+    "buuid": "contract_940"
+  },
+  {
+    "auuid": "apartmenttype_409",
+    "buuid": "contract_941"
+  },
+  {
+    "auuid": "apartmenttype_411",
+    "buuid": "contract_942"
+  },
+  {
+    "auuid": "apartmenttype_412",
+    "buuid": "contract_943"
+  },
+  {
+    "auuid": "apartmenttype_413",
+    "buuid": "contract_944"
+  },
+  {
+    "auuid": "apartmenttype_414",
+    "buuid": "contract_945"
+  },
+  {
+    "auuid": "apartmenttype_415",
+    "buuid": "contract_946"
+  },
+  {
+    "auuid": "apartmenttype_416",
+    "buuid": "contract_947"
+  },
+  {
+    "auuid": "apartmenttype_417",
+    "buuid": "contract_948"
+  },
+  {
+    "auuid": "apartmenttype_418",
+    "buuid": "contract_949"
+  },
+  {
+    "auuid": "apartmenttype_419",
+    "buuid": "contract_950"
+  },
+  {
+    "auuid": "apartmenttype_420",
+    "buuid": "contract_951"
+  },
+  {
+    "auuid": "apartmenttype_421",
+    "buuid": "contract_952"
+  },
+  {
+    "auuid": "apartmenttype_422",
+    "buuid": "contract_953"
+  },
+  {
+    "auuid": "apartmenttype_423",
+    "buuid": "contract_954"
+  },
+  {
+    "auuid": "apartmenttype_627",
+    "buuid": "contract_955"
+  },
+  {
+    "auuid": "apartmenttype_628",
+    "buuid": "contract_956"
+  },
+  {
+    "auuid": "apartmenttype_629",
+    "buuid": "contract_957"
+  },
+  {
+    "auuid": "apartmenttype_630",
+    "buuid": "contract_958"
+  },
+  {
+    "auuid": "apartmenttype_631",
+    "buuid": "contract_959"
+  },
+  {
+    "auuid": "apartmenttype_632",
+    "buuid": "contract_960"
+  },
+  {
+    "auuid": "apartmenttype_633",
+    "buuid": "contract_961"
+  },
+  {
+    "auuid": "apartmenttype_433",
+    "buuid": "contract_962"
+  },
+  {
+    "auuid": "apartmenttype_424",
+    "buuid": "contract_963"
+  },
+  {
+    "auuid": "apartmenttype_425",
+    "buuid": "contract_964"
+  },
+  {
+    "auuid": "apartmenttype_426",
+    "buuid": "contract_965"
+  },
+  {
+    "auuid": "apartmenttype_427",
+    "buuid": "contract_966"
+  },
+  {
+    "auuid": "apartmenttype_428",
+    "buuid": "contract_967"
+  },
+  {
+    "auuid": "apartmenttype_429",
+    "buuid": "contract_968"
+  },
+  {
+    "auuid": "apartmenttype_430",
+    "buuid": "contract_969"
+  },
+  {
+    "auuid": "apartmenttype_431",
+    "buuid": "contract_970"
+  },
+  {
+    "auuid": "apartmenttype_242",
+    "buuid": "contract_971"
+  },
+  {
+    "auuid": "apartmenttype_243",
+    "buuid": "contract_972"
+  },
+  {
+    "auuid": "apartmenttype_434",
+    "buuid": "contract_973"
+  },
+  {
+    "auuid": "apartmenttype_435",
+    "buuid": "contract_974"
+  },
+  {
+    "auuid": "apartmenttype_436",
+    "buuid": "contract_975"
+  },
+  {
+    "auuid": "apartmenttype_437",
+    "buuid": "contract_976"
+  },
+  {
+    "auuid": "apartmenttype_438",
+    "buuid": "contract_977"
+  },
+  {
+    "auuid": "apartmenttype_439",
+    "buuid": "contract_978"
+  },
+  {
+    "auuid": "apartmenttype_440",
+    "buuid": "contract_979"
+  },
+  {
+    "auuid": "apartmenttype_441",
+    "buuid": "contract_980"
+  },
+  {
+    "auuid": "apartmenttype_442",
+    "buuid": "contract_981"
+  },
+  {
+    "auuid": "apartmenttype_443",
+    "buuid": "contract_982"
+  },
+  {
+    "auuid": "apartmenttype_444",
+    "buuid": "contract_983"
+  },
+  {
+    "auuid": "apartmenttype_635",
+    "buuid": "contract_984"
+  },
+  {
+    "auuid": "apartmenttype_636",
+    "buuid": "contract_985"
+  },
+  {
+    "auuid": "apartmenttype_637",
+    "buuid": "contract_986"
+  },
+  {
+    "auuid": "apartmenttype_639",
+    "buuid": "contract_987"
+  },
+  {
+    "auuid": "apartmenttype_640",
+    "buuid": "contract_988"
+  },
+  {
+    "auuid": "apartmenttype_445",
+    "buuid": "contract_989"
+  },
+  {
+    "auuid": "apartmenttype_446",
+    "buuid": "contract_990"
+  },
+  {
+    "auuid": "apartmenttype_447",
+    "buuid": "contract_991"
+  },
+  {
+    "auuid": "apartmenttype_448",
+    "buuid": "contract_992"
+  },
+  {
+    "auuid": "apartmenttype_449",
+    "buuid": "contract_993"
+  },
+  {
+    "auuid": "apartmenttype_450",
+    "buuid": "contract_994"
+  },
+  {
+    "auuid": "apartmenttype_452",
+    "buuid": "contract_995"
+  },
+  {
+    "auuid": "apartmenttype_454",
+    "buuid": "contract_996"
+  },
+  {
+    "auuid": "apartmenttype_458",
+    "buuid": "contract_997"
+  },
+  {
+    "auuid": "apartmenttype_460",
+    "buuid": "contract_998"
+  },
+  {
+    "auuid": "apartmenttype_461",
+    "buuid": "contract_999"
+  },
+  {
+    "auuid": "apartmenttype_462",
+    "buuid": "contract_1000"
+  },
+  {
+    "auuid": "apartmenttype_463",
+    "buuid": "contract_1001"
+  },
+  {
+    "auuid": "apartmenttype_464",
+    "buuid": "contract_1002"
+  },
+  {
+    "auuid": "apartmenttype_466",
+    "buuid": "contract_1003"
+  },
+  {
+    "auuid": "apartmenttype_467",
+    "buuid": "contract_1004"
+  },
+  {
+    "auuid": "apartmenttype_468",
+    "buuid": "contract_1005"
+  },
+  {
+    "auuid": "apartmenttype_469",
+    "buuid": "contract_1006"
+  },
+  {
+    "auuid": "apartmenttype_470",
+    "buuid": "contract_1007"
+  },
+  {
+    "auuid": "apartmenttype_471",
+    "buuid": "contract_1008"
+  },
+  {
+    "auuid": "apartmenttype_472",
+    "buuid": "contract_1009"
+  },
+  {
+    "auuid": "apartmenttype_473",
+    "buuid": "contract_1010"
+  },
+  {
+    "auuid": "apartmenttype_474",
+    "buuid": "contract_1011"
+  },
+  {
+    "auuid": "apartmenttype_475",
+    "buuid": "contract_1012"
+  },
+  {
+    "auuid": "apartmenttype_234",
+    "buuid": "contract_1013"
+  },
+  {
+    "auuid": "apartmenttype_235",
+    "buuid": "contract_1014"
+  },
+  {
+    "auuid": "apartmenttype_236",
+    "buuid": "contract_1015"
+  },
+  {
+    "auuid": "apartmenttype_229",
+    "buuid": "contract_1016"
+  },
+  {
+    "auuid": "apartmenttype_230",
+    "buuid": "contract_1017"
+  },
+  {
+    "auuid": "apartmenttype_231",
+    "buuid": "contract_1018"
+  },
+  {
+    "auuid": "apartmenttype_232",
+    "buuid": "contract_1019"
+  },
+  {
+    "auuid": "apartmenttype_476",
+    "buuid": "contract_1020"
+  },
+  {
+    "auuid": "apartmenttype_477",
+    "buuid": "contract_1021"
+  },
+  {
+    "auuid": "apartmenttype_478",
+    "buuid": "contract_1022"
+  },
+  {
+    "auuid": "apartmenttype_298",
+    "buuid": "contract_1023"
+  },
+  {
+    "auuid": "apartmenttype_299",
+    "buuid": "contract_1024"
+  },
+  {
+    "auuid": "apartmenttype_300",
+    "buuid": "contract_1025"
+  },
+  {
+    "auuid": "apartmenttype_301",
+    "buuid": "contract_1026"
+  },
+  {
+    "auuid": "apartmenttype_302",
+    "buuid": "contract_1027"
+  },
+  {
+    "auuid": "apartmenttype_303",
+    "buuid": "contract_1028"
+  },
+  {
+    "auuid": "apartmenttype_304",
+    "buuid": "contract_1029"
+  },
+  {
+    "auuid": "apartmenttype_305",
+    "buuid": "contract_1030"
+  },
+  {
+    "auuid": "apartmenttype_306",
+    "buuid": "contract_1031"
+  },
+  {
+    "auuid": "apartmenttype_308",
+    "buuid": "contract_1032"
+  },
+  {
+    "auuid": "apartmenttype_309",
+    "buuid": "contract_1033"
+  },
+  {
+    "auuid": "apartmenttype_310",
+    "buuid": "contract_1034"
+  },
+  {
+    "auuid": "apartmenttype_311",
+    "buuid": "contract_1035"
+  },
+  {
+    "auuid": "apartmenttype_312",
+    "buuid": "contract_1036"
+  },
+  {
+    "auuid": "apartmenttype_313",
+    "buuid": "contract_1037"
+  },
+  {
+    "auuid": "apartmenttype_314",
+    "buuid": "contract_1038"
+  },
+  {
+    "auuid": "apartmenttype_315",
+    "buuid": "contract_1039"
+  },
+  {
+    "auuid": "apartmenttype_316",
+    "buuid": "contract_1040"
+  },
+  {
+    "auuid": "apartmenttype_317",
+    "buuid": "contract_1041"
+  },
+  {
+    "auuid": "apartmenttype_318",
+    "buuid": "contract_1042"
+  },
+  {
+    "auuid": "apartmenttype_319",
+    "buuid": "contract_1043"
+  },
+  {
+    "auuid": "apartmenttype_320",
+    "buuid": "contract_1044"
+  },
+  {
+    "auuid": "apartmenttype_321",
+    "buuid": "contract_1045"
+  },
+  {
+    "auuid": "apartmenttype_233",
+    "buuid": "contract_1046"
+  },
+  {
+    "auuid": "apartmenttype_479",
+    "buuid": "contract_1047"
+  },
+  {
+    "auuid": "apartmenttype_480",
+    "buuid": "contract_1048"
+  },
+  {
+    "auuid": "apartmenttype_481",
+    "buuid": "contract_1049"
+  },
+  {
+    "auuid": "apartmenttype_482",
+    "buuid": "contract_1050"
+  },
+  {
+    "auuid": "apartmenttype_483",
+    "buuid": "contract_1051"
+  },
+  {
+    "auuid": "apartmenttype_484",
+    "buuid": "contract_1052"
+  },
+  {
+    "auuid": "apartmenttype_485",
+    "buuid": "contract_1053"
+  },
+  {
+    "auuid": "apartmenttype_486",
+    "buuid": "contract_1054"
+  },
+  {
+    "auuid": "apartmenttype_487",
+    "buuid": "contract_1055"
+  },
+  {
+    "auuid": "apartmenttype_488",
+    "buuid": "contract_1056"
+  },
+  {
+    "auuid": "apartmenttype_489",
+    "buuid": "contract_1057"
+  },
+  {
+    "auuid": "apartmenttype_490",
+    "buuid": "contract_1058"
+  },
+  {
+    "auuid": "apartmenttype_491",
+    "buuid": "contract_1059"
+  },
+  {
+    "auuid": "apartmenttype_492",
+    "buuid": "contract_1060"
+  },
+  {
+    "auuid": "apartmenttype_493",
+    "buuid": "contract_1061"
+  },
+  {
+    "auuid": "apartmenttype_65",
+    "buuid": "contract_1062"
+  },
+  {
+    "auuid": "apartmenttype_66",
+    "buuid": "contract_1063"
+  },
+  {
+    "auuid": "apartmenttype_67",
+    "buuid": "contract_1064"
+  },
+  {
+    "auuid": "apartmenttype_68",
+    "buuid": "contract_1065"
+  },
+  {
+    "auuid": "apartmenttype_69",
+    "buuid": "contract_1066"
+  },
+  {
+    "auuid": "apartmenttype_70",
+    "buuid": "contract_1067"
+  },
+  {
+    "auuid": "apartmenttype_71",
+    "buuid": "contract_1068"
+  },
+  {
+    "auuid": "apartmenttype_72",
+    "buuid": "contract_1069"
+  },
+  {
+    "auuid": "apartmenttype_73",
+    "buuid": "contract_1070"
+  },
+  {
+    "auuid": "apartmenttype_74",
+    "buuid": "contract_1071"
+  },
+  {
+    "auuid": "apartmenttype_75",
+    "buuid": "contract_1072"
+  },
+  {
+    "auuid": "apartmenttype_76",
+    "buuid": "contract_1073"
+  },
+  {
+    "auuid": "apartmenttype_77",
+    "buuid": "contract_1074"
+  },
+  {
+    "auuid": "apartmenttype_1245",
+    "buuid": "contract_1075"
+  },
+  {
+    "auuid": "apartmenttype_1246",
+    "buuid": "contract_1076"
+  },
+  {
+    "auuid": "apartmenttype_1247",
+    "buuid": "contract_1077"
+  },
+  {
+    "auuid": "apartmenttype_1248",
+    "buuid": "contract_1078"
+  },
+  {
+    "auuid": "apartmenttype_1249",
+    "buuid": "contract_1079"
+  },
+  {
+    "auuid": "apartmenttype_1250",
+    "buuid": "contract_1080"
+  },
+  {
+    "auuid": "apartmenttype_1251",
+    "buuid": "contract_1081"
+  },
+  {
+    "auuid": "apartmenttype_1265",
+    "buuid": "contract_1082"
+  },
+  {
+    "auuid": "apartmenttype_1266",
+    "buuid": "contract_1083"
+  },
+  {
+    "auuid": "apartmenttype_1267",
+    "buuid": "contract_1084"
+  },
+  {
+    "auuid": "apartmenttype_1268",
+    "buuid": "contract_1085"
+  },
+  {
+    "auuid": "apartmenttype_1269",
+    "buuid": "contract_1086"
+  },
+  {
+    "auuid": "apartmenttype_1270",
+    "buuid": "contract_1087"
+  },
+  {
+    "auuid": "apartmenttype_1271",
+    "buuid": "contract_1088"
+  },
+  {
+    "auuid": "apartmenttype_1272",
+    "buuid": "contract_1089"
+  },
+  {
+    "auuid": "apartmenttype_1273",
+    "buuid": "contract_1090"
+  },
+  {
+    "auuid": "apartmenttype_1274",
+    "buuid": "contract_1091"
+  },
+  {
+    "auuid": "apartmenttype_1275",
+    "buuid": "contract_1092"
+  },
+  {
+    "auuid": "apartmenttype_244",
+    "buuid": "contract_1093"
+  },
+  {
+    "auuid": "apartmenttype_245",
+    "buuid": "contract_1094"
+  },
+  {
+    "auuid": "apartmenttype_246",
+    "buuid": "contract_1095"
+  },
+  {
+    "auuid": "apartmenttype_247",
+    "buuid": "contract_1096"
+  },
+  {
+    "auuid": "apartmenttype_248",
+    "buuid": "contract_1097"
+  },
+  {
+    "auuid": "apartmenttype_249",
+    "buuid": "contract_1098"
+  },
+  {
+    "auuid": "apartmenttype_250",
+    "buuid": "contract_1099"
+  },
+  {
+    "auuid": "apartmenttype_251",
+    "buuid": "contract_1100"
+  },
+  {
+    "auuid": "apartmenttype_252",
+    "buuid": "contract_1101"
+  },
+  {
+    "auuid": "apartmenttype_253",
+    "buuid": "contract_1102"
+  },
+  {
+    "auuid": "apartmenttype_254",
+    "buuid": "contract_1103"
+  },
+  {
+    "auuid": "apartmenttype_255",
+    "buuid": "contract_1104"
+  },
+  {
+    "auuid": "apartmenttype_256",
+    "buuid": "contract_1105"
+  },
+  {
+    "auuid": "apartmenttype_257",
+    "buuid": "contract_1106"
+  },
+  {
+    "auuid": "apartmenttype_78",
+    "buuid": "contract_1107"
+  },
+  {
+    "auuid": "apartmenttype_79",
+    "buuid": "contract_1108"
+  },
+  {
+    "auuid": "apartmenttype_80",
+    "buuid": "contract_1109"
+  },
+  {
+    "auuid": "apartmenttype_81",
+    "buuid": "contract_1110"
+  },
+  {
+    "auuid": "apartmenttype_259",
+    "buuid": "contract_1111"
+  },
+  {
+    "auuid": "apartmenttype_260",
+    "buuid": "contract_1112"
+  },
+  {
+    "auuid": "apartmenttype_261",
+    "buuid": "contract_1113"
+  },
+  {
+    "auuid": "apartmenttype_262",
+    "buuid": "contract_1114"
+  },
+  {
+    "auuid": "apartmenttype_263",
+    "buuid": "contract_1115"
+  },
+  {
+    "auuid": "apartmenttype_264",
+    "buuid": "contract_1116"
+  },
+  {
+    "auuid": "apartmenttype_82",
+    "buuid": "contract_1117"
+  },
+  {
+    "auuid": "apartmenttype_83",
+    "buuid": "contract_1118"
+  },
+  {
+    "auuid": "apartmenttype_85",
+    "buuid": "contract_1119"
+  },
+  {
+    "auuid": "apartmenttype_265",
+    "buuid": "contract_1120"
+  },
+  {
+    "auuid": "apartmenttype_266",
+    "buuid": "contract_1121"
+  },
+  {
+    "auuid": "apartmenttype_267",
+    "buuid": "contract_1122"
+  },
+  {
+    "auuid": "apartmenttype_268",
+    "buuid": "contract_1123"
+  },
+  {
+    "auuid": "apartmenttype_269",
+    "buuid": "contract_1124"
+  },
+  {
+    "auuid": "apartmenttype_270",
+    "buuid": "contract_1125"
+  },
+  {
+    "auuid": "apartmenttype_271",
+    "buuid": "contract_1126"
+  },
+  {
+    "auuid": "apartmenttype_273",
+    "buuid": "contract_1127"
+  },
+  {
+    "auuid": "apartmenttype_86",
+    "buuid": "contract_1128"
+  },
+  {
+    "auuid": "apartmenttype_87",
+    "buuid": "contract_1129"
+  },
+  {
+    "auuid": "apartmenttype_90",
+    "buuid": "contract_1130"
+  },
+  {
+    "auuid": "apartmenttype_94",
+    "buuid": "contract_1131"
+  },
+  {
+    "auuid": "apartmenttype_95",
+    "buuid": "contract_1132"
+  },
+  {
+    "auuid": "apartmenttype_96",
+    "buuid": "contract_1133"
+  },
+  {
+    "auuid": "apartmenttype_101",
+    "buuid": "contract_1134"
+  },
+  {
+    "auuid": "apartmenttype_102",
+    "buuid": "contract_1135"
+  },
+  {
+    "auuid": "apartmenttype_103",
+    "buuid": "contract_1136"
+  },
+  {
+    "auuid": "apartmenttype_104",
+    "buuid": "contract_1137"
+  },
+  {
+    "auuid": "apartmenttype_105",
+    "buuid": "contract_1138"
+  },
+  {
+    "auuid": "apartmenttype_107",
+    "buuid": "contract_1139"
+  },
+  {
+    "auuid": "apartmenttype_108",
+    "buuid": "contract_1140"
+  },
+  {
+    "auuid": "apartmenttype_109",
+    "buuid": "contract_1141"
+  },
+  {
+    "auuid": "apartmenttype_112",
+    "buuid": "contract_1142"
+  },
+  {
+    "auuid": "apartmenttype_113",
+    "buuid": "contract_1143"
+  },
+  {
+    "auuid": "apartmenttype_277",
+    "buuid": "contract_1144"
+  },
+  {
+    "auuid": "apartmenttype_278",
+    "buuid": "contract_1145"
+  },
+  {
+    "auuid": "apartmenttype_279",
+    "buuid": "contract_1146"
+  },
+  {
+    "auuid": "apartmenttype_280",
+    "buuid": "contract_1147"
+  },
+  {
+    "auuid": "apartmenttype_281",
+    "buuid": "contract_1148"
+  },
+  {
+    "auuid": "apartmenttype_282",
+    "buuid": "contract_1149"
+  },
+  {
+    "auuid": "apartmenttype_283",
+    "buuid": "contract_1150"
+  },
+  {
+    "auuid": "apartmenttype_284",
+    "buuid": "contract_1151"
+  },
+  {
+    "auuid": "apartmenttype_285",
+    "buuid": "contract_1152"
+  },
+  {
+    "auuid": "apartmenttype_286",
+    "buuid": "contract_1153"
+  },
+  {
+    "auuid": "apartmenttype_287",
+    "buuid": "contract_1154"
+  },
+  {
+    "auuid": "apartmenttype_120",
+    "buuid": "contract_1155"
+  },
+  {
+    "auuid": "apartmenttype_121",
+    "buuid": "contract_1156"
+  },
+  {
+    "auuid": "apartmenttype_122",
+    "buuid": "contract_1157"
+  },
+  {
+    "auuid": "apartmenttype_123",
+    "buuid": "contract_1158"
+  },
+  {
+    "auuid": "apartmenttype_292",
+    "buuid": "contract_1159"
+  },
+  {
+    "auuid": "apartmenttype_293",
+    "buuid": "contract_1160"
+  },
+  {
+    "auuid": "apartmenttype_294",
+    "buuid": "contract_1161"
+  },
+  {
+    "auuid": "apartmenttype_295",
+    "buuid": "contract_1162"
+  },
+  {
+    "auuid": "apartmenttype_297",
+    "buuid": "contract_1163"
+  },
+  {
+    "auuid": "apartmenttype_288",
+    "buuid": "contract_1164"
+  },
+  {
+    "auuid": "apartmenttype_289",
+    "buuid": "contract_1165"
+  },
+  {
+    "auuid": "apartmenttype_290",
+    "buuid": "contract_1166"
+  },
+  {
+    "auuid": "apartmenttype_291",
+    "buuid": "contract_1167"
+  },
+  {
+    "auuid": "apartmenttype_124",
+    "buuid": "contract_1168"
+  },
+  {
+    "auuid": "apartmenttype_125",
+    "buuid": "contract_1169"
+  },
+  {
+    "auuid": "apartmenttype_126",
+    "buuid": "contract_1170"
+  },
+  {
+    "auuid": "apartmenttype_127",
+    "buuid": "contract_1171"
+  },
+  {
+    "auuid": "apartmenttype_129",
+    "buuid": "contract_1172"
+  },
+  {
+    "auuid": "apartmenttype_130",
+    "buuid": "contract_1173"
+  },
+  {
+    "auuid": "apartmenttype_131",
+    "buuid": "contract_1174"
+  },
+  {
+    "auuid": "apartmenttype_132",
+    "buuid": "contract_1175"
+  },
+  {
+    "auuid": "apartmenttype_136",
+    "buuid": "contract_1176"
+  },
+  {
+    "auuid": "apartmenttype_137",
+    "buuid": "contract_1177"
+  },
+  {
+    "auuid": "apartmenttype_138",
+    "buuid": "contract_1178"
+  },
+  {
+    "auuid": "apartmenttype_140",
+    "buuid": "contract_1179"
+  },
+  {
+    "auuid": "apartmenttype_142",
+    "buuid": "contract_1180"
+  },
+  {
+    "auuid": "apartmenttype_144",
+    "buuid": "contract_1181"
+  },
+  {
+    "auuid": "apartmenttype_146",
+    "buuid": "contract_1182"
+  },
+  {
+    "auuid": "apartmenttype_148",
+    "buuid": "contract_1183"
+  },
+  {
+    "auuid": "apartmenttype_149",
+    "buuid": "contract_1184"
+  },
+  {
+    "auuid": "apartmenttype_150",
+    "buuid": "contract_1185"
+  },
+  {
+    "auuid": "apartmenttype_153",
+    "buuid": "contract_1186"
+  },
+  {
+    "auuid": "apartmenttype_154",
+    "buuid": "contract_1187"
+  },
+  {
+    "auuid": "apartmenttype_155",
+    "buuid": "contract_1188"
+  },
+  {
+    "auuid": "apartmenttype_156",
+    "buuid": "contract_1189"
+  },
+  {
+    "auuid": "apartmenttype_157",
+    "buuid": "contract_1190"
+  },
+  {
+    "auuid": "apartmenttype_158",
+    "buuid": "contract_1191"
+  },
+  {
+    "auuid": "apartmenttype_159",
+    "buuid": "contract_1192"
+  },
+  {
+    "auuid": "apartmenttype_160",
+    "buuid": "contract_1193"
+  },
+  {
+    "auuid": "apartmenttype_161",
+    "buuid": "contract_1194"
+  },
+  {
+    "auuid": "apartmenttype_163",
+    "buuid": "contract_1195"
+  },
+  {
+    "auuid": "apartmenttype_164",
+    "buuid": "contract_1196"
+  },
+  {
+    "auuid": "apartmenttype_165",
+    "buuid": "contract_1197"
+  },
+  {
+    "auuid": "apartmenttype_166",
+    "buuid": "contract_1198"
+  },
+  {
+    "auuid": "apartmenttype_167",
+    "buuid": "contract_1199"
+  },
+  {
+    "auuid": "apartmenttype_168",
+    "buuid": "contract_1200"
+  },
+  {
+    "auuid": "apartmenttype_169",
+    "buuid": "contract_1201"
+  },
+  {
+    "auuid": "apartmenttype_170",
+    "buuid": "contract_1202"
+  },
+  {
+    "auuid": "apartmenttype_171",
+    "buuid": "contract_1203"
+  },
+  {
+    "auuid": "apartmenttype_172",
+    "buuid": "contract_1204"
+  },
+  {
+    "auuid": "apartmenttype_173",
+    "buuid": "contract_1205"
+  },
+  {
+    "auuid": "apartmenttype_174",
+    "buuid": "contract_1206"
+  },
+  {
+    "auuid": "apartmenttype_175",
+    "buuid": "contract_1207"
+  },
+  {
+    "auuid": "apartmenttype_176",
+    "buuid": "contract_1208"
+  },
+  {
+    "auuid": "apartmenttype_177",
+    "buuid": "contract_1209"
+  },
+  {
+    "auuid": "apartmenttype_178",
+    "buuid": "contract_1210"
+  },
+  {
+    "auuid": "apartmenttype_179",
+    "buuid": "contract_1211"
+  },
+  {
+    "auuid": "apartmenttype_180",
+    "buuid": "contract_1212"
+  },
+  {
+    "auuid": "apartmenttype_182",
+    "buuid": "contract_1213"
+  },
+  {
+    "auuid": "apartmenttype_183",
+    "buuid": "contract_1214"
+  },
+  {
+    "auuid": "apartmenttype_184",
+    "buuid": "contract_1215"
+  },
+  {
+    "auuid": "apartmenttype_186",
+    "buuid": "contract_1216"
+  },
+  {
+    "auuid": "apartmenttype_188",
+    "buuid": "contract_1217"
+  },
+  {
+    "auuid": "apartmenttype_192",
+    "buuid": "contract_1218"
+  },
+  {
+    "auuid": "apartmenttype_195",
+    "buuid": "contract_1219"
+  },
+  {
+    "auuid": "apartmenttype_196",
+    "buuid": "contract_1220"
+  },
+  {
+    "auuid": "apartmenttype_203",
+    "buuid": "contract_1221"
+  },
+  {
+    "auuid": "apartmenttype_204",
+    "buuid": "contract_1222"
+  },
+  {
+    "auuid": "apartmenttype_205",
+    "buuid": "contract_1223"
+  },
+  {
+    "auuid": "apartmenttype_206",
+    "buuid": "contract_1224"
+  },
+  {
+    "auuid": "apartmenttype_207",
+    "buuid": "contract_1225"
+  },
+  {
+    "auuid": "apartmenttype_209",
+    "buuid": "contract_1226"
+  },
+  {
+    "auuid": "apartmenttype_210",
+    "buuid": "contract_1227"
+  },
+  {
+    "auuid": "apartmenttype_214",
+    "buuid": "contract_1228"
+  },
+  {
+    "auuid": "apartmenttype_215",
+    "buuid": "contract_1229"
+  },
+  {
+    "auuid": "apartmenttype_217",
+    "buuid": "contract_1230"
+  },
+  {
+    "auuid": "apartmenttype_1",
+    "buuid": "contract_1231"
+  },
+  {
+    "auuid": "apartmenttype_7",
+    "buuid": "contract_1232"
+  },
+  {
+    "auuid": "apartmenttype_8",
+    "buuid": "contract_1233"
+  },
+  {
+    "auuid": "apartmenttype_9",
+    "buuid": "contract_1234"
+  },
+  {
+    "auuid": "apartmenttype_10",
+    "buuid": "contract_1235"
+  },
+  {
+    "auuid": "apartmenttype_11",
+    "buuid": "contract_1236"
+  },
+  {
+    "auuid": "apartmenttype_15",
+    "buuid": "contract_1237"
+  },
+  {
+    "auuid": "apartmenttype_24",
+    "buuid": "contract_1238"
+  },
+  {
+    "auuid": "apartmenttype_25",
+    "buuid": "contract_1239"
+  },
+  {
+    "auuid": "apartmenttype_26",
+    "buuid": "contract_1240"
+  },
+  {
+    "auuid": "apartmenttype_27",
+    "buuid": "contract_1241"
+  },
+  {
+    "auuid": "apartmenttype_28",
+    "buuid": "contract_1242"
+  },
+  {
+    "auuid": "apartmenttype_29",
+    "buuid": "contract_1243"
+  },
+  {
+    "auuid": "apartmenttype_30",
+    "buuid": "contract_1244"
+  },
+  {
+    "auuid": "apartmenttype_31",
+    "buuid": "contract_1245"
+  },
+  {
+    "auuid": "apartmenttype_32",
+    "buuid": "contract_1246"
+  },
+  {
+    "auuid": "apartmenttype_33",
+    "buuid": "contract_1247"
+  },
+  {
+    "auuid": "apartmenttype_35",
+    "buuid": "contract_1248"
+  },
+  {
+    "auuid": "apartmenttype_36",
+    "buuid": "contract_1249"
+  },
+  {
+    "auuid": "apartmenttype_37",
+    "buuid": "contract_1250"
+  },
+  {
+    "auuid": "apartmenttype_721",
+    "buuid": "contract_1251"
+  },
+  {
+    "auuid": "apartmenttype_722",
+    "buuid": "contract_1252"
+  },
+  {
+    "auuid": "apartmenttype_723",
+    "buuid": "contract_1253"
+  },
+  {
+    "auuid": "apartmenttype_724",
+    "buuid": "contract_1254"
+  },
+  {
+    "auuid": "apartmenttype_725",
+    "buuid": "contract_1255"
+  },
+  {
+    "auuid": "apartmenttype_726",
+    "buuid": "contract_1256"
+  },
+  {
+    "auuid": "apartmenttype_727",
+    "buuid": "contract_1257"
+  },
+  {
+    "auuid": "apartmenttype_728",
+    "buuid": "contract_1258"
+  },
+  {
+    "auuid": "apartmenttype_729",
+    "buuid": "contract_1259"
+  },
+  {
+    "auuid": "apartmenttype_730",
+    "buuid": "contract_1260"
+  },
+  {
+    "auuid": "apartmenttype_731",
+    "buuid": "contract_1261"
+  },
+  {
+    "auuid": "apartmenttype_732",
+    "buuid": "contract_1262"
+  },
+  {
+    "auuid": "apartmenttype_733",
+    "buuid": "contract_1263"
+  },
+  {
+    "auuid": "apartmenttype_734",
+    "buuid": "contract_1264"
+  },
+  {
+    "auuid": "apartmenttype_735",
+    "buuid": "contract_1265"
+  },
+  {
+    "auuid": "apartmenttype_736",
+    "buuid": "contract_1266"
+  },
+  {
+    "auuid": "apartmenttype_737",
+    "buuid": "contract_1267"
+  },
+  {
+    "auuid": "apartmenttype_738",
+    "buuid": "contract_1268"
+  },
+  {
+    "auuid": "apartmenttype_740",
+    "buuid": "contract_1269"
+  },
+  {
+    "auuid": "apartmenttype_741",
+    "buuid": "contract_1270"
+  },
+  {
+    "auuid": "apartmenttype_742",
+    "buuid": "contract_1271"
+  },
+  {
+    "auuid": "apartmenttype_743",
+    "buuid": "contract_1272"
+  },
+  {
+    "auuid": "apartmenttype_744",
+    "buuid": "contract_1273"
+  },
+  {
+    "auuid": "apartmenttype_745",
+    "buuid": "contract_1274"
+  },
+  {
+    "auuid": "apartmenttype_746",
+    "buuid": "contract_1275"
+  },
+  {
+    "auuid": "apartmenttype_747",
+    "buuid": "contract_1276"
+  },
+  {
+    "auuid": "apartmenttype_748",
+    "buuid": "contract_1277"
+  },
+  {
+    "auuid": "apartmenttype_749",
+    "buuid": "contract_1278"
+  },
+  {
+    "auuid": "apartmenttype_750",
+    "buuid": "contract_1279"
+  },
+  {
+    "auuid": "apartmenttype_751",
+    "buuid": "contract_1280"
+  },
+  {
+    "auuid": "apartmenttype_752",
+    "buuid": "contract_1281"
+  },
+  {
+    "auuid": "apartmenttype_755",
+    "buuid": "contract_1282"
+  },
+  {
+    "auuid": "apartmenttype_757",
+    "buuid": "contract_1283"
+  },
+  {
+    "auuid": "apartmenttype_759",
+    "buuid": "contract_1284"
+  },
+  {
+    "auuid": "apartmenttype_761",
+    "buuid": "contract_1285"
+  },
+  {
+    "auuid": "apartmenttype_763",
+    "buuid": "contract_1286"
+  },
+  {
+    "auuid": "apartmenttype_764",
+    "buuid": "contract_1287"
+  },
+  {
+    "auuid": "apartmenttype_765",
+    "buuid": "contract_1288"
+  },
+  {
+    "auuid": "apartmenttype_766",
+    "buuid": "contract_1289"
+  },
+  {
+    "auuid": "apartmenttype_767",
+    "buuid": "contract_1290"
+  },
+  {
+    "auuid": "apartmenttype_768",
+    "buuid": "contract_1291"
+  },
+  {
+    "auuid": "apartmenttype_774",
+    "buuid": "contract_1292"
+  },
+  {
+    "auuid": "apartmenttype_775",
+    "buuid": "contract_1293"
+  },
+  {
+    "auuid": "apartmenttype_776",
+    "buuid": "contract_1294"
+  },
+  {
+    "auuid": "apartmenttype_777",
+    "buuid": "contract_1295"
+  },
+  {
+    "auuid": "apartmenttype_781",
+    "buuid": "contract_1296"
+  },
+  {
+    "auuid": "apartmenttype_782",
+    "buuid": "contract_1297"
+  },
+  {
+    "auuid": "apartmenttype_789",
+    "buuid": "contract_1298"
+  },
+  {
+    "auuid": "apartmenttype_790",
+    "buuid": "contract_1299"
+  },
+  {
+    "auuid": "apartmenttype_794",
+    "buuid": "contract_1300"
+  },
+  {
+    "auuid": "apartmenttype_795",
+    "buuid": "contract_1301"
+  },
+  {
+    "auuid": "apartmenttype_796",
+    "buuid": "contract_1302"
+  },
+  {
+    "auuid": "apartmenttype_797",
+    "buuid": "contract_1303"
+  },
+  {
+    "auuid": "apartmenttype_798",
+    "buuid": "contract_1304"
+  },
+  {
+    "auuid": "apartmenttype_799",
+    "buuid": "contract_1305"
+  },
+  {
+    "auuid": "apartmenttype_800",
+    "buuid": "contract_1306"
+  },
+  {
+    "auuid": "apartmenttype_803",
+    "buuid": "contract_1307"
+  },
+  {
+    "auuid": "apartmenttype_804",
+    "buuid": "contract_1308"
+  },
+  {
+    "auuid": "apartmenttype_805",
+    "buuid": "contract_1309"
+  },
+  {
+    "auuid": "apartmenttype_807",
+    "buuid": "contract_1310"
+  },
+  {
+    "auuid": "apartmenttype_808",
+    "buuid": "contract_1311"
+  },
+  {
+    "auuid": "apartmenttype_809",
+    "buuid": "contract_1312"
+  },
+  {
+    "auuid": "apartmenttype_810",
+    "buuid": "contract_1313"
+  },
+  {
+    "auuid": "apartmenttype_811",
+    "buuid": "contract_1314"
+  },
+  {
+    "auuid": "apartmenttype_813",
+    "buuid": "contract_1315"
+  },
+  {
+    "auuid": "apartmenttype_815",
+    "buuid": "contract_1316"
+  },
+  {
+    "auuid": "apartmenttype_816",
+    "buuid": "contract_1317"
+  },
+  {
+    "auuid": "apartmenttype_817",
+    "buuid": "contract_1318"
+  },
+  {
+    "auuid": "apartmenttype_818",
+    "buuid": "contract_1319"
+  },
+  {
+    "auuid": "apartmenttype_819",
+    "buuid": "contract_1320"
+  },
+  {
+    "auuid": "apartmenttype_820",
+    "buuid": "contract_1321"
+  },
+  {
+    "auuid": "apartmenttype_821",
+    "buuid": "contract_1322"
+  },
+  {
+    "auuid": "apartmenttype_823",
+    "buuid": "contract_1323"
+  },
+  {
+    "auuid": "apartmenttype_824",
+    "buuid": "contract_1324"
+  },
+  {
+    "auuid": "apartmenttype_825",
+    "buuid": "contract_1325"
+  },
+  {
+    "auuid": "apartmenttype_826",
+    "buuid": "contract_1326"
+  },
+  {
+    "auuid": "apartmenttype_834",
+    "buuid": "contract_1327"
+  },
+  {
+    "auuid": "apartmenttype_835",
+    "buuid": "contract_1328"
+  },
+  {
+    "auuid": "apartmenttype_836",
+    "buuid": "contract_1329"
+  },
+  {
+    "auuid": "apartmenttype_837",
+    "buuid": "contract_1330"
+  },
+  {
+    "auuid": "apartmenttype_839",
+    "buuid": "contract_1331"
+  },
+  {
+    "auuid": "apartmenttype_840",
+    "buuid": "contract_1332"
+  },
+  {
+    "auuid": "apartmenttype_842",
+    "buuid": "contract_1333"
+  },
+  {
+    "auuid": "apartmenttype_828",
+    "buuid": "contract_1334"
+  },
+  {
+    "auuid": "apartmenttype_829",
+    "buuid": "contract_1335"
+  },
+  {
+    "auuid": "apartmenttype_830",
+    "buuid": "contract_1336"
+  },
+  {
+    "auuid": "apartmenttype_831",
+    "buuid": "contract_1337"
+  },
+  {
+    "auuid": "apartmenttype_832",
+    "buuid": "contract_1338"
+  },
+  {
+    "auuid": "apartmenttype_833",
+    "buuid": "contract_1339"
+  },
+  {
+    "auuid": "apartmenttype_843",
+    "buuid": "contract_1340"
+  },
+  {
+    "auuid": "apartmenttype_845",
+    "buuid": "contract_1341"
+  },
+  {
+    "auuid": "apartmenttype_846",
+    "buuid": "contract_1342"
+  },
+  {
+    "auuid": "apartmenttype_848",
+    "buuid": "contract_1343"
+  },
+  {
+    "auuid": "apartmenttype_849",
+    "buuid": "contract_1344"
+  },
+  {
+    "auuid": "apartmenttype_850",
+    "buuid": "contract_1345"
+  },
+  {
+    "auuid": "apartmenttype_851",
+    "buuid": "contract_1346"
+  },
+  {
+    "auuid": "apartmenttype_852",
+    "buuid": "contract_1347"
+  },
+  {
+    "auuid": "apartmenttype_853",
+    "buuid": "contract_1348"
+  },
+  {
+    "auuid": "apartmenttype_529",
+    "buuid": "contract_1349"
+  },
+  {
+    "auuid": "apartmenttype_530",
+    "buuid": "contract_1350"
+  },
+  {
+    "auuid": "apartmenttype_531",
+    "buuid": "contract_1351"
+  },
+  {
+    "auuid": "apartmenttype_532",
+    "buuid": "contract_1352"
+  },
+  {
+    "auuid": "apartmenttype_533",
+    "buuid": "contract_1353"
+  },
+  {
+    "auuid": "apartmenttype_534",
+    "buuid": "contract_1354"
+  },
+  {
+    "auuid": "apartmenttype_535",
+    "buuid": "contract_1355"
+  },
+  {
+    "auuid": "apartmenttype_536",
+    "buuid": "contract_1356"
+  },
+  {
+    "auuid": "apartmenttype_537",
+    "buuid": "contract_1357"
+  },
+  {
+    "auuid": "apartmenttype_538",
+    "buuid": "contract_1358"
+  },
+  {
+    "auuid": "apartmenttype_539",
+    "buuid": "contract_1359"
+  },
+  {
+    "auuid": "apartmenttype_607",
+    "buuid": "contract_1360"
+  },
+  {
+    "auuid": "apartmenttype_608",
+    "buuid": "contract_1361"
+  },
+  {
+    "auuid": "apartmenttype_609",
+    "buuid": "contract_1362"
+  },
+  {
+    "auuid": "apartmenttype_610",
+    "buuid": "contract_1363"
+  },
+  {
+    "auuid": "apartmenttype_611",
+    "buuid": "contract_1364"
+  },
+  {
+    "auuid": "apartmenttype_612",
+    "buuid": "contract_1365"
+  },
+  {
+    "auuid": "apartmenttype_613",
+    "buuid": "contract_1366"
+  },
+  {
+    "auuid": "apartmenttype_614",
+    "buuid": "contract_1367"
+  },
+  {
+    "auuid": "apartmenttype_38",
+    "buuid": "contract_1368"
+  },
+  {
+    "auuid": "apartmenttype_39",
+    "buuid": "contract_1369"
+  },
+  {
+    "auuid": "apartmenttype_40",
+    "buuid": "contract_1370"
+  },
+  {
+    "auuid": "apartmenttype_41",
+    "buuid": "contract_1371"
+  },
+  {
+    "auuid": "apartmenttype_854",
+    "buuid": "contract_1372"
+  },
+  {
+    "auuid": "apartmenttype_855",
+    "buuid": "contract_1373"
+  },
+  {
+    "auuid": "apartmenttype_860",
+    "buuid": "contract_1374"
+  },
+  {
+    "auuid": "apartmenttype_862",
+    "buuid": "contract_1375"
+  },
+  {
+    "auuid": "apartmenttype_863",
+    "buuid": "contract_1376"
+  },
+  {
+    "auuid": "apartmenttype_864",
+    "buuid": "contract_1377"
+  },
+  {
+    "auuid": "apartmenttype_868",
+    "buuid": "contract_1378"
+  },
+  {
+    "auuid": "apartmenttype_869",
+    "buuid": "contract_1379"
+  },
+  {
+    "auuid": "apartmenttype_873",
+    "buuid": "contract_1380"
+  },
+  {
+    "auuid": "apartmenttype_874",
+    "buuid": "contract_1381"
+  },
+  {
+    "auuid": "apartmenttype_875",
+    "buuid": "contract_1382"
+  },
+  {
+    "auuid": "apartmenttype_879",
+    "buuid": "contract_1383"
+  },
+  {
+    "auuid": "apartmenttype_881",
+    "buuid": "contract_1384"
+  },
+  {
+    "auuid": "apartmenttype_882",
+    "buuid": "contract_1385"
+  },
+  {
+    "auuid": "apartmenttype_883",
+    "buuid": "contract_1386"
+  },
+  {
+    "auuid": "apartmenttype_884",
+    "buuid": "contract_1387"
+  },
+  {
+    "auuid": "apartmenttype_885",
+    "buuid": "contract_1388"
+  },
+  {
+    "auuid": "apartmenttype_886",
+    "buuid": "contract_1389"
+  },
+  {
+    "auuid": "apartmenttype_892",
+    "buuid": "contract_1390"
+  },
+  {
+    "auuid": "apartmenttype_896",
+    "buuid": "contract_1391"
+  },
+  {
+    "auuid": "apartmenttype_898",
+    "buuid": "contract_1392"
+  },
+  {
+    "auuid": "apartmenttype_899",
+    "buuid": "contract_1393"
+  },
+  {
+    "auuid": "apartmenttype_901",
+    "buuid": "contract_1394"
+  },
+  {
+    "auuid": "apartmenttype_902",
+    "buuid": "contract_1395"
+  },
+  {
+    "auuid": "apartmenttype_904",
+    "buuid": "contract_1396"
+  },
+  {
+    "auuid": "apartmenttype_906",
+    "buuid": "contract_1397"
+  },
+  {
+    "auuid": "apartmenttype_907",
+    "buuid": "contract_1398"
+  },
+  {
+    "auuid": "apartmenttype_917",
+    "buuid": "contract_1399"
+  },
+  {
+    "auuid": "apartmenttype_920",
+    "buuid": "contract_1400"
+  },
+  {
+    "auuid": "apartmenttype_921",
+    "buuid": "contract_1401"
+  },
+  {
+    "auuid": "apartmenttype_924",
+    "buuid": "contract_1402"
+  },
+  {
+    "auuid": "apartmenttype_926",
+    "buuid": "contract_1403"
+  },
+  {
+    "auuid": "apartmenttype_927",
+    "buuid": "contract_1404"
+  },
+  {
+    "auuid": "apartmenttype_928",
+    "buuid": "contract_1405"
+  },
+  {
+    "auuid": "apartmenttype_929",
+    "buuid": "contract_1406"
+  },
+  {
+    "auuid": "apartmenttype_953",
+    "buuid": "contract_1407"
+  },
+  {
+    "auuid": "apartmenttype_954",
+    "buuid": "contract_1408"
+  },
+  {
+    "auuid": "apartmenttype_955",
+    "buuid": "contract_1409"
+  },
+  {
+    "auuid": "apartmenttype_956",
+    "buuid": "contract_1410"
+  },
+  {
+    "auuid": "apartmenttype_957",
+    "buuid": "contract_1411"
+  },
+  {
+    "auuid": "apartmenttype_958",
+    "buuid": "contract_1412"
+  },
+  {
+    "auuid": "apartmenttype_959",
+    "buuid": "contract_1413"
+  },
+  {
+    "auuid": "apartmenttype_960",
+    "buuid": "contract_1414"
+  },
+  {
+    "auuid": "apartmenttype_961",
+    "buuid": "contract_1415"
+  },
+  {
+    "auuid": "apartmenttype_964",
+    "buuid": "contract_1416"
+  },
+  {
+    "auuid": "apartmenttype_965",
+    "buuid": "contract_1417"
+  },
+  {
+    "auuid": "apartmenttype_967",
+    "buuid": "contract_1418"
+  },
+  {
+    "auuid": "apartmenttype_971",
+    "buuid": "contract_1419"
+  },
+  {
+    "auuid": "apartmenttype_972",
+    "buuid": "contract_1420"
+  },
+  {
+    "auuid": "apartmenttype_973",
+    "buuid": "contract_1421"
+  },
+  {
+    "auuid": "apartmenttype_975",
+    "buuid": "contract_1422"
+  },
+  {
+    "auuid": "apartmenttype_933",
+    "buuid": "contract_1423"
+  },
+  {
+    "auuid": "apartmenttype_935",
+    "buuid": "contract_1424"
+  },
+  {
+    "auuid": "apartmenttype_936",
+    "buuid": "contract_1425"
+  },
+  {
+    "auuid": "apartmenttype_937",
+    "buuid": "contract_1426"
+  },
+  {
+    "auuid": "apartmenttype_938",
+    "buuid": "contract_1427"
+  },
+  {
+    "auuid": "apartmenttype_939",
+    "buuid": "contract_1428"
+  },
+  {
+    "auuid": "apartmenttype_940",
+    "buuid": "contract_1429"
+  },
+  {
+    "auuid": "apartmenttype_941",
+    "buuid": "contract_1430"
+  },
+  {
+    "auuid": "apartmenttype_942",
+    "buuid": "contract_1431"
+  },
+  {
+    "auuid": "apartmenttype_944",
+    "buuid": "contract_1432"
+  },
+  {
+    "auuid": "apartmenttype_947",
+    "buuid": "contract_1433"
+  },
+  {
+    "auuid": "apartmenttype_948",
+    "buuid": "contract_1434"
+  },
+  {
+    "auuid": "apartmenttype_949",
+    "buuid": "contract_1435"
+  },
+  {
+    "auuid": "apartmenttype_951",
+    "buuid": "contract_1436"
+  },
+  {
+    "auuid": "apartmenttype_977",
+    "buuid": "contract_1437"
+  },
+  {
+    "auuid": "apartmenttype_978",
+    "buuid": "contract_1438"
+  },
+  {
+    "auuid": "apartmenttype_979",
+    "buuid": "contract_1439"
+  },
+  {
+    "auuid": "apartmenttype_980",
+    "buuid": "contract_1440"
+  },
+  {
+    "auuid": "apartmenttype_985",
+    "buuid": "contract_1441"
+  },
+  {
+    "auuid": "apartmenttype_986",
+    "buuid": "contract_1442"
+  },
+  {
+    "auuid": "apartmenttype_987",
+    "buuid": "contract_1443"
+  },
+  {
+    "auuid": "apartmenttype_988",
+    "buuid": "contract_1444"
+  },
+  {
+    "auuid": "apartmenttype_989",
+    "buuid": "contract_1445"
+  },
+  {
+    "auuid": "apartmenttype_990",
+    "buuid": "contract_1446"
+  },
+  {
+    "auuid": "apartmenttype_991",
+    "buuid": "contract_1447"
+  },
+  {
+    "auuid": "apartmenttype_992",
+    "buuid": "contract_1448"
+  },
+  {
+    "auuid": "apartmenttype_993",
+    "buuid": "contract_1449"
+  },
+  {
+    "auuid": "apartmenttype_994",
+    "buuid": "contract_1450"
+  },
+  {
+    "auuid": "apartmenttype_995",
+    "buuid": "contract_1451"
+  },
+  {
+    "auuid": "apartmenttype_996",
+    "buuid": "contract_1452"
+  },
+  {
+    "auuid": "apartmenttype_997",
+    "buuid": "contract_1453"
+  },
+  {
+    "auuid": "apartmenttype_998",
+    "buuid": "contract_1454"
+  },
+  {
+    "auuid": "apartmenttype_999",
+    "buuid": "contract_1455"
+  },
+  {
+    "auuid": "apartmenttype_1000",
+    "buuid": "contract_1456"
+  },
+  {
+    "auuid": "apartmenttype_1001",
+    "buuid": "contract_1457"
+  },
+  {
+    "auuid": "apartmenttype_1002",
+    "buuid": "contract_1458"
+  },
+  {
+    "auuid": "apartmenttype_1004",
+    "buuid": "contract_1459"
+  },
+  {
+    "auuid": "apartmenttype_1005",
+    "buuid": "contract_1460"
+  },
+  {
+    "auuid": "apartmenttype_1006",
+    "buuid": "contract_1461"
+  },
+  {
+    "auuid": "apartmenttype_1007",
+    "buuid": "contract_1462"
+  },
+  {
+    "auuid": "apartmenttype_1008",
+    "buuid": "contract_1463"
+  },
+  {
+    "auuid": "apartmenttype_1009",
+    "buuid": "contract_1464"
+  },
+  {
+    "auuid": "apartmenttype_1199",
+    "buuid": "contract_1465"
+  },
+  {
+    "auuid": "apartmenttype_1200",
+    "buuid": "contract_1466"
+  },
+  {
+    "auuid": "apartmenttype_1201",
+    "buuid": "contract_1467"
+  },
+  {
+    "auuid": "apartmenttype_1202",
+    "buuid": "contract_1468"
+  },
+  {
+    "auuid": "apartmenttype_1010",
+    "buuid": "contract_1469"
+  },
+  {
+    "auuid": "apartmenttype_1011",
+    "buuid": "contract_1470"
+  },
+  {
+    "auuid": "apartmenttype_1012",
+    "buuid": "contract_1471"
+  },
+  {
+    "auuid": "apartmenttype_1013",
+    "buuid": "contract_1472"
+  },
+  {
+    "auuid": "apartmenttype_1014",
+    "buuid": "contract_1473"
+  },
+  {
+    "auuid": "apartmenttype_1015",
+    "buuid": "contract_1474"
+  },
+  {
+    "auuid": "apartmenttype_1016",
+    "buuid": "contract_1475"
+  },
+  {
+    "auuid": "apartmenttype_1017",
+    "buuid": "contract_1476"
+  },
+  {
+    "auuid": "apartmenttype_1020",
+    "buuid": "contract_1477"
+  },
+  {
+    "auuid": "apartmenttype_1023",
+    "buuid": "contract_1478"
+  },
+  {
+    "auuid": "apartmenttype_1024",
+    "buuid": "contract_1479"
+  },
+  {
+    "auuid": "apartmenttype_1025",
+    "buuid": "contract_1480"
+  },
+  {
+    "auuid": "apartmenttype_1026",
+    "buuid": "contract_1481"
+  },
+  {
+    "auuid": "apartmenttype_1027",
+    "buuid": "contract_1482"
+  },
+  {
+    "auuid": "apartmenttype_1028",
+    "buuid": "contract_1483"
+  },
+  {
+    "auuid": "apartmenttype_1029",
+    "buuid": "contract_1484"
+  },
+  {
+    "auuid": "apartmenttype_1031",
+    "buuid": "contract_1485"
+  },
+  {
+    "auuid": "apartmenttype_1032",
+    "buuid": "contract_1486"
+  },
+  {
+    "auuid": "apartmenttype_1033",
+    "buuid": "contract_1487"
+  },
+  {
+    "auuid": "apartmenttype_1034",
+    "buuid": "contract_1488"
+  },
+  {
+    "auuid": "apartmenttype_1035",
+    "buuid": "contract_1489"
+  },
+  {
+    "auuid": "apartmenttype_1036",
+    "buuid": "contract_1490"
+  },
+  {
+    "auuid": "apartmenttype_1037",
+    "buuid": "contract_1491"
+  },
+  {
+    "auuid": "apartmenttype_1038",
+    "buuid": "contract_1492"
+  },
+  {
+    "auuid": "apartmenttype_1039",
+    "buuid": "contract_1493"
+  },
+  {
+    "auuid": "apartmenttype_1040",
+    "buuid": "contract_1494"
+  },
+  {
+    "auuid": "apartmenttype_1041",
+    "buuid": "contract_1495"
+  },
+  {
+    "auuid": "apartmenttype_1042",
+    "buuid": "contract_1496"
+  },
+  {
+    "auuid": "apartmenttype_1043",
+    "buuid": "contract_1497"
+  },
+  {
+    "auuid": "apartmenttype_1044",
+    "buuid": "contract_1498"
+  },
+  {
+    "auuid": "apartmenttype_1045",
+    "buuid": "contract_1499"
+  },
+  {
+    "auuid": "apartmenttype_1046",
+    "buuid": "contract_1500"
+  },
+  {
+    "auuid": "apartmenttype_1048",
+    "buuid": "contract_1501"
+  },
+  {
+    "auuid": "apartmenttype_1049",
+    "buuid": "contract_1502"
+  },
+  {
+    "auuid": "apartmenttype_1050",
+    "buuid": "contract_1503"
+  },
+  {
+    "auuid": "apartmenttype_1052",
+    "buuid": "contract_1504"
+  },
+  {
+    "auuid": "apartmenttype_1055",
+    "buuid": "contract_1505"
+  },
+  {
+    "auuid": "apartmenttype_1058",
+    "buuid": "contract_1506"
+  },
+  {
+    "auuid": "apartmenttype_1062",
+    "buuid": "contract_1507"
+  },
+  {
+    "auuid": "apartmenttype_1064",
+    "buuid": "contract_1508"
+  },
+  {
+    "auuid": "apartmenttype_1067",
+    "buuid": "contract_1509"
+  },
+  {
+    "auuid": "apartmenttype_1069",
+    "buuid": "contract_1510"
+  },
+  {
+    "auuid": "apartmenttype_1070",
+    "buuid": "contract_1511"
+  },
+  {
+    "auuid": "apartmenttype_1071",
+    "buuid": "contract_1512"
+  },
+  {
+    "auuid": "apartmenttype_1072",
+    "buuid": "contract_1513"
+  },
+  {
+    "auuid": "apartmenttype_1073",
+    "buuid": "contract_1514"
+  },
+  {
+    "auuid": "apartmenttype_1074",
+    "buuid": "contract_1515"
+  },
+  {
+    "auuid": "apartmenttype_1082",
+    "buuid": "contract_1516"
+  },
+  {
+    "auuid": "apartmenttype_1085",
+    "buuid": "contract_1517"
+  },
+  {
+    "auuid": "apartmenttype_1087",
+    "buuid": "contract_1518"
+  },
+  {
+    "auuid": "apartmenttype_1091",
+    "buuid": "contract_1519"
+  },
+  {
+    "auuid": "apartmenttype_1092",
+    "buuid": "contract_1520"
+  },
+  {
+    "auuid": "apartmenttype_1094",
+    "buuid": "contract_1521"
+  },
+  {
+    "auuid": "apartmenttype_1095",
+    "buuid": "contract_1522"
+  },
+  {
+    "auuid": "apartmenttype_1098",
+    "buuid": "contract_1523"
+  },
+  {
+    "auuid": "apartmenttype_1099",
+    "buuid": "contract_1524"
+  },
+  {
+    "auuid": "apartmenttype_1101",
+    "buuid": "contract_1525"
+  },
+  {
+    "auuid": "apartmenttype_1103",
+    "buuid": "contract_1526"
+  },
+  {
+    "auuid": "apartmenttype_1104",
+    "buuid": "contract_1527"
+  },
+  {
+    "auuid": "apartmenttype_1105",
+    "buuid": "contract_1528"
+  },
+  {
+    "auuid": "apartmenttype_1106",
+    "buuid": "contract_1529"
+  },
+  {
+    "auuid": "apartmenttype_1107",
+    "buuid": "contract_1530"
+  },
+  {
+    "auuid": "apartmenttype_1108",
+    "buuid": "contract_1531"
+  },
+  {
+    "auuid": "apartmenttype_1109",
+    "buuid": "contract_1532"
+  },
+  {
+    "auuid": "apartmenttype_1110",
+    "buuid": "contract_1533"
+  },
+  {
+    "auuid": "apartmenttype_1111",
+    "buuid": "contract_1534"
+  },
+  {
+    "auuid": "apartmenttype_1112",
+    "buuid": "contract_1535"
+  },
+  {
+    "auuid": "apartmenttype_1113",
+    "buuid": "contract_1536"
+  },
+  {
+    "auuid": "apartmenttype_1115",
+    "buuid": "contract_1537"
+  },
+  {
+    "auuid": "apartmenttype_1116",
+    "buuid": "contract_1538"
+  },
+  {
+    "auuid": "apartmenttype_1119",
+    "buuid": "contract_1539"
+  },
+  {
+    "auuid": "apartmenttype_1120",
+    "buuid": "contract_1540"
+  },
+  {
+    "auuid": "apartmenttype_1122",
+    "buuid": "contract_1541"
+  },
+  {
+    "auuid": "apartmenttype_1124",
+    "buuid": "contract_1542"
+  },
+  {
+    "auuid": "apartmenttype_1125",
+    "buuid": "contract_1543"
+  },
+  {
+    "auuid": "apartmenttype_1126",
+    "buuid": "contract_1544"
+  },
+  {
+    "auuid": "apartmenttype_1127",
+    "buuid": "contract_1545"
+  },
+  {
+    "auuid": "apartmenttype_1128",
+    "buuid": "contract_1546"
+  },
+  {
+    "auuid": "apartmenttype_1129",
+    "buuid": "contract_1547"
+  },
+  {
+    "auuid": "apartmenttype_1130",
+    "buuid": "contract_1548"
+  },
+  {
+    "auuid": "apartmenttype_1131",
+    "buuid": "contract_1549"
+  },
+  {
+    "auuid": "apartmenttype_1132",
+    "buuid": "contract_1550"
+  },
+  {
+    "auuid": "apartmenttype_1133",
+    "buuid": "contract_1551"
+  },
+  {
+    "auuid": "apartmenttype_1134",
+    "buuid": "contract_1552"
+  },
+  {
+    "auuid": "apartmenttype_1135",
+    "buuid": "contract_1553"
+  },
+  {
+    "auuid": "apartmenttype_1136",
+    "buuid": "contract_1554"
+  },
+  {
+    "auuid": "apartmenttype_1137",
+    "buuid": "contract_1555"
+  },
+  {
+    "auuid": "apartmenttype_1138",
+    "buuid": "contract_1556"
+  },
+  {
+    "auuid": "apartmenttype_1139",
+    "buuid": "contract_1557"
+  },
+  {
+    "auuid": "apartmenttype_1140",
+    "buuid": "contract_1558"
+  },
+  {
+    "auuid": "apartmenttype_1141",
+    "buuid": "contract_1559"
+  },
+  {
+    "auuid": "apartmenttype_1142",
+    "buuid": "contract_1560"
+  },
+  {
+    "auuid": "apartmenttype_1143",
+    "buuid": "contract_1561"
+  },
+  {
+    "auuid": "apartmenttype_1144",
+    "buuid": "contract_1562"
+  },
+  {
+    "auuid": "apartmenttype_1145",
+    "buuid": "contract_1563"
+  },
+  {
+    "auuid": "apartmenttype_1147",
+    "buuid": "contract_1564"
+  },
+  {
+    "auuid": "apartmenttype_1148",
+    "buuid": "contract_1565"
+  },
+  {
+    "auuid": "apartmenttype_1150",
+    "buuid": "contract_1566"
+  },
+  {
+    "auuid": "apartmenttype_1151",
+    "buuid": "contract_1567"
+  },
+  {
+    "auuid": "apartmenttype_1152",
+    "buuid": "contract_1568"
+  },
+  {
+    "auuid": "apartmenttype_1155",
+    "buuid": "contract_1569"
+  },
+  {
+    "auuid": "apartmenttype_1157",
+    "buuid": "contract_1570"
+  },
+  {
+    "auuid": "apartmenttype_1158",
+    "buuid": "contract_1571"
+  },
+  {
+    "auuid": "apartmenttype_1159",
+    "buuid": "contract_1572"
+  },
+  {
+    "auuid": "apartmenttype_1160",
+    "buuid": "contract_1573"
+  },
+  {
+    "auuid": "apartmenttype_1161",
+    "buuid": "contract_1574"
+  },
+  {
+    "auuid": "apartmenttype_1162",
+    "buuid": "contract_1575"
+  },
+  {
+    "auuid": "apartmenttype_1163",
+    "buuid": "contract_1576"
+  },
+  {
+    "auuid": "apartmenttype_1164",
+    "buuid": "contract_1577"
+  },
+  {
+    "auuid": "apartmenttype_1165",
+    "buuid": "contract_1578"
+  },
+  {
+    "auuid": "apartmenttype_1166",
+    "buuid": "contract_1579"
+  },
+  {
+    "auuid": "apartmenttype_1169",
+    "buuid": "contract_1580"
+  },
+  {
+    "auuid": "apartmenttype_1170",
+    "buuid": "contract_1581"
+  },
+  {
+    "auuid": "apartmenttype_1171",
+    "buuid": "contract_1582"
+  },
+  {
+    "auuid": "apartmenttype_1172",
+    "buuid": "contract_1583"
+  },
+  {
+    "auuid": "apartmenttype_1173",
+    "buuid": "contract_1584"
+  },
+  {
+    "auuid": "apartmenttype_1174",
+    "buuid": "contract_1585"
+  },
+  {
+    "auuid": "apartmenttype_1175",
+    "buuid": "contract_1586"
+  },
+  {
+    "auuid": "apartmenttype_1176",
+    "buuid": "contract_1587"
+  },
+  {
+    "auuid": "apartmenttype_1177",
+    "buuid": "contract_1588"
+  },
+  {
+    "auuid": "apartmenttype_1185",
+    "buuid": "contract_1589"
+  },
+  {
+    "auuid": "apartmenttype_1186",
+    "buuid": "contract_1590"
+  },
+  {
+    "auuid": "apartmenttype_1189",
+    "buuid": "contract_1591"
+  },
+  {
+    "auuid": "apartmenttype_1190",
+    "buuid": "contract_1592"
+  },
+  {
+    "auuid": "apartmenttype_1192",
+    "buuid": "contract_1593"
+  },
+  {
+    "auuid": "apartmenttype_1193",
+    "buuid": "contract_1594"
+  },
+  {
+    "auuid": "apartmenttype_43",
+    "buuid": "contract_1595"
+  },
+  {
+    "auuid": "apartmenttype_44",
+    "buuid": "contract_1596"
+  },
+  {
+    "auuid": "apartmenttype_45",
+    "buuid": "contract_1597"
+  },
+  {
+    "auuid": "apartmenttype_46",
+    "buuid": "contract_1598"
+  },
+  {
+    "auuid": "apartmenttype_47",
+    "buuid": "contract_1599"
+  },
+  {
+    "auuid": "apartmenttype_48",
+    "buuid": "contract_1600"
+  },
+  {
+    "auuid": "apartmenttype_49",
+    "buuid": "contract_1601"
+  },
+  {
+    "auuid": "apartmenttype_50",
+    "buuid": "contract_1602"
+  },
+  {
+    "auuid": "apartmenttype_51",
+    "buuid": "contract_1603"
+  },
+  {
+    "auuid": "apartmenttype_52",
+    "buuid": "contract_1604"
+  },
+  {
+    "auuid": "apartmenttype_53",
+    "buuid": "contract_1605"
+  },
+  {
+    "auuid": "apartmenttype_54",
+    "buuid": "contract_1606"
+  },
+  {
+    "auuid": "apartmenttype_55",
+    "buuid": "contract_1607"
+  },
+  {
+    "auuid": "apartmenttype_56",
+    "buuid": "contract_1608"
+  },
+  {
+    "auuid": "apartmenttype_57",
+    "buuid": "contract_1609"
+  },
+  {
+    "auuid": "apartmenttype_58",
+    "buuid": "contract_1610"
+  },
+  {
+    "auuid": "apartmenttype_59",
+    "buuid": "contract_1611"
+  },
+  {
+    "auuid": "apartmenttype_60",
+    "buuid": "contract_1612"
+  },
+  {
+    "auuid": "apartmenttype_61",
+    "buuid": "contract_1613"
+  },
+  {
+    "auuid": "apartmenttype_62",
+    "buuid": "contract_1614"
+  },
+  {
+    "auuid": "apartmenttype_63",
+    "buuid": "contract_1615"
+  },
+  {
+    "auuid": "apartmenttype_64",
+    "buuid": "contract_1616"
+  },
+  {
+    "auuid": "apartmenttype_197",
+    "buuid": "contract_1617"
+  },
+  {
+    "auuid": "apartmenttype_198",
+    "buuid": "contract_1618"
+  },
+  {
+    "auuid": "apartmenttype_199",
+    "buuid": "contract_1619"
+  },
+  {
+    "auuid": "apartmenttype_200",
+    "buuid": "contract_1620"
+  },
+  {
+    "auuid": "apartmenttype_201",
+    "buuid": "contract_1621"
+  },
+  {
+    "auuid": "apartmenttype_202",
+    "buuid": "contract_1622"
+  }
+]

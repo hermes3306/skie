@@ -4,8 +4,8 @@
 NEO4J_USER="neo4j"
 NEO4J_PASSWORD="re91na00"
 NEO4J_URI="neo4j+s://942801e8.databases.neo4j.io:7687"
-#CSV_URI="http://1.229.96.163/skie/json"
-CSV_URI="http://192.168.1.105/skie/json"
+CSV_URI="http://1.229.96.163/skie/json"
+#CSV_URI="http://192.168.1.105/skie/json"
 
 # Define a function to store the Cypher query
 function create_cypher_query_file {
@@ -190,8 +190,8 @@ MATCH (n:Relations_HAS) detach delete n;
 CALL apoc.load.json("$CSV_URI/Relations_HAS.json") YIELD value AS has_records
 UNWIND has_records AS record
 CREATE (a:Relations_HAS)
-SET a.src = record.a.uuid
-SET a.tar = record.b.uuid
+SET a.src = record.auuid
+SET a.tar = record.buuid
 RETURN count(a);
 
 match (n:Apartment), (r:Relations_HAS), (d:ApartmentType)
@@ -204,8 +204,8 @@ MATCH (n:Relations_TRADE) detach delete n;
 CALL apoc.load.json("$CSV_URI/Relations_TRADE.json") YIELD value AS trade_records
 UNWIND trade_records AS record
 CREATE (a:Relations_TRADE)
-SET a.src = record.a.uuid
-SET a.tar = record.b.uuid
+SET a.src = record.auuid
+SET a.tar = record.buuid
 RETURN count(a);
 
 match (n:ApartmentType), (r:Relations_TRADE), (d:Contract)

@@ -202,8 +202,8 @@ MATCH (n:Relations_HAS) detach delete n;
 CALL apoc.load.json("http://1.229.96.163/skie/json/Relations_HAS.json") YIELD value AS has_records
 UNWIND has_records AS record
 CREATE (a:Relations_HAS)
-SET a.src = record.`a.uuid`
-SET a.tar = record.`b.uuid`
+SET a.src = record.auuid
+SET a.tar = record.buuid
 RETURN count(a);
 
 // RELATION MAKING
@@ -219,8 +219,8 @@ MATCH (n:Relations_TRADE) detach delete n;
 CALL apoc.load.json("http://1.229.96.163/skie/json/Relations_TRADE.json") YIELD value AS trade_records
 UNWIND trade_records AS record
 CREATE (a:Relations_TRADE)
-SET a.src = record.`a.uuid`
-SET a.tar = record.`b.uuid`
+SET a.src = record.auuid
+SET a.tar = record.buuid
 RETURN count(a);
 
 // RELATION MAKING

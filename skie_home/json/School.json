@@ -598,5 +598,581 @@
       },
       "elementId": "4106"
     }
+  },
+  {
+    "n": {
+      "identity": 4107,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9883284,
+          "y": 37.46972182,
+          "z": null
+        },
+        "level": "고등학교",
+        "district": "강남서초학교군",
+        "name": "서울전자고등학교",
+        "geometry": "POINT (126.9883284 37.46972182)",
+        "type": "공립",
+        "uuid": "school_25",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000657"
+      },
+      "elementId": "4107"
+    }
+  },
+  {
+    "n": {
+      "identity": 4108,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9845458,
+          "y": 37.48891973,
+          "z": null
+        },
+        "level": "고등학교",
+        "district": "강남서초학교군",
+        "name": "서문여자고등학교",
+        "geometry": "POINT (126.9845458 37.48891973)",
+        "type": "사립",
+        "uuid": "school_26",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000455"
+      },
+      "elementId": "4108"
+    }
+  },
+  {
+    "n": {
+      "identity": 4109,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0614475,
+          "y": 37.45411333,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울언남초통학구역",
+        "name": "서울언남초등학교",
+        "geometry": "POINT (127.0614475 37.45411333)",
+        "type": "공립",
+        "uuid": "school_27",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000772"
+      },
+      "elementId": "4109"
+    }
+  },
+  {
+    "n": {
+      "identity": 4110,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9900734,
+          "y": 37.47650298,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울방현초통학구역",
+        "name": "서울방현초등학교",
+        "geometry": "POINT (126.9900734 37.47650298)",
+        "type": "공립",
+        "uuid": "school_28",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000757"
+      },
+      "elementId": "4110"
+    }
+  },
+  {
+    "n": {
+      "identity": 4111,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9871924,
+          "y": 37.4867641,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울방현초통학구역",
+        "name": "서울방배초등학교",
+        "geometry": "POINT (126.9871924 37.4867641)",
+        "type": "공립",
+        "uuid": "school_29",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000755"
+      },
+      "elementId": "4111"
+    }
+  },
+  {
+    "n": {
+      "identity": 4112,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.998849,
+          "y": 37.4852056,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울방현초통학구역",
+        "name": "서울방일초등학교",
+        "geometry": "POINT (126.998849 37.4852056)",
+        "type": "공립",
+        "uuid": "school_30",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000756"
+      },
+      "elementId": "4112"
+    }
+  },
+  {
+    "n": {
+      "identity": 4113,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.025618,
+          "y": 37.49156467,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울서이초통학구역",
+        "name": "서울서이초등학교",
+        "geometry": "POINT (127.025618 37.49156467)",
+        "type": "공립",
+        "uuid": "school_31",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000762"
+      },
+      "elementId": "4113"
+    }
+  },
+  {
+    "n": {
+      "identity": 4114,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0221598,
+          "y": 37.48529778,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울서이초통학구역",
+        "name": "서울서일초등학교",
+        "geometry": "POINT (127.0221598 37.48529778)",
+        "type": "공립",
+        "uuid": "school_32",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000763"
+      },
+      "elementId": "4114"
+    }
+  },
+  {
+    "n": {
+      "identity": 4115,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0248915,
+          "y": 37.49904877,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울서이초통학구역",
+        "name": "서울서초초등학교",
+        "geometry": "POINT (127.0248915 37.49904877)",
+        "type": "공립",
+        "uuid": "school_33",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000764"
+      },
+      "elementId": "4115"
+    }
+  },
+  {
+    "n": {
+      "identity": 4116,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0146195,
+          "y": 37.5024389,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울서이초통학구역",
+        "name": "서울서원초등학교",
+        "geometry": "POINT (127.0146195 37.5024389)",
+        "type": "공립",
+        "uuid": "school_34",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000761"
+      },
+      "elementId": "4116"
+    }
+  },
+  {
+    "n": {
+      "identity": 4117,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9980966,
+          "y": 37.501859,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울잠원초통학구역",
+        "name": "서울잠원초등학교",
+        "geometry": "POINT (126.9980966 37.501859)",
+        "type": "공립",
+        "uuid": "school_35",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000783"
+      },
+      "elementId": "4117"
+    }
+  },
+  {
+    "n": {
+      "identity": 4118,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9968257,
+          "y": 37.5049159,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울잠원초통학구역",
+        "name": "계성초등학교",
+        "geometry": "POINT (126.9968257 37.5049159)",
+        "type": "사립",
+        "uuid": "school_36",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100002365"
+      },
+      "elementId": "4118"
+    }
+  },
+  {
+    "n": {
+      "identity": 4119,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9901565,
+          "y": 37.496404,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울서래초통학구역",
+        "name": "서울서래초등학교",
+        "geometry": "POINT (126.9901565 37.496404)",
+        "type": "공립",
+        "uuid": "school_37",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000760"
+      },
+      "elementId": "4119"
+    }
+  },
+  {
+    "n": {
+      "identity": 4120,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0192756,
+          "y": 37.45709258,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울우솔초통학구역",
+        "name": "서울우솔초등학교",
+        "geometry": "POINT (127.0192756 37.45709258)",
+        "type": "공립",
+        "uuid": "school_38",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100005830"
+      },
+      "elementId": "4120"
+    }
+  },
+  {
+    "n": {
+      "identity": 4121,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0237894,
+          "y": 37.46471047,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울우솔초통학구역",
+        "name": "서울우면초등학교",
+        "geometry": "POINT (127.0237894 37.46471047)",
+        "type": "공립",
+        "uuid": "school_39",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100005549"
+      },
+      "elementId": "4121"
+    }
+  },
+  {
+    "n": {
+      "identity": 4122,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0237234,
+          "y": 37.47229555,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울우솔초통학구역",
+        "name": "서울우암초등학교",
+        "geometry": "POINT (127.0237234 37.47229555)",
+        "type": "공립",
+        "uuid": "school_40",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000778"
+      },
+      "elementId": "4122"
+    }
+  },
+  {
+    "n": {
+      "identity": 4123,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0040536,
+          "y": 37.510312,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울반원초통학구역",
+        "name": "서울반원초등학교",
+        "geometry": "POINT (127.0040536 37.510312)",
+        "type": "공립",
+        "uuid": "school_41",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000753"
+      },
+      "elementId": "4123"
+    }
+  },
+  {
+    "n": {
+      "identity": 4124,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9917416,
+          "y": 37.50248483,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울반원초통학구역",
+        "name": "서울반포초등학교",
+        "geometry": "POINT (126.9917416 37.50248483)",
+        "type": "공립",
+        "uuid": "school_42",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000754"
+      },
+      "elementId": "4124"
+    }
+  },
+  {
+    "n": {
+      "identity": 4125,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 126.9844171,
+          "y": 37.47837133,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울이수초통학구역",
+        "name": "서울이수초등학교",
+        "geometry": "POINT (126.9844171 37.47837133)",
+        "type": "공립",
+        "uuid": "school_43",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000781"
+      },
+      "elementId": "4125"
+    }
+  },
+  {
+    "n": {
+      "identity": 4126,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0113904,
+          "y": 37.51713004,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울신동초통학구역",
+        "name": "서울신동초등학교",
+        "geometry": "POINT (127.0113904 37.51713004)",
+        "type": "공립",
+        "uuid": "school_44",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000767"
+      },
+      "elementId": "4126"
+    }
+  },
+  {
+    "n": {
+      "identity": 4127,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0318861,
+          "y": 37.47416538,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울양재초통학구역",
+        "name": "서울양재초등학교",
+        "geometry": "POINT (127.0318861 37.47416538)",
+        "type": "공립",
+        "uuid": "school_45",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000770"
+      },
+      "elementId": "4127"
+    }
+  },
+  {
+    "n": {
+      "identity": 4128,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0093433,
+          "y": 37.48015788,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울신중초통학구역",
+        "name": "서울신중초등학교",
+        "geometry": "POINT (127.0093433 37.48015788)",
+        "type": "공립",
+        "uuid": "school_46",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000768"
+      },
+      "elementId": "4128"
+    }
+  },
+  {
+    "n": {
+      "identity": 4129,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0167076,
+          "y": 37.50079587,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울원명초통학구역",
+        "name": "서울원명초등학교",
+        "geometry": "POINT (127.0167076 37.50079587)",
+        "type": "공립",
+        "uuid": "school_47",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000779"
+      },
+      "elementId": "4129"
+    }
+  },
+  {
+    "n": {
+      "identity": 4130,
+      "labels": [
+        "School"
+      ],
+      "properties": {
+        "coord": {
+          "srid": 4326,
+          "x": 127.0125656,
+          "y": 37.50618948,
+          "z": null
+        },
+        "level": "초등학교",
+        "district": "서울원명초통학구역",
+        "name": "서울원촌초등학교",
+        "geometry": "POINT (127.0125656 37.50618948)",
+        "type": "공립",
+        "uuid": "school_48",
+        "homepage": "https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?HG_CD=B100000780"
+      },
+      "elementId": "4130"
+    }
   }
 ]
