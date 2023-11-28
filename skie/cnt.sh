@@ -14,7 +14,7 @@ RETURN a,b,rowNumber,sizeofa"
 
 # Neo4j credentials
 NEO4J_USER="neo4j"
-NEO4J_PASSWORD="re91na00"
+NEO4J_PASSWORD="neo4j2012"
 
 # Neo4j server details
 NEO4J_HOST="942801e8.databases.neo4j.io"

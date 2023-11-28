@@ -5,7 +5,7 @@ from neo4j import GraphDatabase
 # Neo4j connection details
 uri = "neo4j+s://942801e8.databases.neo4j.io:7687"
 username = "neo4j"
-password = "re91na00"
+password = "neo4j2022"
 
 # Cypher query to load data from CSV to Neo4j
 cypher_query = """
