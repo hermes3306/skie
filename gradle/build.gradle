@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.neo4j.driver:neo4j-java-driver:5.14.0' // Replace with your desired version
+    // Other dependencies if needed
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
