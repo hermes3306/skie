@@ -1,8 +1,8 @@
 echo " 
 
 <properties>
-   <maven.compiler.source>8</maven.compiler.source>
-   <maven.compiler.target>8</maven.compiler.target>
+   <maven.compiler.source>10</maven.compiler.source>
+   <maven.compiler.target>10</maven.compiler.target>
 </properties>
 
 
@@ -11,7 +11,7 @@ echo "
 <dependency>
    <groupId>org.neo4j.driver</groupId>
    <artifactId>neo4j-java-driver</artifactId>
-   <version>5.13.0</version>
+   <version>5.14.0</version>
 </dependency>
 "
 
