@@ -1,0 +1,4 @@
+
+CREATE CONSTRAINT FOR (n) REQUIRE n.neo4jImportId IS UNIQUE;
+CALL apoc.import.json("tmp_query_file");
+

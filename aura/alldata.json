@@ -1,0 +1,5 @@
+MATCH (n) detach delete n;
+CALL apoc.schema.assert({}, {}).
+
+CALL apoc.import.json("alldata.json");
+
