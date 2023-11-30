@@ -25,6 +25,6 @@ def handle_ice_candidate(data):
     socketio.emit('ice-candidate', data)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app, host='0.0.0.0', debug=True)
 
 
