@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Video Call Example</title>
+</head>
+<body>
+    <h1>WebRTC Video Call Example</h1>
+    <div>
+        <video id="localVideo" autoplay playsinline muted></video>
+        <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+    <div>
+        <button onclick="startCall()">Start Call</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        const socket = io.connect('http://' + document.domain + ':' + location.port);
+        let localStream;
+
+        async function startCall() {
+            try {
+                localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+                document.getElementById('localVideo').srcObject = localStream;
+
+                socket.emit('join', { username: 'User' });
+            } catch (error) {
+                console.error('Error accessing media devices:', error);
+            }
+        }
+
+        socket.on('join', function(data) {
+            // Handle incoming join request
+            // Create offer, set local description, and emit 'offer' event
+        });
+
+        socket.on('offer', function(data) {
+            // Handle incoming offer, set remote description, create answer, set local description, and emit 'answer' event
+        });
+
+        socket.on('answer', function(data) {
+            // Handle incoming answer and set remote description
+        });
+
+        socket.on('ice-candidate', function(data) {
+            // Handle incoming ICE candidate and add it to the peer connection
+        });
+    </script>
+</body>
+</html>
+
