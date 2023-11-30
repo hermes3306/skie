@@ -81,7 +81,7 @@ for label, file_name in labels_files.items():
     import_csv(label, file_path)
 
 # Create relationships from CSV files
-for file, relationship_name in files_and_relationships:
+for file_name, relationship_name in files_and_relationships:
     csv_file_path = os.path.abspath(file_name)
     print(f"file:{csv_file_path}");
     create_relationships_from_csv(driver, csv_file_path, relationship_name)
