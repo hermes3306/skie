@@ -1,0 +1,4 @@
+coord,name,progress,line_name,geometry,scheduled_date,uuid
+POINT(127.034069 37.484511),양재역,계획,GTX C,POINT (127.034069 37.484511),2026,subwayfuture_0
+POINT(127.0383496 37.4700185),양재시민의숲역,구상,위례과천선,POINT (127.0383496 37.4700185),미정,subwayfuture_1
+POINT(127.036074 37.460723),우면역,구상,위례과천선,POINT (127.036074 37.460723),미정,subwayfuture_2
