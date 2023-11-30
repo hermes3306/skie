@@ -3,9 +3,9 @@ import os
 import csv
 
 # Set your Neo4j credentials
-uri="neo4j+s://fa216ca0.databases.neo4j.io"
+uri="bolt://192.168.16.38:7687"
 username="neo4j"
-password="1ASLEej5ggsCPSJnqXDHl21FrQCT3b05s0JJQPBx5vY"
+password="re91na00"
 
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
