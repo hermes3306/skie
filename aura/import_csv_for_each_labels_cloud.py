@@ -3,7 +3,7 @@ import os
 import csv
 
 # Connect to the Neo4j database
-uri = "bolt://cloud:7687"
+uri = "bolt://192.168.1.105:7687"
 username = "neo4j"
 password = "re91na00"
 
