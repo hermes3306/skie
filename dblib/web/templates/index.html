@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostgreSQL to Neo4j Migration Tool</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>PostgreSQL to Neo4j Migration Tool</h1>
+    
+    <div>
+        <h2>PostgreSQL</h2>
+        <button id="testPgConnection">Test Connection</button>
+        <div id="pgTables"></div>
+    </div>
+
+    <div>
+        <h2>Neo4j</h2>
+        <button id="testNeoConnection">Test Connection</button>
+        <div id="neoLabels"></div>
+    </div>
+
+    <div>
+        <h2>SQL Query</h2>
+        <textarea id="sqlQuery" rows="4" cols="50"></textarea>
+        <button id="executeSql">Execute SQL</button>
+        <div id="sqlResult"></div>
+    </div>
+
+    <div>
+        <h2>Cypher Query</h2>
+        <textarea id="cypherQuery" rows="4" cols="50"></textarea>
+        <button id="executeCypher">Execute Cypher</button>
+        <div id="cypherResult"></div>
+    </div>
+
+    <div>
+        <h2>Migration</h2>
+        <button id="migrate">Migrate Data</button>
+        <div id="migrationResult"></div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#testPgConnection').click(function() {
+                $.post('/test_pg_connection', function(data) {
+                    if (data.success) {
+                        let tableHtml = '<table><tr><th>Name</th><th>Columns</th><th>Rows</th></tr>';
+                        data.tables.forEach(function(table) {
+                            tableHtml += `<tr><td>${table.name}</td><td>${table.columns}</td><td>${table.rows}</td></tr>`;
+                        });
+                        tableHtml += '</table>';
+                        $('#pgTables').html(tableHtml);
+                    } else {
+                        $('#pgTables').text('Connection failed: ' + data.error);
+                    }
+                });
+            });
+
+            $('#testNeoConnection').click(function() {
+                $.post('/test_neo_connection', function(data) {
+                    if (data.success) {
+                        let labelHtml = '<table><tr><th>Label</th><th>Properties</th><th>Nodes</th></tr>';
+                        data.labels.forEach(function(label) {
+                            labelHtml += `<tr><td>${label.label}</td><td>${label.propCount}</td><td>${label.count}</td></tr>`;
+                        });
+                        labelHtml += '</table>';
+                        $('#neoLabels').html(labelHtml);
+                    } else {
+                        $('#neoLabels').text('Connection failed: ' + data.error);
+                    }
+                });
+            });
+
+            $('#executeSql').click(function() {
+                let query = $('#sqlQuery').val();
+                $.post('/execute_sql', JSON.stringify({query: query}), function(data) {
+                    if (data.success) {
+                        $('#sqlResult').text(JSON.stringify(data.result || data.affected_rows));
+                    } else {
+                        $('#sqlResult').text('Query failed: ' + data.error);
+                    }
+                });
+            });
+
+            $('#executeCypher').click(function() {
+                let query = $('#cypherQuery').val();
+                $.post('/execute_cypher', JSON.stringify({query: query}), function(data) {
+                    if (data.success) {
+                        $('#cypherResult').text(JSON.stringify(data.result || data.updates));
+                    } else {
+                        $('#cypherResult').text('Query failed: ' + data.error);
+                    }
+                });
+            });
+
+            $('#migrate').click(function() {
+                $.post('/migrate', function(data) {
+                    if (data.success) {
+                        $('#migrationResult').text(JSON.stringify(data.results));
+                    } else {
+                        $('#migrationResult').text('Migration failed: ' + data.error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
