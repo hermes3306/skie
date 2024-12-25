@@ -1,0 +1,7 @@
+uuid,name,geometry,pedestrian_entrance_uuid,vehicle_entrance_uuid
+busterminal_1,동서울종합터미널,POINT (127.09358976 37.53391787),pedestrian_4314788898,localroad_436286601
+busterminal_2,상봉터미널,POINT (127.09191037 37.5958952),pedestrian_595780360,localroad_595780360
+busterminal_3,한국도심공항터미널,POINT (127.05391947 37.67873288),pedestrian_5987947879,localroad_595780347
+busterminal_4,서울남부터미널,POINT (127.01561482 37.48411493),pedestrian_7996340645,localroad_3827257120
+busterminal_5,서울고속버스터미널(호남선),POINT (127.00325639 37.50417831),pedestrian_9787414078,localroad_4738140914
+busterminal_6,서울고속버스터미널,POINT (127.00702353 37.50549848),pedestrian_3616332631,localroad_8487538011

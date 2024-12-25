@@ -1,0 +1,10 @@
+uuid,name,address,rating,geometry,pedestrian_entrance_uuid,vehicle_entrance_uuid
+library_123,방배도서관,서울특별시 서초구 방배로 40,3.9,POINT (126.9999938 37.4784418),pedestrian_11431861570,localroad_1696934669
+library_124,서이도서관,서울특별시 서초구 서초대로70길 51,3.8,POINT (127.0249401 37.4920039),pedestrian_9608955183,localroad_3800522729
+library_125,서초구립내곡도서관,서울특별시 서초구 청계산로7길 9-20,2.8,POINT (127.0544499 37.4520026),pedestrian_4633733027,localroad_4633733027
+library_126,서초구립반포도서관,서울특별시 서초구 고무래로 34,2.5,POINT (127.0125325 37.5024881),pedestrian_3112829871,localroad_436817738
+library_127,서초구립방배숲환경도서관,서울특별시 서초구 서초대로 160-7 방배동,4.7,POINT (127.0001245 37.4889942),pedestrian_3038282637,localroad_6421300540
+library_128,서초구립양재도서관,서울특별시 서초구 양재천로 33,4.6,POINT (127.0335669 37.4736753),pedestrian_9965546291,localroad_1925380075
+library_129,서초그림책도서관,서울특별시 서초구 명달로 150,2.7,POINT (127.0048448 37.4903316),pedestrian_9621002508,localroad_436842082
+library_130,서초청소년도서관,서울특별시 서초구 효령로77길 37,2.8,POINT (127.0282511 37.4913103),pedestrian_9607825931,localroad_3825549659
+library_131,잠원도서관,서울특별시 서초구 나루터로 38,2.6,POINT (127.0140083 37.514971),pedestrian_11225358152,localroad_436841230

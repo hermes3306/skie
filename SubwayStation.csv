@@ -1,0 +1,14 @@
+uuid,name,line,geometry,walkway_entrance_uuid,vehicle_entrance_uuid
+subwaystation_2,방배역,['2호선'],POINT (126.99765161 37.48147016),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_5,구반포역,['9호선'],POINT (126.98691655 37.50130981),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_6,신반포역,['9호선'],POINT (126.9960228 37.50344515),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_7,고속터미널역,"['3호선','7호선','9호선']",POINT (127.00561958 37.50383429),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_8,반포역,['7호선'],POINT (127.01175749 37.50818459),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_9,잠원역,['3호선'],POINT (127.01168202 37.5128938),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_10,교대역,"['2호선','3호선']",POINT (127.01369445 37.49367596),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_11,남부터미널역,['3호선'],POINT (127.01624772 37.48493349),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_12,서초역,['2호선'],POINT (127.00779552 37.49183973),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_13,사평역,['9호선'],POINT (127.0149648 37.50441302),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_14,양재시민의숲역,['신분당선'],POINT (127.03851023 37.47000108),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_15,청계산입구역,['신분당선'],POINT (127.05481092 37.44795633),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>
+subwaystation_17,남태령역,['4호선'],POINT (126.98913022 37.464191),<function <lambda> at 0x000001C122345BC0>,<function <lambda> at 0x000001C122345EE0>

@@ -1,0 +1,48 @@
+uuid,type,name,level,address,geometry,ranking,homepage,pedestrian_entrance_uuid,vehicle_entrance_uuid
+school_469,공립,서울교대부속초등학교,초등학교,서울 서초구 서초중앙로 96,POINT (123.7417741 32.5220203),0.04,https://snueps.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_470,일반계 공립,서일초등학교,초등학교,서울특별시 서초구 남부순환로339길 38,POINT (123.7417741 32.5220203),0.25,https://seoulseoil.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_471,일반계 공립,서울서이초등학교,초등학교,서울특별시 서초구 서운로 35,POINT (127.0257977 37.4912721),0.13,http://www.seo2.es.kr,pedestrian_9980031795,localroad_3825549657
+school_472,일반계 공립,서울신중초등학교,초등학교,서울특별시 서초구 남부순환로317길 15,POINT (127.0097656 37.4799117),0.1,http://sinjung.es.kr/,pedestrian_8489025180,localroad_8489025180
+school_473,일반계 공립,서초초등학교,초등학교,서울특별시 서초구 서운로 178,POINT (123.7417741 32.5220203),0.03,https://seocho.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_474,일반계 공립,원명초등학교,초등학교,서울특별시 서초구 고무래로 90-6,POINT (123.7417741 32.5220203),0.01,https://wonmyong.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_475,일반계 공립,신동초등학교,초등학교,서울특별시 서초구 나루터로 15,POINT (123.7417741 32.5220203),0,https://sindong.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_476,일반계 공립,반포초등학교,초등학교,서울특별시 서초구 신반포로 55-4,POINT (123.7417741 32.5220203),0.02,https://seoulbanpo.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_477,일반계 공립,원촌초등학교,초등학교,서울특별시 서초구 사평대로45길 26,POINT (123.7417741 32.5220203),0.01,https://wonchon.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_478,일반계 공립,서원초등학교,초등학교,서울특별시 서초구 고무래로 63,POINT (123.7417741 32.5220203),0.01,https://seo-won.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_480,일반계 공립,잠원초등학교,초등학교,서울특별시 서초구 신반포로16길 15-25,POINT (123.7417741 32.5220203),0.01,https://jamwon.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_481,일반계 공립,반원초등학교,초등학교,서울특별시 서초구 잠원로3길 28,POINT (123.7417741 32.5220203),0.01,https://banwon.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_482,일반계 공립,서울서래초등학교,초등학교,서울특별시 서초구 방배로 260,POINT (126.9896814 37.4961588),0.03,http://seorae.sen.es.kr,pedestrian_10168174720,localroad_2622874644
+school_483,일반계 공립,서울방일초등학교,초등학교,서울특별시 서초구 방배로18길 52,POINT (126.9981363 37.4854633),0.11,http://bang-il.es.kr/,pedestrian_4107783314,localroad_4107783314
+school_484,일반계 공립,서울이수초등학교,초등학교,서울특별시 서초구 방배천로4길 23,POINT (126.9845718 37.4784634),0.66,www.seoulisu.es.kr,pedestrian_4101372794,localroad_4101372794
+school_485,공립,서울방현초등학교,초등학교,서울특별시 서초구 효령로4길 58,POINT (126.9903218 37.4763051),0.12,http://www.banghyun.es.kr,pedestrian_4185920059,localroad_4185920059
+school_486,일반계 공립,방배초등학교,초등학교,서울특별시 서초구 방배중앙로13길 26,POINT (123.7417741 32.5220203),0.07,https://bangbae.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_487,일반계 공립,서울양재초등학교,초등학교,서울특별시 서초구 바우뫼로18길 14,POINT (127.0317535 37.4740299),0.36,http://www.yangjae.es.kr/,pedestrian_1925498652,localroad_1925380126
+school_488,일반계 공립,우암초등학교,초등학교,서울특별시 서초구 바우뫼로7길 38,POINT (123.7417741 32.5220203),0.4,https://wooam.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_489,공립,서울우면초등학교,초등학교,서울특별시 서초구 태봉로,POINT (127.0270846 37.4661523),0.46,http://woomyeon.es.kr,pedestrian_4097245239,localroad_4097245239
+school_490,공립,서울우솔초등학교,초등학교,서울특별시 서초구 양재대로2길 74,POINT (127.0192786 37.4570863),0.47,http://woosol.sen.es.kr,pedestrian_6789544588,localroad_6789544588
+school_491,공립,매헌초등학교,초등학교,서울특별시 서초구 언남길 8,POINT (123.7417741 32.5220203),0.43,https://maeheon.sen.es.kr/,pedestrian_11521951016,localroad_4644299351
+school_492,일반계 공립,서울언남초등학교,초등학교,서울특별시 서초구 헌릉로8길 42,POINT (127.0616584 37.4540063),0.48,http://eonnam.sen.es.kr,pedestrian_4632181927,localroad_5092061497
+school_1125,일반계 공립,서운중학교,중학교,서울특별시 서초구 서운로 115,POINT (127.0246336 37.4938305),0.23,http://www.seoun.ms.kr,pedestrian_9852383824,localroad_5750809532
+school_1126,일반계 공립,서초중학교,중학교,서울특별시 서초구 반포대로13길 48,POINT (127.0084091 37.4858833),0.39,http://seocho.sen.ms.kr,pedestrian_3827337553,localroad_3827337553
+school_1127,일반계 공립,서일중학교,중학교,서울특별시 서초구 서운로21길 2,POINT (127.0224292 37.4989753),0.08,http://www.seoil.ms.kr,pedestrian_8495313220,localroad_1430655577
+school_1128,일반계 공립,신동중학교,중학교,서울특별시 서초구 나루터로 27,POINT (127.0128335 37.516565),0.01,http://shindong.ms.kr,pedestrian_4185626619,localroad_4185626619
+school_1129,일반계 공립,반포중학교,중학교,서울특별시 서초구 신반포로 67,POINT (126.9921403 37.5033701),0.04,http://banpo.sen.ms.kr,pedestrian_3088430277,localroad_4138962667
+school_1130,일반계 공립,원촌중학교,중학교,서울특별시 서초구 사평대로45길 10,POINT (127.0140152 37.5058434),0.05,http://wonchon.sen.ms.kr,pedestrian_2032663474,localroad_4899542143
+school_1131,일반계 공립,신반포중학교,중학교,서울특별시 서초구 신반포로19길 26,POINT (126.9961026 37.5056205),0.03,shinbanpo.sen.ms.kr,pedestrian_3088423804,localroad_3088423804
+school_1132,일반계 공립,경원중학교,중학교,서울특별시 서초구 신반포로33길 39,POINT (127.0088345 37.5110171),0.02,http://gyeongwon.sen.ms.kr,pedestrian_4642350070,localroad_436816900
+school_1133,일반계 공립,방배중학교,중학교,서울특별시 서초구 동광로 144,POINT (126.9983909 37.4943407),0.19,http://www.bangbae.ms.kr,pedestrian_436842105,localroad_436842105
+school_1134,일반계 공립,이수중학교,중학교,서울특별시 서초구 방배중앙로3길 32,POINT (126.9903862 37.4807659),0.65,http://www.isu.ms.kr,pedestrian_4185879873,localroad_4185879873
+school_1135,일반계 공립,영동중학교,중학교,서울특별시 서초구 성촌길 14,POINT (127.0251779 37.4658663),0.6,http://youngdong.sen.ms.kr,pedestrian_562451108,localroad_562451108
+school_1136,공립,내곡중학교,중학교,서울특별시 서초구 청계산로7길 9-20,POINT (127.0544499 37.4520026),0.36,https://naegok.sen.ms.kr,pedestrian_4633733027,localroad_4633733027
+school_834,일반계 사립,동덕여자중학교,중학교,서울특별시 서초구 효령로2길 123-5,POINT (123.7417741 32.5220203),0.35,https://dongduk.sen.ms.kr/,pedestrian_11521951016,localroad_4644299351
+school_836,일반계 공립,서문여자중학교,중학교,서울특별시 서초구 동광로12길 84,POINT (123.7417741 32.5220203),0.62,https://suhmoon.sen.ms.kr/,pedestrian_11521951016,localroad_4644299351
+school_828,일반계 공립,양재고등학교,고등학교,서울특별시 서초구 남부순환로346길 9,POINT (127.032672 37.4825884),0.41,http://yangjae.sen.hs.kr,pedestrian_11939819581,localroad_10581083706
+school_829,일반계 사립,상문고등학교,고등학교,서울특별시 서초구 명달로 45,POINT (127.0042411 37.4795859),0.12,http://www.sangmoon.hs.kr,pedestrian_6588041172,localroad_6587193361
+school_830,일반계 공립,서울고등학교,고등학교,서울특별시 서초구 효령로 197,POINT (127.0051078 37.4841436),0.25,http://seoul.sen.hs.kr,pedestrian_3827337523,localroad_3827337523
+school_831,일반계 공립,서초고등학교,고등학교,서울특별시 서초구 반포대로27길 29,POINT (127.0060026 37.4891429),0.5,http://seocho.sen.hs.kr,pedestrian_3827338112,localroad_3827338112
+school_832,일반계 공립,반포고등학교,고등학교,서울특별시 서초구 고무래로 71,POINT (127.0165847 37.5022426),0.25,http://banpo.sen.hs.kr,pedestrian_3112829835,localroad_3112829843
+school_833,공립,서울웹툰애니메이션고등학교,고등학교,서울특별시 서초구 과천대로 852-23,POINT (123.7417741 32.5220203),0.5,https://swas.sen.hs.kr/,pedestrian_11521951016,localroad_4644299351
+school_835,일반계 공립,동덕여자고등학교,고등학교,서울특별시 서초구 효령로2길 123-5,POINT (123.7417741 32.5220203),0.29,https://dongduk.sen.hs.kr/,pedestrian_11521951016,localroad_4644299351
+school_837,일반계 공립,서문여자고등학교,고등학교,서울특별시 서초구 동광로12길 84,POINT (123.7417741 32.5220203),0.14,https://suhmoon.sen.hs.kr/,pedestrian_11521951016,localroad_4644299351
+school_838,일반계 공립,언남고등학교,고등학교,서울 서초구 동산로13길 35,POINT (127.0426235 37.4727218),0.38,http://eonnam.sen.hs.kr,pedestrian_1925498516,localroad_1925498516
+school_839,일반계 사립,세화고등학교,고등학교,서울특별시 서초구 신반포로 56-7,POINT (126.9917689 37.5015469),0.02,http://www.sehwa.hs.kr,pedestrian_11428505022,localroad_11641428834

@@ -1,0 +1,2 @@
+uuid,name,address,rating,geometry,pedestrian_entrance_uuid,vehicle_entrance_uuid
+conventioncenter_6,주식회사 마스몬스터,"서울특별시 서초구 강남대로37길 24-10, J & H 빌딩 6층 (서초동)",4.12,POINT (127.03156827 37.48245974),pedestrian_6014826462,localroad_10581083706

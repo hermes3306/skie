@@ -1,0 +1,6 @@
+uuid,name,branch,address,geometry,rating,pedestrian_entrance_uuid,vehicle_entrance_uuid
+supermarket_1,롯데슈퍼,방배2점,서울특별시 방배로33길 29,POINT (126.9778779 37.5664106),3,pedestrian_798714910,localroad_798714910
+supermarket_3,(주)이마트,양재점,"서울특별시 서초구 매헌로 16 (양재동,하이브랜드 지하1층)",POINT (127.0369441 37.4624667),3.5,pedestrian_9691296210,localroad_414683494
+supermarket_18,롯데쇼핑(주) 롯데마트,서초점,"서울특별시 서초구 서초동 1498번지 5호  (영업장 지하1층,지하2층)",POINT (127.0038905 37.4872599),5,pedestrian_3827338077,localroad_3827338077
+supermarket_53,코스트코코리아,양재점,서울특별시 서초구 양재대로 159 (양재동),POINT (127.036182 37.4619559),3.2,pedestrian_436840831,localroad_414683494
+supermarket_63,(주)이랜드킴스클럽,강남점,서울특별시 서초구 잠원로 69 (잠원동),POINT (127.0069895 37.5102628),4.5,pedestrian_10899706903,localroad_436816899
